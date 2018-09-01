@@ -1,0 +1,253 @@
+﻿<!--<?php header("content-type:text/html;charset=UTF-8")?>
+-->
+<?php header("content-type:text/html;charset=UTF-8")?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+  <head>
+    <title>编程语言的设计原理</title>
+  </head>
+
+  <body>
+    <div id="header">
+    <div id="menu">
+      <a href="#info">课程信息</a>
+      <a href="#participation">课程通知</a>
+      <a href="#desc">课程介绍</a>
+      <a href="#texts">参考书目</a>
+      <a href="#schedule">课程讲义</a>
+    </div>
+    </div>
+
+    <div id="content">
+    <h1>编程语言的设计原理</h1>
+    <hr></hr>
+
+    <div id="info">
+      <h2>课程信息</h2>
+      <table class="disp">
+	<tr>
+	  <td> 上课时间： </td>
+	  <td> 每周 周三 10-12节 </td>
+	</tr>
+	<tr>
+	  <td> 上课地点： </td>
+      <td>三教 <b>403</b></td>
+	</tr>
+	<tr>
+	  <td> 任课教师： </td>
+	  <td> <a href="http://research.nii.ac.jp/~hu/">胡振江 教授</a> </td>
+	</tr>
+    <tr>
+        <td> </td>
+        <td> <a href="http://sei.pku.edu.cn/~zhhy/">赵海燕 副教授</a></td>
+	</tr>
+    <tr>
+        <td> </td>
+        <td> <a href="http://sei.pku.edu.cn/~xiongyf04/index_cn.html">熊英飞 研究员</a></td>
+    </tr>
+    <tr>
+	    <td> 课程助教： </td>
+	    <td> 许辰 </td>
+        <td> xuchen0602@126.com </td>
+    </tr>
+    </table>
+    </div>
+
+    <div id="participation">
+        <h2>课程通知</h2>
+		<p style=" font-size: 14px;">目前还有少数同学没有提交作业。作业补交日期限制在24日晚24:00之前，没有提交作业的同学抓紧提交~</p>
+
+		<p style=" font-size: 14px; color: red; ">4月8日的课请同学们带上笔记本电脑，同时在电脑上装好OCaml环境，并编译好目前已经学过的课程部分的相应实现。</p>
+		<p style=" font-size: 14px;">请大家在4月16日24:00之前将组队名单发送到助教邮箱中。同时之前没有提交作业的同学尽快提交作业。</p>
+		<p><b>作业提交：</b><pre>纸制版作业，每次课的作业在下次课上课前交给助教。</pre><pre>电子版作业，每次课的作业在下次课上课前发送到助教的邮箱，<a href="javascript:void(0)">xuchen0602@126.com</a>,邮件标题请以“第X次作业_学号_姓名”格式书写。</pre></p>      
+    </div>
+
+    <div id="desc">
+      <h2>课程简介</h2>
+      <p> 本课程主要面向大三和大四本科生与研究生，推荐先修《程序设计技术与方法》、《编译原理》，
+      但不做强制要求。未来三年每年在春学期开课。
+      </p>
+      <p> 新兴的程序设计语言层出不穷，这些语言是如何设计出来的？
+      主流语言中不断扩展出新的高级语言特征，这些特征是如何定义的？
+      为什么说Java语言的设计是有缺陷的？面向对象、函数语言、泛型编程等新型编程模型是否有共通的理论基础？
+      本课程将揭示这些问题的答案。
+      </p>
+      <p>
+      近十多年来，编程语言的发展呈现两个趋势：1）从固定少量语言到大量领域特定语言的变化；
+      2）从简单语言到复杂高级语言。比如，在2013年9月的TIOBE的编程语言排行榜上，
+      C和Java两个占统治地位的语言只能各自占到16%左右的份额，
+      大量的份额被近年来涌现的新型编程语言比如Javascript, Scala, Erlang, R占据。
+      同时，更多的新语言还在不断被设计出来。另一方面，大量经典语言也不断扩展，
+      引入各种高级语言成分。比如Java一起初的设计目标为一个简化版的语言，
+      但最新的Java 8设计中已经包含了泛型、函数式编程、动态性等多种高级特性。在这样的情况下，
+      掌握设计新的编程语言的能力，已经不仅限前沿科研人员所掌握的高级技能，而是一线软件开发工程师的基本要求
+      。同时，对语言设计原理的了解和掌握，也有助于更好的理解高级语言中的各种新特性，以更好的使用主流编程语言。
+      </p>
+      <p>
+      为指导编程语言的设计，研究人员们已经提出了一系列的原理和方法，其中最核心的就是类型理论。
+      类型声明是现代语言中避免编程错误的一个基本手段，而类型理论解释了一个良好的类型系统应该具有的特征和复杂类型的定义方法。
+      本课程将围绕类型理论这个核心进行组织，讲授程序设计语言的现代理论。
+      </p>
+      <p>
+      本课程具有两个特点：1. 严谨性：课程中的概念元素都将有严格的数学定义，可以进行形式演绎和归纳，
+      而非空泛的概念介绍。2. 操作性：课程中的所有重要概念都将通过课程作业的方式编程实现，
+      使得同学们在动手过程中真正掌握知识。希望通过本课程的学习，使得同学们在编程语言领域拥有扎实的理论功底和实践能力，
+      在产业方面能胜任设计新语言的任务，在学术方面为开展程序语言相关研究打下基础。
+      </p>
+   </div>
+
+   <div id="texts">
+      <h2>参考书目</h2>
+
+      <table class="disp">
+    <tr>
+        <td>
+            <a href="http://www.cis.upenn.edu/~bcpierce/tapl/"><cite>
+                    Types and Programming Languages</cite></a>
+            , Benjamin C. Pierce, The MIT Press, 2002. (<b>教材</b>)
+    </tr>
+     </table>
+
+  </div>
+
+    <div id="schedule">
+      <h2>课程讲义和作业</h2>
+      <table class="disp" id="sched" rules="groups">
+	<colgroup>
+	  <col width="5%" align="left"/>
+	  <col width="5%" align="right"/>
+	</colgroup>
+	<colgroup width="30%"/>
+	<colgroup width="20%"/>
+	<colgroup width="40%"/>
+	<thead>
+	  <tr>
+            <th colspan="2">课程日期</th> <th>课程章节</th> <th>讲师</th> <th>讲义和作业</th>
+	  </tr>
+	  	  <tr>
+            <td colspan="2">2015/3/4</td> <td style=" text-align: center; ">Introduction & Untyped Systems</td> <td style=" text-align: center; " >胡振江</td> 
+                <td style=" text-align: center; "><a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/hu_courseOverview_ch1.pdf">hu_intro_ch1.pdf</a>  &&     <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/hu_ch3.pdf">hu_ch3.pdf</a></td>
+	  </tr>
+        <tr>
+            <td colspan="2">2015/3/11</td>
+            <td style=" text-align: center; ">Untyped Systems</td>
+            <td style=" text-align: center; ">胡振江</td>
+            <td style=" text-align: center; ">
+                <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/hu_ch5.pdf">hu_ch5.pdf</a>
+                && <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/hu_ch6.pdf">hu_ch6.pdf</a> && <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/hu_ch8.pdf">hu_ch8.pdf</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">2015/3/18</td>
+            <td style=" text-align: center; ">Simple Typed Lambda Calculus</td>
+            <td style=" text-align: center; ">胡振江</td>
+            <td style=" text-align: center; ">
+                <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/hu_ch9.pdf">hu_ch9.pdf</a>
+                && <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/hu_ch11.pdf">hu_ch11.pdf</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">2015/3/25</td>
+            <td style=" text-align: center; ">Ocaml + Chapter 11</td>
+            <td style=" text-align: center; ">赵海燕</td>
+            <td style=" text-align: center; ">
+                <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/zhao_OCaml_15.pdf">OCaml_15.pdf</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">2015/4/1</td>
+            <td style=" text-align: center; ">Chapter 13</td>
+            <td style=" text-align: center; ">赵海燕</td>
+            <td style=" text-align: center; ">
+                <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/zhao_ch13.pdf">ch_13.pdf</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">2015/4/8</td>
+            <td style=" text-align: center; ">in_class_practice & course_project</td>
+            <td style=" text-align: center; ">熊英飞</td>
+            <td style=" text-align: center; ">
+                <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/xiong_practice_public.pdf">in_class_practice.pdf</a> && <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/xiong_project.pdf">course_project.pdf</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">2015/4/15</td>
+            <td style=" text-align: center; ">Chapter 14 & Chapter 15</td>
+            <td style=" text-align: center; ">赵海燕</td>
+            <td style=" text-align: center; ">
+                <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/zhao_ch14_exception.pdf">Chapter 14.pdf</a> & 
+				<a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/zhao_ch15_subtyping.pdf">Chapter 15.pdf</a> 
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">2015/4/22</td>
+            <td style=" text-align: center; ">Chapter 16</td>
+            <td style=" text-align: center; ">赵海燕</td>
+            <td style=" text-align: center; ">
+                <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/zhao_ch16_metaSubtyping.pdf">Chapter 16.pdf</a> 
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">2015/5/6</td>
+            <td style=" text-align: center; ">Chapter 18 & Chapter 19</td>
+            <td style=" text-align: center; ">熊英飞</td>
+            <td style=" text-align: center; ">
+                <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/xiong_ch18.pdf">Chapter 18.pdf</a> & 
+                <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/xiong_ch19.pdf">Chapter 19.pdf</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">2015/5/13</td>
+            <td style=" text-align: center; ">Chapter 20</td>
+            <td style=" text-align: center; ">熊英飞</td>
+            <td style=" text-align: center; ">
+                <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/xiong_ch20.pdf">Chapter 20.pdf</a>
+            </td>
+        </tr>
+		<tr>
+            <td colspan="2">2015/5/20</td>
+            <td style=" text-align: center; ">Chapter 18-19-practice</td>
+            <td style=" text-align: center; ">赵海燕</td>
+            <td style=" text-align: center; ">
+                <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/zhao_ch18-19-Practice.pdf">Chapter 18-19-practice.pdf</a>
+            </td>
+        </tr>
+		<tr>
+            <td colspan="2">2015/5/27</td>
+            <td style=" text-align: center; ">Chapter 21</td>
+            <td style=" text-align: center; ">熊英飞</td>
+            <td style=" text-align: center; ">
+                <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/xiong_ch21.pdf">Chapter 21.pdf</a>
+            </td>
+        </tr>
+		<tr>
+            <td colspan="2">2015/6/3</td>
+            <td style=" text-align: center; ">Chapter 22</td>
+            <td style=" text-align: center; ">熊英飞</td>
+            <td style=" text-align: center; ">
+                <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/xiong_ch22.pdf">Chapter 22.pdf</a>
+            </td>
+        </tr>
+		<tr>
+            <td colspan="2">2015/6/10</td>
+            <td style=" text-align: center; ">Chapter 23 & Chapter 24 & Chapter 26</td>
+            <td style=" text-align: center; ">熊英飞</td>
+            <td style=" text-align: center; ">
+               <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/xiong_ch23.pdf">Chapter 23.pdf</a> & 
+               <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/xiong_ch24.pdf">Chapter 24.pdf</a> & 
+               <a href="http://dev.sei.pku.edu.cn/svn/PLDE/courses/DPPL/2015/slides/xiong_ch26.pdf">Chapter 26.pdf</a>
+            </td>
+        </tr>
+	</thead>
+	<tbody>
+</tbody>
+      </table>
+      <p>讲义将在每节课课后上传。</p>
+  </div>
+  <hr></hr>
+
+  <div id = "modi">
+      Last Modified: 3/3/2015
+  </div>
+  </div>
+  </body>
+</html>

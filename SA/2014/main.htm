@@ -1,0 +1,293 @@
+﻿<!--<?php header("content-type:text/html;charset=UTF-8")?>
+-->
+<?php header("content-type:text/html;charset=UTF-8")?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+  <head>
+    <title>软件分析技术</title>
+  </head>
+
+  <body>
+    <div id="header">
+    <div id="menu">
+      <a href="#info">课程信息</a>
+      <a href="#participation">课程通知</a>
+      <a href="#desc">课程简介</a>
+      <a href="#schedule">教学大纲</a>
+        <a href="../main.htm">最新课程</a>（建议大家学习时采用最新版胶片）
+    </div>
+    </div>
+
+    <div id="content">
+    <h1>软件分析技术（Software Analysis）</h1>
+    <hr></hr>
+
+    <div id="info">
+      <h2>课程信息</h2>
+      <table class="disp">
+	<tr>
+	  <td> 学分： </td>
+	  <td> 3 </td>
+	</tr>
+	<tr>
+	  <td> 周学时： </td>
+	  <td> 3 </td>
+	</tr>
+	<tr>
+	  <td> 总学时： </td>
+	  <td> 54 </td>
+	</tr>
+	<tr>
+	  <td> 上课时间： </td>
+	  <td> 每周 周三 10-12节 </td>
+	</tr>
+	<tr>
+	  <td> 上课地点： </td>
+      <td>理教 <b>317</b></td>
+	</tr>
+	<tr>
+	  <td> 任课教师： </td>
+	  <td>熊英飞 北京大学研究员  xiongyf@pku.edu.cn</td>
+	</tr>
+	<tr>
+        <td> </td>
+        <td>张路  北京大学教授  zhanglu@sei.pku.edu.cn</td>
+	</tr>
+    <tr>
+        <td> </td>
+        <td>张冬梅 微软亚洲研究院研究员  dongmeiz@microsoft.com</td>
+	</tr>
+    <tr>
+        <td> </td>
+        <td>张海东 微软亚洲研究院架构师  haizhang@microsoft.com</td>
+    </tr>
+	<tr>
+        <td> </td>
+        <td>楼建光 微软亚洲研究院研究员  jlou@microsoft.com</td>
+    </tr>
+	<tr>
+        <td> </td>
+        <td>韩石  微软亚洲研究院研究员  shihan@microsoft.com</td>
+    </tr>
+	<tr>
+        <td> </td>
+        <td>张洪宇 微软亚洲研究院研究员  honzhang@microsoft.com</td>
+    </tr>	
+	<tr>
+        <td> 授课对象： </td>
+        <td> 研究生 </td>
+    </tr>
+    <tr>
+	    <td> 课程助教： </td>
+	    <td> 王杰 yjxxtd@yeah.net</td>
+    </tr>
+    </table>
+    </div>
+
+    <div id="participation">
+        <h2>课程通知</h2>
+      <p><b>作业提交：</b>关于纸制版作业提交，每次课的作业在下次课上课前交给助教；关于电子版作业提交，同样在下次课上课前发送到助教的邮箱yjxxtd@yeah.net，邮件标题请以“第X次作业-姓名-学号”格式书写。</p>
+	  <p><font color="#FF0000">周一寒组和李元春组项目报告尚未提交（PPT不等于报告）</font></p>
+	  <p><font color="#FF0000">李豁然组项目代码尚未提交</font></p>
+	  <p><font color="#FF0000">第四次作业1401111333,1401111353两位同学未提交</font></p>
+	  <p><font color="#FF0000">请大家抓紧提交</font></p>
+    </div>
+
+    <div id="desc">
+      <h2>课程简介</h2>
+      <p> 软件开发过程中会产生大量的制品，包括代码、需求文档、UML设计图、测试数据、配置方案等等，对这些制品进行分析是各种软件工程工具的基本手段之一。典型软件开发工具比如编译器、代码编辑器、测试与调试工具等等都离不开对软件制品进行分析。在软件工程领域开展研究，软件分析技术是必备的基础知识之一。本课程将系统地介绍软件分析技术。本课程邀请到了微软亚洲研究院的软件分析组团队共同开设。
+      </p>
+      <p> 
+	    软件分析技术经过多年的发展，形成了两条主线。一条是传统的程序分析技术，主要用于回答关于程序本身性质的问题。程序分析技术是开发和代码直接相关的工具，比如编译器、调试器、代码编辑器的基本手段。根据哥德尔不完备定理，大量问题都无法静态的回答，所以程序分析技术关注如何做出正确的近似逼近，或者在静态分析无法完成的时候用动态数据来弥补。第二条是近年来兴起的，由微软亚洲研究院张冬梅研究员和同事所提出的软件解析学。随着互联网的发展，可供分析的软件制品变得越来越多。软件解析学就是利用数据挖掘、信息检索、机器学习等数据处理技术对软件工程的数据进行处理，回答关于软件系统、软件用户、软件开发过程的各种问题。与基本的程序分析技术不同，软件解析技术可以处理代码以外的各类软件制品，在各个领域都有广阔的应用前景，是近年来大力发展的领域。
+      </p>
+      <p>本课程从软件分析技术的两条主线设置。前半学期的课程讲授程序分析技术，由北京大学“百人计划”研究员熊英飞主讲，北京大学相关领域的教师参与。后半学期的课程讲授软件解析学，由软件解析学这一概念的提出团队、微软亚洲研究院张冬梅研究员领导的“软件解析”团队的5名研究员和工程师（张冬梅、张海东、楼建光、韩石、张洪宇）主讲。希望通过这两方面知识的讲解，帮助同学们构建较完整的软件分析技术知识体系，了解该领域的前沿知识，学术上为进一步开展软件工程领域的学术研究打下基础，培养开发大型软件工程工具的实践能力。
+      </p>
+      <p>本课程和信息科学技术学院现行研究生课程之间的关系：一、《高级编译技术》：该课程中的数据流分析、过程间分析等内容和本课程中的程序分析内容有部分重叠。但是，《高级编译技术》主要从编译器的角度讲授部分程序分析的应用，而本课程不局限于一种应用，而是关注程序分析本身，重叠的部分内容在深度和广度上都与《高级编译技术》有所不同。二、《软件测试》：该课程主要从实用的角度出发，讲授实际软件开发过程中使用的工具和技术。因为测试本身也是一种程序分析的过程，本课程会少量涉及测试等方面的内容，但主要程序分析的视角进行探讨符号执行等测试数据生成技术，与《软件测试》课程重叠较少。
+	  </p>
+	  
+   </div>
+    <div id="schedule">
+      <h2>教学大纲</h2>
+      <table class="disp" id="sched" rules="groups">
+	<colgroup width="5%"/>
+    <colgroup width="20%"/>
+	<colgroup width="10%"/>
+	<colgroup width="20%"/>
+	<colgroup width="20%"/>
+	<colgroup width="10%"/>
+	<thead>
+	  <tr>
+            <th>课程日期</th> <th>课程内容</th> <th>讲师</th> <th>讲义</th> <th>作业</th><th>未交作业名单</th><th>作业答案</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+            <td>9月17</td>
+	        <td>课程介绍</td>
+	        <td>熊英飞</td>
+            <td>讲义：<a href="1_intro.pdf"><cite>1</cite></a><br /></td>
+			<td>无</td>
+			<td>无</td>
+			<td></td>
+	   </tr>
+    </tbody>
+	
+	<tbody>
+	  <tr>
+            <td>9月24</td>
+	        <td>数据流分析</td>
+	        <td>熊英飞</td>
+            <td>讲义：<a href="2_dataflow analysis.pdf"><cite>2（PPT更正：半格的定义加上存在最大元的条件）</cite></a><br /></td>
+			<td>见课件第50页（作业要求：写算法，不要求写程序；截止日期：10月8日；作业提交电子版到yjxxtd@yeah.net，以后如无特别说明，均提交到此邮箱）</td>
+			<td></td>
+			<td></td>
+	   </tr>
+    </tbody>
+	<tbody>
+	  <tr>
+            <td>10月8</td>
+	        <td>基于克隆的过程间分析</td>
+	        <td>熊英飞</td>
+            <td>讲义：<a href="3_interprocedural analysis-I.pdf"><cite>3</cite></a><br /></td>
+			<td>无</td>
+			<td>无</td>
+			<td></td>
+	   </tr>
+	   <tr>
+            <td>10月8</td>
+	        <td>课程项目介绍</td>
+	        <td>熊英飞</td>
+            <td>讲义：<a href="0_course projects.pdf"><cite>课程项目介绍</cite></a><br /></td>
+			<td>无</td>
+			<td></td>
+	   </tr>
+	   <tr>
+            <td>10月8</td>
+	        <td>LLVM</td>
+	        <td>高庆</td>
+            <td>讲义：<a href="LLVM.pdf"><cite>LLVM</cite></a><br /></td>
+			<td>无</td>
+			<td></td>
+	   </tr>
+    </tbody>
+	<tbody>
+	   <tr>
+            <td>10月15</td>
+	        <td>基于摘要的过程间分析</td>
+	        <td>熊英飞</td>
+            <td>讲义：<a href="4_interprocedural analysis-II"><cite>4</cite></a><br /></td>
+			<td>见课件第63页（截止日期：鉴于理科一号楼频繁停电导致服务器关闭，作业延期至10月26日24点）</td>
+			<td></td>
+			<td><a href="软件分析技术第2次作业答案.pdf"><cite>第二次作业答案</cite></a><br /></td>
+	   </tr>
+    </tbody>
+	
+	<tbody>
+	   <tr>
+            <td>10月22</td>
+	        <td>约束求解和符号执行</td>
+	        <td>熊英飞</td>
+            <td>讲义：<a href="5_Solvers and Symbolicexecution.pdf"><cite>5</cite></a><br /></td>
+			<td>见课件第45页（截止日期：11月2日24点）</td>
+			<td></td>
+			<td></td>
+	   </tr>
+	   <tr>
+            <td>10月22</td>
+	        <td>SMT</td>
+	        <td>熊英飞</td>
+            <td>讲义：<a href="5_SMT.pdf"><cite>SMT</cite></a><br /></td>
+			<td>无</td>
+			<td></td>
+			<td></td>
+	   </tr>
+    </tbody>
+	
+	<tbody>
+	   <tr>
+            <td>10月29</td>
+	        <td>动态符号执行和抽象解释</td>
+	        <td>熊英飞</td>
+            <td>讲义：<a href="6_Dynamic Symbolic Execution.pdf"><cite>6</cite></a><br /></td>
+			<td>见课件第90页（截止日期：11月16日24点）</td>
+			<td>1401111333,1401111353</td>
+			<td></td>
+	   </tr>
+	   <tr>
+            <td>10月29</td>
+	        <td>Abstract Interpretation</td>
+	        <td>熊英飞</td>
+            <td>讲义：<a href="6_abstract interpretation.pdf"><cite>Abstract Interpretation</cite></a><br /></td>
+			<td>无</td>
+			<td></td>
+			<td></td>
+	   </tr>
+    </tbody>
+	
+	<tbody>
+	   <tr>
+            <td>11月5</td>
+	        <td>基于搜索的软件分析</td>
+	        <td>张路</td>
+            <td>讲义：<a href="7_基于搜索的软件分析.pdf"><cite>7</cite></a><br /></td>
+			<td></td>
+			<td></td>
+			<td></td>
+	   </tr>
+	   <tr>
+            <td>11月5</td>
+	        <td>String Analysis</td>
+	        <td>张路</td>
+            <td>讲义：<a href="7_String Analysis .pdf"><cite>String Analysis</cite></a><br /></td>
+			<td></td>
+			<td></td>
+			<td></td>
+	   </tr>
+    </tbody>
+	
+	<tbody>
+	   <tr>
+            <td>11月26</td>
+	        <td>Introduction to Software Analytics</td>
+	        <td>张冬梅</td>
+            <td>讲义：<a href="Introduction to Software Analytics.pdf"><cite>8</cite></a><br /></td>
+			<td></td>
+			<td></td>
+			<td></td>
+	   </tr>
+    </tbody>
+	<tbody>
+	   <tr>
+            <td>12月3</td>
+	        <td>暂无</td>
+	        <td>张洪宇</td>
+            <td>讲义：暂无</td>
+			<td>按照选题报告分的组，每组选择下面三篇论文中任意一篇
+			    <p><a href="Fingerprinting the datacenter- Automated classification ofperformance c....pdf">Fingerprinting the datacenter- Automated classification ofperformance c....</a></p>
+			    <p><a href="Detecting Large-Scale System Problems by Mining Console Logs.pdf">Detecting Large-Scale System Problems by Mining Console Logs</a></p>
+			    <p><a href="Healing Sugestion.pdf">Healing Sugestion</a></p>
+			</td>
+			<td></td>
+			<td></td>
+	   </tr>
+    </tbody>
+		<tbody>
+	   <tr>
+            <td>12月10</td>
+	        <td>Service Analytics</td>
+	        <td>楼建光</td>
+            <td>讲义：<a href="Service Analytics - jlou - PKU.PDF"><cite>10</cite></a><br /></td>
+			<td></td>
+			<td></td>
+			<td></td>
+	   </tr>
+    </tbody>
+  </table>
+  </div>
+  <hr></hr>
+
+  <div id = "modi">
+      Last Modified: 3/12/2014
+  </div>
+  </div>
+  </body>
+</html>

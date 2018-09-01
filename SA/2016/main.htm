@@ -1,0 +1,220 @@
+﻿<!--<?php header("content-type:text/html;charset=UTF-8")?>
+  -->
+<?php header("content-type:text/html;charset=UTF-8")?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+  <head>
+    <title>软件分析技术</title>
+  </head>
+
+  <body>
+    <div id="header">
+      <div id="menu">
+        <a href="#info">课程信息</a>
+        <a href="#participation">课程通知</a>
+        <a href="#desc">课程简介</a>
+        <a href="#schedule">教学内容</a>
+        往年课程:
+        <a href="../2015/main.htm">2015</a>
+        <a href="../2014/main.htm">2014</a>
+      </div>
+    </div>
+
+    <div id="content">
+      <h1>软件分析技术（Software Analysis）</h1>
+      <hr></hr>
+
+      <div id="info">
+        <h2>课程信息</h2>
+        <table class="disp">
+	  <tr>
+	    <td> 学分： </td>
+	    <td> 3 </td>
+	  </tr>
+	  <tr>
+	    <td> 周学时： </td>
+	    <td> 3 </td>
+	  </tr>
+	  <tr>
+	    <td> 总学时： </td>
+	    <td> 54 </td>
+	  </tr>
+	  <tr>
+	    <td> 上课时间： </td>
+	    <td> 每周周一 10-12节</td>
+	  </tr>
+	  <tr>
+	    <td> 上课地点： </td>
+            <td>理教 <b>310</b></td>
+	  </tr>
+	  <tr>
+	    <td> 任课教师： </td>
+	    <td>熊英飞 北京大学“百人计划”研究员  xiongyf@pku.edu.cn</td>
+	  </tr>
+	  <tr>
+            <td> 授课对象： </td>
+            <td> 高年级本科生/研究生 </td>
+          </tr>
+          <tr>
+	    <td> 课程助教： </td>
+	    <td> 杨小东 fredyxd@sina.com</td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="participation">
+        <h2>课程通知</h2>
+        <p>暂无</p>
+      </div>
+
+      <div id="desc">
+        <h2>课程简介</h2>
+        <p>     软件开发过程中会产生大量的代码制品，包括代码、测试数据、配置方案等等，对这些制品进行分析是各种软件工程工具的基本手段之一。典型软件开发工具比如编译器、代码编辑器、测试与调试工具等等都离不开对软件制品进行分析。在工业界，各大公司的基础平台部门对掌握软件分析技术的人才有大量需求；在学术界，软件分析技术是软件工程领域开展研究的必备基础知识之一。本课程将系统地介绍软件分析技术。本课程同时面向高年级本科生和研究生开设。</p>
+
+        <p>    软件分析技术主要用于回答关于程序本身性质的问题。程序分析技术是开发和代码直接相关的工具，比如编译器、调试器、代码编辑器的基本手段。根据哥德尔不完备定理，大量问题都无法静态的回答，所以程序分析技术关注如何做出正确的近似逼近，或者在静态分析无法完成的时候用动态数据来弥补。但是，软件分析技术相关文献存在内容广，流派多，数学基础要求高等方面的特点，使得学习软件分析技术一直是一件很困难的事。本课程希望通过对这一类技术进行通俗易懂的讲解，帮助同学们构建较完整的软件分析技术知识体系，了解该领域的前沿知识，学术上为进一步开展软件工程领域的学术研究打下基础，在实践上培养开发大型软件工程工具的开发能力。
+        </p>
+        
+      </div>
+      <div id="schedule">
+        <h2>教学内容</h2>
+        <table class="disp" id="sched" rules="groups" border="true">
+	  <colgroup width="5%"/>
+          <colgroup width="20%"/>
+	  <colgroup width="10%"/>
+	  <colgroup width="20%"/>
+	  <colgroup width="20%"/>
+	  <colgroup width="10%"/>
+	  <colgroup width="15%"/>
+	  <thead>
+	    <tr>
+              <th>课程日期</th> <th>课程内容</th> <th>讲师</th> <th>讲义</th> <th>作业</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+            <tr>
+              <td>9月15日</td>
+              <td>课程介绍</td>
+              <td>熊英飞</td>
+              <td><a href="01_intro.pdf">01_intro.pdf</a></td>
+              <td>无</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>9月19日</td>
+              <td>数据流分析</td>
+              <td>熊英飞</td>
+              <td><a href="02_dataflow_analysis.pdf">02_dataflow_analysis.pdf</a><br/>
+                <a href="02_dataflow_analysis_page_40.jpg">page_40.jpg</a>（由于Powerpoint的缺陷，第40页无法正确转换，所以重新截图）
+              </td>
+              <td>见胶片末尾。截止10月8日。</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>9月26日</td>
+              <td>SOOT</td>
+              <td>唐浩</td>
+              <td><a href="03_SOOT.pdf">03_SOOT.pdf</a><br/><a href="soot_source.zip">soot_source.zip</a></td>
+              <td>无</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>10月10日</td>
+              <td>过程间分析</td>
+              <td>熊英飞</td>
+              <td><a href="04_interprocedural_analysis.pdf">04_interprocedural_analysis</a><br/><a href="course_project.pdf">course project</a></td>
+              <td>见胶片末尾。截止10月16日。</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>10月18日</td>
+              <td>过程间分析II+静态单赋值</td>
+              <td>熊英飞</td>
+              <td><a href="05_interprocedural_analysis_II.pdf">05_interprocedural_analysis_II</a><br/><a href="06_static_single_assignment.pdf">06_static_single_assignment</a></td>
+              <td>见胶片末尾。截止10月23日。</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>10月24日</td>
+              <td>指针分析</td>
+              <td>熊英飞</td>
+              <td><a href="07_pointer_analysis.pdf">07_pointer_analysis</a></td>
+              <td>见胶片末尾。截止10月30日。</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>10月31日</td>
+              <td>约束求解</td>
+              <td>熊英飞</td>
+              <td><a href="08_Constraint_Solving.pdf">08_Constraint_Solving</a><br/><a href="09_SMT.pdf">09_SMT</a></td>
+              <td>见胶片末尾。截止11月6日。</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>11月07日</td>
+              <td>符号执行</td>
+              <td>熊英飞</td>
+              <td><a href="10_Symbolic_Execution.pdf">10_Symbolic_Execution</a></td>
+              <td>无</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>11月14日</td>
+              <td>LLVM</td>
+              <td>王博</td>
+              <td><a href="11_LLVM_Intro.pdf">11_LLVM_Intro</a></td>
+              <td>无</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>11月21日</td>
+              <td>机器学习基础</td>
+              <td>熊英飞</td>
+              <td><a href="12_Machine_Learning_Basics.pdf">12_Machine_Learning_Basics</a></td>
+              <td>无</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>11月28日</td>
+              <td>智能算法及应用</td>
+              <td>熊英飞</td>
+              <td><a href="13_Learning_to_analyze_software.pdf">13_Learning_to_analyze_software</a>
+              <br/><a href="14_Clustering_Mining_and_Searching.pdf">14_Clustering_Mining_and_Searching</a></td>
+              <td>无</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>11月28日</td>
+              <td>错误定位技术</td>
+              <td>熊英飞</td>
+              <td><a href="15_Fault_Localization.pdf">15_Fault_Localization</a>
+              </td>
+              <td>无</td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>12月13日</td>
+              <td>缺陷修复技术</td>
+              <td>熊英飞</td>
+              <td>
+                <a href="16_Program_Repair.pdf">16_Program_Repair</a><br/>
+                <a href="final_presentation-schedule.pdf">Final Course Project Presentation Schedule</a>
+              </td>
+              <td>无</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

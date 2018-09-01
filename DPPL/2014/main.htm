@@ -1,0 +1,279 @@
+﻿<!--<?php header("content-type:text/html;charset=UTF-8")?>
+-->
+<?php header("content-type:text/html;charset=UTF-8")?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+  <head>
+    <title>编程语言的设计原理</title>
+  </head>
+
+  <body>
+    <div id="header">
+    <div id="menu">
+      <a href="#info">课程信息</a>
+      <a href="#participation">课程通知</a>
+      <a href="#desc">课程介绍</a>
+      <a href="#texts">参考书目</a>
+      <a href="#schedule">课程讲义</a>
+    </div>
+    </div>
+
+    <div id="content">
+    <h1>编程语言的设计原理</h1>
+    <hr></hr>
+
+    <div id="info">
+      <h2>课程信息</h2>
+      <table class="disp">
+	<tr>
+	  <td> 上课时间： </td>
+	  <td> 每周 周三 10-12节 </td>
+	</tr>
+	<tr>
+	  <td> 上课地点： </td>
+      <td>二教 <b>501</b></td>
+	</tr>
+	<tr>
+	  <td> 任课教师： </td>
+	  <td> <a href="http://research.nii.ac.jp/~hu/">胡振江 教授</a> </td>
+	</tr>
+    <tr>
+        <td> </td>
+        <td> <a href="http://sei.pku.edu.cn/~zhhy/">赵海燕 副教授</a></td>
+	</tr>
+    <tr>
+        <td> </td>
+        <td> <a href="http://sei.pku.edu.cn/~xiongyf04/index_cn.html">熊英飞 研究员</a></td>
+    </tr>
+    <tr>
+	    <td> 课程助教： </td>
+	    <td> 李军</a></td>
+        <td> lijun09@sei.pku.edu.cn</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>米亚晴</a></td>
+        <td>283468256@qq.com</td>
+    </tr>
+
+    </table>
+    </div>
+
+    <div id="participation">
+        <h2>课程通知</h2>
+      <p><b>作业提交：</b>关于纸制版作业提交，每次课的作业在下次课上课前交给助教；关于电子版作业提交，同样在下次课上课前发送到助教的邮箱，
+          邮件标题请以“第X次作业-姓名-学号”格式书写。</p>
+      
+    </div>
+
+    <div id="desc">
+      <h2>课程简介</h2>
+      <p> 本课程主要面向大三和大四本科生与研究生，推荐先修《程序设计技术与方法》、《编译原理》，
+      但不做强制要求。未来三年每年在春学期开课。
+      </p>
+      <p> 新兴的程序设计语言层出不穷，这些语言是如何设计出来的？
+      主流语言中不断扩展出新的高级语言特征，这些特征是如何定义的？
+      为什么说Java语言的设计是有缺陷的？面向对象、函数语言、泛型编程等新型编程模型是否有共通的理论基础？
+      本课程将揭示这些问题的答案。
+      </p>
+      <p>
+      近十多年来，编程语言的发展呈现两个趋势：1）从固定少量语言到大量领域特定语言的变化；
+      2）从简单语言到复杂高级语言。比如，在2013年9月的TIOBE的编程语言排行榜上，
+      C和Java两个占统治地位的语言只能各自占到16%左右的份额，
+      大量的份额被近年来涌现的新型编程语言比如Javascript, Scala, Erlang, R占据。
+      同时，更多的新语言还在不断被设计出来。另一方面，大量经典语言也不断扩展，
+      引入各种高级语言成分。比如Java一起初的设计目标为一个简化版的语言，
+      但最新的Java 8设计中已经包含了泛型、函数式编程、动态性等多种高级特性。在这样的情况下，
+      掌握设计新的编程语言的能力，已经不仅限前沿科研人员所掌握的高级技能，而是一线软件开发工程师的基本要求
+      。同时，对语言设计原理的了解和掌握，也有助于更好的理解高级语言中的各种新特性，以更好的使用主流编程语言。
+      </p>
+      <p>
+      为指导编程语言的设计，研究人员们已经提出了一系列的原理和方法，其中最核心的就是类型理论。
+      类型声明是现代语言中避免编程错误的一个基本手段，而类型理论解释了一个良好的类型系统应该具有的特征和复杂类型的定义方法。
+      本课程将围绕类型理论这个核心进行组织，讲授程序设计语言的现代理论。
+      </p>
+      <p>
+      本课程具有两个特点：1. 严谨性：课程中的概念元素都将有严格的数学定义，可以进行形式演绎和归纳，
+      而非空泛的概念介绍。2. 操作性：课程中的所有重要概念都将通过课程作业的方式编程实现，
+      使得同学们在动手过程中真正掌握知识。希望通过本课程的学习，使得同学们在编程语言领域拥有扎实的理论功底和实践能力，
+      在产业方面能胜任设计新语言的任务，在学术方面为开展程序语言相关研究打下基础。
+      </p>
+   </div>
+
+   <div id="texts">
+      <h2>参考书目</h2>
+
+      <table class="disp">
+    <tr>
+        <td>
+            <a href="http://www.cis.upenn.edu/~bcpierce/tapl/"><cite>
+                    Types and Programming Languages</cite></a>
+            , Benjamin C. Pierce, The MIT Press, 2002. (<b>教材</b>)
+    </tr>
+     </table>
+
+  </div>
+
+    <div id="schedule">
+      <h2>课程讲义</h2>
+      <table class="disp" id="sched" rules="groups">
+	<colgroup>
+	  <col width="5%" align="left"/>
+	  <col width="5%" align="right"/>
+	</colgroup>
+	<colgroup width="30%"/>
+	<colgroup width="20%"/>
+	<colgroup width="40%"/>
+	<thead>
+	  <tr>
+            <th colspan="2">课程日期</th> <th>课程章节</th> <th>讲师</th> <th>讲义和作业</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+            <td>2月</td>
+	    <td>19</td>
+	    <td>课程介绍，第1，3，5章</td>
+	    <td>胡振江</td>
+        <td>讲义：<a href="hu_intro_ch1.pdf"><cite>1</cite></a>，
+            <a href="hu_ch3.pdf"><cite>3</cite></a>，
+            <a href="hu_ch5.pdf"><cite>5</cite></a> <br />
+            作业：3.5.16
+        </td>
+
+	  </tr>
+      <tr>
+        <td>2月</td>
+        <td>26</td>
+        <td>第5，6，8章</td>
+        <td>胡振江</td>
+        <td>讲义：<a href="hu_ch6.pdf"><cite>6</cite></a>,
+            <a href="hu_ch8.pdf"><cite>8</cite></a> <br />
+            作业：5.3.6，6.2.5
+        </td>
+        </tr>
+  </tbody>
+
+  <tbody>
+    <tr>
+        <td>3月</td>
+        <td>5</td>
+        <td>第8，9，11章</td>
+        <td>胡振江</td>
+        <td>讲义：<a href="hu_ch9.pdf"><cite>9</cite></a>,
+            <a href="hu_ch11.pdf"><cite>11</cite></a> <br />
+            作业：8.3.7，9.3.9，11.11.2
+        </td>
+    </tr>
+
+    <tr>
+        <td>3月</td>
+        <td>12</td>
+        <td>OCaml初步和Project要求</td>
+        <td>赵海燕</td>
+        <td>讲义：<a href="zhao_OCaml.pdf"><cite>OCaml初步</cite></a>,
+            <a href="project.pdf"><cite>Project要求</cite></a> <br />
+            作业：7.3.1
+        </td>
+    </tr>
+</tbody>
+    
+<tbody>
+    <tr>
+        <td>3月</td>
+        <td>19</td>
+        <td>第13章</td>
+        <td>赵海燕</td>
+        <td>讲义：<a href="zhao_ch13.pdf"><cite>13</cite></a> <br />
+           作业：13.5.2；阅读课程通知
+        </td>
+    </tr>
+
+    <tr>
+        <td>3月</td>
+        <td>26</td>
+        <td>第14，15章</td>
+        <td>赵海燕</td>
+        <td>讲义：<a href="zhao_ch14.pdf"><cite>14</cite></a>， 
+            <a href="zhao_ch15.pdf"><cite>15</cite></a><br />
+           作业：14.3.1，15.5.2
+        </td>
+    </tr>
+</tbody>
+
+<tbody>
+    <tr>
+        <td>4月</td>
+        <td>2</td>
+        <td>第16章</td>
+        <td>赵海燕</td>
+        <td>讲义：<a href="zhao_ch16.pdf"><cite>16</cite></a> <br />
+           作业：16.2.6，16.3.2，17.3.1（基于17章的代码）
+        </td>
+    </tr>
+
+    <tr>
+        <td>4月</td>
+        <td>9</td>
+        <td>第18，19章</td>
+        <td>赵海燕</td>
+        <td>讲义：<a href="zhao_ch18.pdf"><cite>18</cite></a>，
+            <a href="zhao_ch19.pdf"><cite>19</cite></a><br />
+           作业：18.6.1，19.4.6
+        </td>
+    </tr>
+</tbody>
+
+<tbody>
+    <tr>
+        <td>4月</td>
+        <td>23</td>
+        <td>第20章</td>
+        <td>熊英飞</td>
+        <td>讲义：<a href="yingfei_ch20.pdf"><cite>20</cite></a> <br />
+           作业：见讲义最后一页
+        </td>
+    </tr>
+
+     <tr>
+        <td>4月</td>
+        <td>30</td>
+        <td>第21章</td>
+        <td>熊英飞</td>
+        <td>讲义：<a href="yingfei_ch21.pdf"><cite>21</cite></a> <br />
+           作业：见讲义最后一页
+        </td>
+    </tr>
+</tbody>
+
+<tbody>
+    <tr>
+        <td>5月</td>
+        <td>7</td>
+        <td>第22章</td>
+        <td>熊英飞</td>
+        <td>讲义：<a href="yingfei_ch22.pdf"><cite>22</cite></a> <br />
+           作业：见讲义最后一页
+        </td>
+    </tr>
+
+    <tr>
+        <td>5月</td>
+        <td>14</td>
+        <td>第23，24章</td>
+        <td>熊英飞</td>
+        <td>讲义：<a href="yingfei_ch23.pdf"><cite>23</cite></a>
+            <a href="yingfei_ch24.pdf"><cite>24</cite></a><br />
+           作业：见24章讲义最后一页
+        </td>
+    </tr>
+</tbody>
+  </table>
+  </div>
+  <hr></hr>
+
+  <div id = "modi">
+      Last Modified: 15/5/2014
+  </div>
+  </div>
+  </body>
+</html>

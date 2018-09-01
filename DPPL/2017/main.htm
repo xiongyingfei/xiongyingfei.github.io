@@ -1,0 +1,293 @@
+﻿<!--<?php header("content-type:text/html;charset=UTF-8")?>
+  -->
+<?php header("content-type:text/html;charset=UTF-8")?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+  <head>
+    <title>编程语言的设计原理</title>
+  </head>
+
+  <body>
+    <div id="header">
+      <div id="menu">
+        <a href="#info">课程信息</a>
+        <a href="#participation">课程通知</a>
+        <a href="#desc">课程介绍</a>
+        <a href="#texts">参考书目</a>
+        <a href="#schedule">课程讲义</a>
+        往年课程:
+        <a href="2016/main.htm">2016</a>
+        <a href="2015/main.htm">2015</a> <a href="2014/main.htm">2014</a></p>
+</div>
+</div>
+
+<div id="content">
+  <h1>编程语言的设计原理</h1>
+  <hr></hr>
+
+  <div id="info">
+    <h2>课程信息</h2>
+    <table class="disp">
+      <tr>
+	<td> 上课时间： </td>
+	<td> 每周 周三 10-12节 </td>
+      </tr>
+      <tr>
+	<td> 上课地点： </td>
+        <td>三教 <b>205</b></td>
+      </tr>
+      <tr>
+	<td> 任课教师： </td>
+	<td> <a href="http://research.nii.ac.jp/~hu/">胡振江 教授</a> </td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td> <a href="http://sei.pku.edu.cn/~zhhy/">赵海燕 副教授</a></td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td> <a href="http://sei.pku.edu.cn/~xiongyf04/index_cn.html">熊英飞 研究员</a></td>
+      </tr>
+      <tr>
+	<td> 课程助教： </td>
+	<td> 周钊平（邮件：<a href="mailto:zhouzhaoping@pku.edu.cn">zhouzhaoping@pku.edu.cn</a>） </td>
+        <td>  </td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="participation">
+    <h2>课程通知</h2>
+    <p style="font-size: 14px;">2017年6月1日：下周为项目报告，每组报告18分钟，提问3分钟。请同学们做好准备。</p>
+    <p style="font-size: 14px;">2017年5月4日：下周为上机课，请同学们带笔记本电脑到课堂。</p>
+    <p style="font-size: 14px;">2017年4月26日：今天的作业是16.2.5和16.2.6，请大家互相转告。</p>
+    <p style="font-size: 14px;">2017年4月13日：下周是开题报告，请同学们做好准备。</p>
+    <p style="font-size: 14px;">2017年3月29日：请同学们注意组队的时间节点。</p>
+    <p style="font-size: 14px">2017年3月23日：下周起课程由赵海燕老师讲授，敬请期待。</p>
+    <p style="font-size: 14px">2017年3月8日：Lambda演算在Full Beta Reduction下是confluent，具体可以参考Church-Rosser属性，上课传递的信息有误。</p>
+    <p style=" font-size: 14px;">2017年3月4日：3月1日的作业在3月15日上课前提交。</p>
+    <p><b>作业提交：</b><pre>纸制版作业，每次课的作业在下次课上课前交给助教。</pre><pre>电子版作业，每次课的作业在下次课上课前发送到助教的邮箱，邮件标题请以“X月X日课作业_学号_姓名”格式书写。</pre></p>      
+  </div>
+
+  <div id="desc">
+    <h2>课程简介</h2>
+    <p> 本课程主要面向大三和大四本科生与研究生，推荐先修《程序设计技术与方法》、《编译原理》，
+      但不做强制要求。未来三年每年在春学期开课。
+    </p>
+    <p> 新兴的程序设计语言层出不穷，这些语言是如何设计出来的？
+      主流语言中不断扩展出新的高级语言特征，这些特征是如何定义的？
+      为什么说Java语言的设计是有缺陷的？面向对象、函数语言、泛型编程等新型编程模型是否有共通的理论基础？
+      本课程将揭示这些问题的答案。
+    </p>
+    <p>
+      近十多年来，编程语言的发展呈现两个趋势：1）从固定少量语言到大量领域特定语言的变化；
+      2）从简单语言到复杂高级语言。比如，在2013年9月的TIOBE的编程语言排行榜上，
+      C和Java两个占统治地位的语言只能各自占到16%左右的份额，
+      大量的份额被近年来涌现的新型编程语言比如Javascript, Scala, Erlang, R占据。
+      同时，更多的新语言还在不断被设计出来。另一方面，大量经典语言也不断扩展，
+      引入各种高级语言成分。比如Java起初的设计目标为一个简化版的语言，
+      但最新的Java 8设计中已经包含了泛型、函数式编程、动态性等多种高级特性。在这样的情况下，
+      掌握设计新的编程语言的能力，已经不仅限前沿科研人员所掌握的高级技能，而是一线软件开发工程师的基本要求
+      。同时，对语言设计原理的了解和掌握，也有助于更好的理解高级语言中的各种新特性，以更好的使用主流编程语言。
+    </p>
+    <p>
+      为指导编程语言的设计，研究人员们已经提出了一系列的原理和方法，其中最核心的就是类型理论。
+      类型声明是现代语言中避免编程错误的一个基本手段，而类型理论解释了一个良好的类型系统应该具有的特征和复杂类型的定义方法。
+      本课程将围绕类型理论这个核心进行组织，讲授程序设计语言的现代理论。
+    </p>
+    <p>
+      本课程具有两个特点：1. 严谨性：课程中的概念元素都将有严格的数学定义，可以进行形式演绎和归纳，      而非空泛的概念介绍。2. 操作性：课程中的所有重要概念都将通过课程作业的方式编程实现，使得同学们在动手过程中真正掌握知识。希望通过本课程的学习，使得同学们在编程语言领域拥有扎实的理论功底和实践能力，在产业方面能胜任设计新语言的任务，在学术方面为开展程序语言相关研究打下基础。
+    </p>
+  </div>
+
+  <div id="texts">
+    <h2>参考书目</h2>
+
+    <table class="disp">
+      <tr>
+        <td>
+          <a href="http://www.cis.upenn.edu/~bcpierce/tapl/"><cite>
+              Types and Programming Languages</cite></a>
+          , Benjamin C. Pierce, The MIT Press, 2002. (<b>教材</b>)
+      </tr>
+    </table>
+
+  </div>
+
+  <div id="schedule">
+    <h2>课程讲义和作业</h2>
+    <table class="disp" id="sched" rules="all" border="1">
+      <colgroup width="10%" align="center"/>
+      <colgroup width="10%" align="center"/>
+      <colgroup width="40%" align="center"/>
+      <colgroup width="40%" align="center"/>
+      <thead>
+	<tr>
+          <th>课程日期</th> <th>讲师</th> <th>课程章节和讲义</th> <th>作业</th>
+	</tr>
+      </thead>
+
+      <tbody>
+	<tr>
+          <td style="text-align:center;">2017/2/24</td>
+	  <td style="text-align:center;">熊英飞</td>
+	  <td style="text-align:center;">
+            <a href="xiong_courseOverview_ch1.pdf"><cite>Introduction</cite></a><br/>
+            <a href="xiong_ch3.pdf"><cite>Untyped Systems</cite></a>
+          </td>
+          <td style="text-align:center;">
+            3.5.16; 安装使用OCaml
+          </td>
+	</tr>
+	<tr>
+          <td style="text-align:center;">2017/3/1</td>
+	  <td style="text-align:center;">赵海燕</td>
+	  <td style="text-align:center;">
+            <a href="zhao_OCaml_Overview-17.pdf">OCaml Overview</a>
+          </td>
+	  <td style="text-align:center;">
+            见胶片最后一页
+          </td>
+	</tr>
+	<tr>
+          <td style="text-align:center;">2017/3/8</td>
+	  <td style="text-align:center;">熊英飞</td>
+	  <td style="text-align:center;">
+            <a href="xiong_ch5.pdf">Untyped Lambda Calculus</a><br/>
+            <a href="xiong_ch6.pdf">Nameless Representation</a>
+          </td>
+	  <td style="text-align:center;">
+            见两份胶片的最后一页，共两题
+          </td>
+	</tr>
+	<tr>
+          <td style="text-align:center;">2017/3/15</td>
+	  <td style="text-align:center;">熊英飞</td>
+	  <td style="text-align:center;">
+            <a href="xiong_ch8.pdf">Typed Arithmetic Expression</a><br/>
+            <a href="xiong_ch9.pdf">Simply Typed Lambda Calculus</a><br/>
+            <a href="xiong_ch11.pdf">Simply Extensions</a>
+          </td>
+	  <td style="text-align:center;">
+            见三份胶片的最后一页，共三题
+          </td>
+	</tr>
+	<tr>
+          <td style="text-align:center;">2017/3/23</td>
+	  <td style="text-align:center;">熊英飞</td>
+	  <td style="text-align:center;">
+            <a href="xiong_practice_public.pdf">随堂练习</a><br/>
+          </td>
+	  <td style="text-align:center;">
+            见胶片最后一页，参考<a href="fullsimple.match.problem.tar.gz">作业代码包</a>
+          </td>
+	</tr>
+	<tr>
+          <td style="text-align:center;">2017/3/29</td>
+	  <td style="text-align:center;">赵海燕</td>
+	  <td style="text-align:center;">
+            <a href="zhao_ch13_reference.pdf">Reference</a><br/>
+            <a href="xiong_project.pdf">课程项目</a>
+          </td>
+	  <td style="text-align:center;">
+            13.1.2, 13.5.8
+          </td>
+	</tr>
+	<tr>
+          <td style="text-align:center;">2017/4/5</td>
+	  <td style="text-align:center;">赵海燕</td>
+	  <td style="text-align:center;">
+            <a href="zhao_ch14_exception.pdf">Exception</a>
+          </td>
+	  <td style="text-align:center;">
+            14.3.1
+          </td>
+	</tr>
+	<tr>
+          <td style="text-align:center;">2017/4/12</td>
+	  <td style="text-align:center;">赵海燕</td>
+	  <td style="text-align:center;">
+            <a href="zhao_ch15_subTyping.pdf">Subtyping</a><br/>
+            <a href="zhao_ch16_mSubTyping.pdf">Algorithmic Subtyping</a>
+          </td>
+	  <td style="text-align:center;">
+            15.2.3, 15.2.4, 15.3.2, 16.1.2
+          </td>
+	</tr>
+	<tr>
+          <td style="text-align:center;">2017/4/19</td>
+	  <td style="text-align:center;">各位同学</td>
+	  <td style="text-align:center;">项目开题和随堂测试
+          </td>
+	  <td style="text-align:center;">
+            无
+          </td>
+	</tr>
+	<tr>
+          <td style="text-align:center;">2017/4/26</td>
+	  <td style="text-align:center;">熊英飞</td>
+	  <td style="text-align:center;">
+            <a href="xiong_ch18.pdf">Imperative Objects</a>
+          </td>
+	  <td style="text-align:center;">
+            16.2.5, 16.2.6
+          </td>
+	</tr>
+	<tr>
+          <td style="text-align:center;">2017/5/3</td>
+	  <td style="text-align:center;">熊英飞</td>
+	  <td style="text-align:center;">
+            <a href="xiong_ch19.pdf">Featureweight Java</a><br/>
+            <a href="xiong_ch20.pdf">Recursive Types</a>
+          </td>
+	  <td style="text-align:center;">
+            见两份胶片的最后一页
+          </td>
+	</tr>
+	<tr>
+          <td style="text-align:center;">2017/5/10</td>
+	  <td style="text-align:center;">赵海燕</td>
+	  <td style="text-align:center;">
+            <a href="zhao_ch13-19-Practice.pdf">随堂练习</a>
+          </td>
+	  <td style="text-align:center;">
+            无
+          </td>
+	</tr>
+	<tr>
+          <td style="text-align:center;">2017/5/17</td>
+	  <td style="text-align:center;">胡振江</td>
+	  <td style="text-align:center;">
+            <a href="hu_ch21.pdf">Metatheory of Recursive Types</a>
+          </td>
+	  <td style="text-align:center;">
+            21.5.2
+          </td>
+	</tr>
+	<tr>
+          <td style="text-align:center;">2017/5/24</td>
+	  <td style="text-align:center;">胡振江</td>
+	  <td style="text-align:center;">
+            <a href="hu_ch22.pdf">Type Reconstruction</a>
+          </td>
+	  <td style="text-align:center;">
+            22.5.5
+          </td>
+	</tr>
+	<tr>
+          <td style="text-align:center;">2017/5/30</td>
+	  <td style="text-align:center;">胡振江</td>
+	  <td style="text-align:center;">
+            <a href="hu_ch23.pdf">Universal Types</a><br/>
+            <a href="hu_ch24.pdf">Existential Types</a>
+          </td>
+	  <td style="text-align:center;">
+            23.5.1, 23.5.2
+          </td>
+	</tr>
+      </tbody>
+    </table>
+  </div>
+  <hr></hr>
+</div>
+</body>
+</html>
