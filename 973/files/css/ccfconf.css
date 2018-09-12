@@ -1,0 +1,386 @@
+/* Basic
+-------------------------------------------------- */
+html {
+    overflow-y: scroll;
+    position: relative;
+    min-height: 100%;
+}
+body {
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+
+.footer .container {
+    text-align: center;
+    width: auto;
+}
+
+
+@media (min-width: 992px) {
+    .container {
+        width: 980px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 980px;
+    }
+}
+
+hr.small {
+    max-width: 400px;
+    border-top: 1px solid #b3b3b3;
+}
+
+.masthead {
+    padding-bottom: 20px;
+}
+.masthead h1 {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+/* nav-bar
+-------------------------------------------------- */
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #4169E1;
+    border: none;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #4169E1;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-collapse {
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000000;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #e6e6e6;
+}
+
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active > a:hover,
+.navbar-default .navbar-nav > li.active > a:focus {
+    color: #ffffff;
+    background-color: #4169E1;
+}
+
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        margin-left: -10px;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+    }
+    .sidebar-nav .navbar ul:not {
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .left-margin {
+        margin-left: -98px;
+    }
+}
+
+/* Customized
+-------------------------------------------------- */
+a {
+    color: #4169E1;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #f20073;
+}
+
+.text-custom {
+    color: #4169E1;
+}
+
+
+p {
+     font-size: 15px;
+ }
+
+.list-my li {
+    text-align: justify;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.list-my-s li {
+    padding-bottom: 5px;
+}
+
+.my-table td {
+    font-size: 15px;
+}
+
+.news-table td{
+    font-size: 15px;
+}
+
+.news-table td.time{
+    font-size: 15px;
+    width : 10%;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.row-padding {
+    padding-bottom: 40px;
+}
+
+.img-padding {
+    padding-bottom: 10px;
+}
+
+.photo {
+	width: 120 px;
+	height: 160 px;
+}
+
+/* photo */
+.p500px {
+    padding-top: 2px;
+}
+.p500px > a {
+    font-size: 10px;
+    color: #666666;
+}
+.p500px > a:hover,
+.p500px > a:focus {
+    color: #262626;
+}
+
+/* map */
+#allmap,
+#route1 {
+    width: auto;
+    height: 300px;
+    overflow: hidden;
+    margin: 20px 0;
+    font-family:"微软雅黑";
+}
+
+/* color */
+.label-s1 {
+    background-color: #1DCEB4;
+}
+
+.label-l2 {
+    background-color: #004A88;
+}
+
+.label-l4 {
+    background-color: #008996;
+}
+
+.label-10{
+    background-color: #008FBF;
+}
+
+.label-l9 {
+    background-color: #94D600;
+}
+
+.label-airline {
+    background-color: #A292B3;
+}
+
+.news-table .time {
+    width: 30%;
+    font-weight: bold;
+}
+
+.news-table .news-info {
+    width: 70%;
+}
+
+
+hr{
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #999999;
+}
+
+.talkInfo{
+    padding: 0.5cm 0.5cm 0.5cm 0.5cm;
+    background:#BFC9CA;
+    color:#000;
+    margin:5px 10px 15px 20px;
+    border-radius:25px;
+    -moz-border-radius:25px;
+/*    text-align:justify;
+    text-justify:distribute-all-lines;
+    text-align-last:justify;
+    -moz-text-align-last:justify;
+    -webkit-text-align-last:justify;*/
+}
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0){
+  .talkInfo:after{
+      content:".";
+      display: inline-block;
+      width:100%;
+      overflow:hidden;
+      height:0;
+  }
+}*/
+
+.program-table tr td {
+    border:1px solid black;
+}
+
+.program-table td.time{
+    width:20%;
+}
+
+.program-table .tle{
+    text-align: left;
+    font-weight: bold
+}
+
+.program-table .top{
+    border-top: none;
+}
+
+.program-table .bottom{
+    border-bottom: none;
+}
+
+.program-table .left{
+    border-left: none;
+}
+
+.program-table .right{
+    border-right: none;
+}
+
+.pre-div{
+    background-image:linear-gradient(90deg, #55ABB4 0px, #55ABB4 5px, transparent 5px);
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/* 透明渐变 - color - transparent */
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* 双线 */
+
+hr.style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+/* 单线阴影 */
+
+hr.style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+/* 云朵状 */
+
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* 内嵌 */
+
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* 晕状 */
+
+hr.style-seven {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* 文字插入式 */
+
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "gb";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}

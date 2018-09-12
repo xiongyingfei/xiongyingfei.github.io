@@ -1,0 +1,38 @@
+Daming Zou, Ran Wang, Yingfei XIong, Lu Zhang, Zhendong Su, Hong Mei(3)  	A Genetic Algorithm for Detecting Significant Floating-Point Inaccuracies	Proceedings of 37th International Conference on Software Enginering	2015
+Huoran Li, Xuanzhe Liu, Tao Xie, Kaigui Bian, Xuan Lu, Felix Xiaozhu Lin, Qiaozhu Mei, and Feng Feng(2)	Characterizing Smartphone Usage Patterns from Millions of Android Users	Proceedings of the 2015 ACM SIGCOMM Conference on Internet Measurement Conference	2015
+Yun Ma, Xuanzhe Liu, Shuhui Zhang, Ruirui Xiang, Yunxin Liu, Tao Xie(2)	Measurement and Analysis of Mobile Web Cache Performance	Proceedings of 2015 International Conference on World Wide Web	2015
+Yihan Wu, Hui Song, Yingfei XIong, Zibin Zheng, Ying Xhang, Gang Huang(3)	Model Defined Fault Tolerance in Cloud	Internetware ’14: the Sixth Asia-Pacific Symposium on Internetware 	2014
+Qing Gao, Yingfei Xiong, Yaqing Mi, Lu Zhang, Weikun Yang, Zhaoping Zhou, Bing Xie, and Hong Mei(2)	Safe Memory-Leak Fixing for C Programs	Proceedings of 37 th International Conference on Software Engineering	2015
+Jie Zhang, Junjie Chen, Dan Hao, YIngfei Xiong, Bing Xie, Lu Zhang, Hong Mei(3)	Search-Based Inference of Polynomial Metamorphic Relations	Proceedings of the 29th IEEE/ACM International Conference on Automated Software Engineering	2014
+Hui Xu, Yangfan Zhou,and Michael R. Lyu(2)	Towards Smartphone Continuous and Passive Authentication via Touch Biometric: An Experimental Study	Proceedings of the USENIX Symposium On Usable Privacy and Security (SOUPS 2014)	2014
+Dan Hao, Lingming Zhang, Lu Zhang, Gregg Rothermel, Hong Mei(1)	A Unified Test-Case Prioritization Approach	ACM Transactions on Software Engineering and Methodology	2014
+Yilei Zhang, Zibin Zheng, and Michael R. Lyu(2)	An Online Performance Prediction Framework for Service-Oriented Systems	IEEE Transactions on System, Man, and Cybernetics	2014
+Pengfei Zheng, Yong Qi, Yangfan Zhou, Pengfei Chen, Jianfeng Zhan, and Michael R. Lyu(3)	CSHP: An Automatic Framework for Detecting and Characterizing the Performance Degradation of Software Systems	IEEE Transactions on Reliability	2014
+Xuanzhe Liu, Yun Ma, Gang Huang, Junfeng Zhao, Hong Mei, Yunxin Liu(1)	Data-Driven Composition of Service-Oriented Situational Web Applications	IEEE Transactions on Services Computing	2015
+Zibin Zheng, Yilei Zhang, and Michael R. Lyu(1)	Investigating QoS of Real-World Web Services	IEEE Transactions on Services Computing	2014
+Gang Huang, Yun Ma, Xuanzhe Liu, Yuchong Luo, Xuan Lu, and Blake, M.B(3)	Model-Based Automated Navigation and Composition of Complex Service Mashups	IEEE Transactions on Services Computing	2015
+Yingfei Xiong, Hansheng Zhang, Arnaud Hubaux, Steven She, Jie Wang, Krzysztof Czarnecki(1)	Range Fixes: Interactive Error Resolution for Software Configuration	IEEE Transactions on Software Engineering	2015
+Zibin Zheng and Michael R. Lyu(1)	Selecting an Optimal Fault Tolerance Strategy for Reliable Service-Oriented Systems with Local and Global Constraints	IEEE Transactions on Computer	2015
+Song Li, Yangfan Zhou, Lei Jiao, Xinya Yan, Xin Wang, and Michael R. Lyu(2)	Towards Operational Cost Minimization in Hybrid Clouds for Dynamic Resource Provisioning with Delay-aware Optimization	IEEE Transactions on Services Computing	2015
+Xi Chen, Zibin Zheng, Qi Yu, and Michael R. Lyu(2)	Web Service Recommendation via Exploiting Location and QoS Information	IEEE Transactions on Parallel and Distributed Systems	2014
+Jiajie Shen, Jiazhen Gu, Yangfan Zhou, and Xin Wang	Bandwidth-aware Delayed Repair in Distributed Storage System	Proc. of the IEEE Symposium on Quality of Service （IWQoS）	2016
+Qing Gao, Hansheng Zhang, Jie Wang, Yingfei Xiong, Lu Zhang, Hong Mei	Fixing Recurring Crash Bugs via Analyzing Q＆A Sites	Proc. ASE'15: 30th IEEE/ACM International Conference on Automated Software Engineering	2015
+Yafeng Lu, Yiling Lou, Shiyang Cheng, Lingming Zhang, Dan Hao, Yangfan Zhou, Lu Zhang	How Does Regression Test Prioritization Perform in Real-World Software Evolution？	ICSE16: the 38th International Conference on Software Engineering	2016
+Cuiyun Gao, Baoxiang Wang, Pinji He, Jieming Zhu, Yangfan Zhou, and Michael R. Lyu	PAID: Prioritizing App Issues for Developers by Tracking User Reviews Over Versions	Proc. of the 26th International Symposium on Software Reliability Engineering（ISSRE）	2015
+Yu Kang, Yangfan Zhou, Min Gao, Yixia Sun, and Michael R. Lyu	Experience Report: Detecting Poor-Responsive UI in Android Applications	Proc. Of the 27th IEEE International Symposium on Software Reliability Engineering (ISSRE)	2016
+Yu Kang, Yangfan Zhou, Hui Xu, and Michael R. Lyu	DiagDroid: Android Performance Diagnosis via Anatomizing Asynchronous Executions	Proc. of the ACM SIGSOFT International Symposium on the Foundations of Software Engineering (FSE)	2016
+Hui Xu, Yangfan Zhou, Cuiyun Gao, Yu Kang, and Michael R. Lyu	SpyAware: Investigating the Privacy Leakage Signatures in App Execution Traces	Proc. Of the 26th International Symposium on Software Reliability Engineering (ISSRE)	2015
+Jiajie Shen, Jiazhen Gu, Yangfan Zhou, and Xin Wang	Cloud-of-Clouds Storage Made Efficient: A Pipeline-Based Approach	Proc. of the IEEE Conference on Web Services (ICWS)	2016
+Jiajie Shen, Jiazhen Gu, Yangfan Zhou, and Xin Wang	Flexible Regenerating Code for Multiple Node Failure	第四届CCF大数据学术会议	2016
+Hui Xu, Yangfan Zhou, and Michael R. Lyu	N-Version Obfuscation	Proc. of the 2nd Cyber-Physical System Security Workshop	2016
+Jieming Zhu, Pinjia He, Zibin Zheng, Michael R. Lyu	Online QoS Prediction for Runtime Service Adaption via Adaptive Matrix Factorization	IEEE Transactions on Parallel and Distributed Systems	2017
+Jiajie Shen, Kai Zhang, Jiazhen Gu, Yangfan Zhou, Xin Wang	Efficient Scheduling for Multi-block Updates in Erasure Coding-based Storage Systems	IEEE Transactions on Computers	2017
+Yi Xiang, Yuren Zhou, Zibin Zheng, Miqing Li	Configuring Software Product Lines by Combining Many-objective Optimization and SAT Solver	ACM Transactions on Software Engineering and Methodology	2017
+Guanhong Tao, Zibin Zheng, Ziying Guo, Michael R. Lyu	Malpat: Mining Patterns of Malicious and Benign Android Apps via Permission-Related APIs	IEEE Transactions on Reliability	2017
+Hui Xu, Yangfan Zhou, Yu Kang, Michael R. Lyu	Concolic Execution on Small-Size Binaries: Challenges and Empirical Study	Proc. of the 47th Annual IEEE/IFIP International Conference on Dependable Systems and Networks	2017
+Jiaojiao Fu, Yangfan Zhou, Huan Liu, Yu Kang, Xin Wang	Perman: Fine-grained Permission Management for Android Applications	Proc. of the 28 th International Symposium on Software Reliability Engineering	2017
+XuanZhe Liu, Huoran Li, Xuan Lu, Tao Xie, Qiaozhu Mei, Feng Feng, Hong Mei	Understanding Diverse Usage Patterns from Large-Scale Appstore-Service Profiles	IEEE Transactions on Software Engineering	2017
+Yingfei Xiong, Jie Wang, Runfa Yan, Jiachen Zhang, Shi Han, Gang Huang, Lu Zhang	Precise Condition Synthesis for Program Repair	ICSE	2017
+Hui Xu. Yangfan Zhou, Yu Kang, Fengzhi Tu, Michael Lyu	Manufacturing Resilient Bi-Opaque Predicates against Symbolic Execution	Proc. of the 48th Annual IEEE/IFIP International Conference on Dependable Systems and Networks	2018
+Shilin He, Qingwei Lin, Jian-Guang Lou, Hongyu Zhang, Michael R. Lyu	Identifying Impactful Service System Problems via Log Analysis	Proceedings of the 26 th ACM Symposium on the Foundations of Software Engineering	2018
+Pinjia He, Zhuangbin Chen, Shilin He, Michael R. Lyu, Dongmei Zhang	Characterizing the Natural Language Descriptions in Software Logging Statements	ASE	2018

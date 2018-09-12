@@ -1,0 +1,34 @@
+[
+{
+	"name":"peiyu",
+	"info":{
+		"topic":"Contract-base Program Repair without the Contracts",
+		"abstract":"As part of the effort towards improving software correctness and reducing maintenance costs, research on automated program repair (APR) has attracted a lot of attention in the past few years. Among the first APR techniques, generate-and-validate APR proposes fixes by first generating a large amount of candidate fixes and then validating them via regression testing. AutoFix is a generate-and-validate APR developed for the Eiffel programming language, and it reported high success rates in fixing faults from real-world programs. Since AutoFix exploits program contracts (i.e., method pre-/postconditions and class invariants) in fix generation and validation, its success has been mostly attributed to the extra information provided by contracts.</br>In this talk, I will first present the AutoFix APR technique, then show that the rationale behind AutoFix could be naturally adapted and effectively applied to fixing faults in Java programs, which typically do not have contracts. We developed a prototype implementation of the adapted technique, called JAID. In experiments with real-world faults from the DEFECTS4J benchmark, JAID produced genuinely correct repairs, equivalent to those written by programmers, for 18 bugs---improving over the state of the art of comparable Java APR techniques in the number and kinds of correct fixes.",
+		"intro":"Dr Pei received his bachelor's degree in Computer Science in 1999 and his first PhD in Computer Science in 2004, both from Nanjing University, China. From 2004 to 2009, he was an Assistant Professor of the Faculty of Information Technology in Macau University of Science and Technology. In 2015, he obtained his second PhD in Computer Science from ETH Zurich, Switzerland.</br>Dr Pei's primary research goals aim at facilitating the production of high quality software systems in the real world. He has published over a dozen of peer reviewed papers in journals like IEEE TSE, and top tier conferences including ICSE, ASE, ISSTA, and VMCAI. His future research plans are directed towards advancing the techniques to automatically test and repair software systems developed in mainstream programming languages and providing tool support for their practical application."
+	}
+},
+{
+	"name":"liuxuanzhe",
+	"info":{
+		"topic":"基于用户交互行为学习的移动应用与服务优化",
+		"abstract":"",
+		"intro":"刘譞哲，博士，北京大学信息科学技术学院副教授，主要研究方向包括系统软件、移动计算、服务计算等。近年来在TSE、TMC、TOIS、TOIT、WWW、UbiComp、ICSE、OOPSLA等国际期刊和会议上发表学术论文 30 余篇，其中CCF A类论文10余篇；获3次国际会议最佳论文奖和2次最佳论文奖提名；博士学位论文《基于社区的服务组装技术研究》获 2011 年全国优秀博士学位论文提名奖、2010 年中国计算机学会优秀博士论文奖；作为主要完成人获得教育部科技进步一等奖（排名第3）；研制的关键技术以通过专利转化方式应用于央企、政府、互联网等多个领域，取得良好社会经济效益。担任国际服务学会青年科学家论坛中国区主席；国际会议CollaborateCom 2016共同主席；国际会议KDD、ICSE、CIKM、ICDCS、ICSOC、ICWS等程序委员会成员；Journal of Computer Science and Technology特邀编辑（Guest Editor）；CCF学术工作委员会秘书、委员；CCF服务计算专委会委员；中国电子学会青年科学家俱乐部云计算大数据专委会秘书长。"
+	}
+},
+{
+	"name":"chenlin",
+	"info":{
+		"topic":"跨项目缺陷的分析与理解",
+		"abstract":"在软件生态系统中，由于项目间存在依赖关系，跨项目关联的缺陷在其中多有发生。针对托管在Github上的Python科学计算生态系统，我们深入分析了开发者定位和修复跨项目关联缺陷的行为。我们发现：程序调用栈信息、上下游开发者的交流、以及他们对项目的熟悉程度是定位跨项目缺陷的关键因素；合作修复缺陷或提出临时解决方案以尽快恢复生态系统的正常运转是上下游开发者应对跨项目缺陷的常见行为。",
+		"intro":"陈林，博士，副教授，现为南京大学软件质量研究所成员，主要研究方向为软件分析、测试。与合作者一起在ACM Transactions on Software Engineering and Methodology、IEEE Transactions on Software Engineering 等期刊和ICSE、FSE等会议上发表论文多篇。主持和参与了多项国家、省部级项目，并曾多次获得省部级科技进步一、二等奖."
+	}
+},
+{
+	"name":"luoxiapu",
+	"info":{
+		"topic":"Security Assessment of Mobile Apps",
+		"abstract":"The massive success of app economy and the rapid growth of smartphone penetration pose lucrative and profitable targets for attackers. On one hand, mobile malware conducts various malicious activities and causes severe impact on users and mobile networks, such as leaking users’ private information, causing victims financial loss and excessive charges, and depleting network resources. On the other hand, short development cycles and insufficient security development guidelines have led to many vulnerable apps that can be exploited by attackers to compromise the smartphone. In this talk, I will first introduce how we investigate mobile apps from four aspects, namely, dynamic behavior analysis, static bytecode analysis, meta-data analysis, and network traffic analysis. Then, I will describe our recent work that leverages mobile app analysis to detect malware, discover vulnerabilities, and reveal various issues.",
+		"intro":"罗夏朴现为香港理工大学研究助理教授，其研究兴趣包含移动应用安全，网络安全和隐私，网络性能测量和评估等。其于香港理工大学获得博士学位并于乔治亚理工大学进行博士后研究。其研究成果发表在重要国际学术会议和杂志上，如USENIX, SEC, NDSS, ICSE, USENIX ATC, DSN, INFOCOM, TSE, TIFS, TDSC, JSAC等，及业界安全会议上，如BlackHat, HITCON, XCON等。其获得ATIS'17 Best Paper Award, ISSRE'16 Best Research Paper Award, IFIP SEC'07 Best Student Paper Award，以及CCF-腾讯犀牛鸟基金优秀奖。"
+	}
+}
+]

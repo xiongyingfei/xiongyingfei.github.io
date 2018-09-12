@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://oscar-lab.org/yoser15-1/# -->
+<html lang="zh-cmn-Hans"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="基于情境的安全攸关软件的构造方法与运行机理研究">
+    <meta name="keywords" content="基于情境的安全攸关软件的构造方法与运行机理研究">
+    <title>基于情境的安全攸关软件的构造方法与运行机理研究</title>
+    <link rel="stylesheet" href="./files/css/font-awesome/css/font-awesome.css">
+	<link href="./files/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./files/css/ccfconf.css" rel="stylesheet">
+<script type="text/javascript">try {
+var AG_onLoad=function(func){if(document.readyState==="complete"||document.readyState==="interactive")func();else if(document.addEventListener)document.addEventListener("DOMContentLoaded",func);else if(document.attachEvent)document.attachEvent("DOMContentLoaded",func)};
+var AG_removeElementById = function(id) { var element = document.getElementById(id); if (element && element.parentNode) { element.parentNode.removeChild(element); }};
+var AG_removeElementBySelector = function(selector) { if (!document.querySelectorAll) { return; } var nodes = document.querySelectorAll(selector); if (nodes) { for (var i = 0; i < nodes.length; i++) { if (nodes[i] && nodes[i].parentNode) { nodes[i].parentNode.removeChild(nodes[i]); } } } };
+var AG_each = function(selector, fn) { if (!document.querySelectorAll) return; var elements = document.querySelectorAll(selector); for (var i = 0; i < elements.length; i++) { fn(elements[i]); }; };
+var AG_removeParent = function(el, fn) { while (el && el.parentNode) { if (fn(el)) { el.parentNode.removeChild(el); return; } el = el.parentNode; } };
+navigator.getBattery = undefined;
+(function() { window.Ya = window.Ya || {}; window.Ya.Metrika = function() { var noop = function() {}; this.addFileExtension = noop; this.extLink = noop; this.file = noop; this.hit = noop; this.notBounce = noop; this.params = noop; this.reachGoal = noop; this.replacePhones = noop; this.clickmap = noop; this.trackLinks = noop; }; })();
+var _gaq = []; var _gat = { _getTracker: function() { return { _initData: function(){}, _trackPageview: function(){}, _trackEvent: function(){}, _setAllowLinker: function() {}, _setCustomVar: function() {} } }, _createTracker: function() { return this._getTracker(); }, _anonymizeIp: function() {} };
+function urchinTracker() {};
+var addthis = { init: function() {}, addEventListener: function() {}, button: function() {}, counter: function() {}, update: function() {}, toolbox: function() {}, layers: function() {} };
+window.uabInject = function() {};
+window.wcs_add = {}; window.wcs_do = function() { };
+} catch (ex) { console.error('Error executing AG js: ' + ex); }
+</script>
+<style id="style-1-cropbar-clipper">
+/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+
+<body>
+    <div id="talk" style="display: none; position: absolute; z-index: 100;"></div>
+    <div class="container">
+    <!-- top -->
+    <div class="row masthead">
+        <div class="col-md-12 bg" id="top">
+            <img id="bg" src="./files/bg/gate.jpg" class="img-responsive img-rounded">
+        </div>
+    </div>
+
+
+    <!--main-->
+    <div class="row">
+        <!-- nav-list -->
+        <div class="col-md-3 col-sm-4">
+            <div class="sidebar-nav">
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sidebar-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse" id="sidebar-navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li id="home" class=""><a onClick="return update('home');">首页</a></li>
+                            <li id="date" class=""><a onClick="return update('date');">项目简介</a></li>
+                            <li id="academic"><a onClick="return update('academic');">发表论文</a></li>
+                            <li id="patent"><a onClick="return update('patent');">专利发明</a></li>
+                            <li id="service"><a onClick="return update('service');">学术服务</a></li>
+                            <li id="educate" class=""><a onClick="return update('educate');">人才培养</a></li>
+                            <li id="venue"><a onClick="return update('venue');">联系我们</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- content -->
+        <div class="col-md-9 col-sm-8" id="content">
+            <!-- home -->
+            <div name="home" class="text-justify" >
+                <div class="col-md-10 col-sm-4">
+    				<p><strong>项目简介</strong></p>
+                    <p>“基于情境的安全攸关软件的构造方法与运行机理研究”的研究，目的是建立安全攸关软件中情境处理的原理框架和关键技术体系，并据此研制一套基于情境的安全攸关软件工具和平台原型，同时培养一批青年学术骨干以及具有创新能力的高水平研究生，并且从方法研究、实践验证、人才培养三方面为我国的科学发展和社会经济建设服务。本项目由北京大学、复旦大学和中山大学共同参与完成。 </p><br>
+
+                </div>
+               
+                <div class="col-md-5 col-sm-4">
+                    <p><strong>参加人员</strong></p>
+					<li>北京大学 熊英飞（项目负责人）</li>
+					<li>北京大学 郝丹</li>
+					<li>北京大学 刘譞哲</li>
+					<li>复旦大学 周扬帆</li>
+					<li>中山大学 郑子彬</li>
+                    <p></p>
+                </div>
+            </div>
+
+            <!-- date -->
+            <div name="date" class="date col-md-10"  style="display: none;">
+                <div class="section-header">
+					<h4><strong>项目介绍</strong></h4>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;本项目面向国家在信息领域的重大需求，针对“安全攸关软件系统的共性理论和构造方法”开展研究。安全攸关软件是指一旦出现故障，就可能造成人身伤害或者重大财产损失的软件。随着社会信息化的不断发展，越来越多的软件系统被纳入安全攸关软件的范畴。保障这些软件系统的安全性对我国的社会经济发展和人民群众的安居乐业都有极其重要的意义。</p>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;历史上，安全攸关软件的大量研究都集中于保证软件实现的正确性上，即确保软件实现满足其设计规约。然而，安全攸关软件的故障并不仅仅源于软件自身实现的缺陷，而常常源于其设计规约没有充分考虑与外界运行环境的交互。我们将软件的软硬件运行平台、网络环境、时空环境、与软件系统发生交互的人和设备等软件系统的外部元素统称为“情境”。数据表明，在现有安全攸关系统的事故中，情境问题导致的事故是软件本身实现问题所导致事故的三倍多。因此，为保障软件系统安全，我们必须处理好情境因素。</p>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;针对这种情况，本项目试图回答关键问题“如何在安全攸关软件的开发和运行中正确处理情境因素”。针对现有软件开发方法把情境相关逻辑和软件业务逻辑混为一体、难以理解和维护、对复杂动态情境支持程度差等问题，本项目提出情境应当从软件实体建模中分离，作为独立的一介实体引入到软件的开发和运行中。为支撑和验证这一理念，本项目将从建模、实现、运行三个阶段开展研究，具体研究内容如下：一、在建模阶段，研究情境建模原理与方法；二、在实现阶段，研究基于情境的测试与排错技术；三、在运行阶段，研究情境检测与容错技术。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;通过本项目的研究，我们期望建立安全攸关软件中情境处理的原理框架和关键技术体系，并据此研制一套基于情境的安全攸关软件工具和平台原型，同时培养一批青年学术骨干以及具有创新能力的高水平研究生。从方法研究、实践验证、人才培养三方面为我国的科学发展和社会经济建设服务。</p>
+<!--<p>&nbsp;&nbsp;&nbsp;&nbsp;本项目由来自北京大学和香港中文大学深圳研究院的5名青年学者组成，集合了大陆和香港地区两所顶尖学术机构在软件工程领域的优秀青年人才，包括北京大学“百人计划”入选者、全国百篇优秀博士学位论文提名奖获得者、ACM Sigsoft Distinguished Paper Award获奖者等。项目组近年来发表国际顶级学术期刊（IEEE/ACM Transactions）和国际顶级学术会议（ICSE, FSE, OOPSLA, ICDCS, ASE）的论文24篇，论文总引用次数达到1600余次。根据项目需要，本项目经费概算为500万元。</p>-->
+					</div>
+            </div>
+
+
+
+			<!-- academic, add paper list -->
+			<div name="academic" style="display:none">
+				<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;截止2018年8月，项目发表论文38篇，含CCF A类顶级期刊会议论文18篇。</strong></p>
+				<ul id="paper-list"> </ul>
+
+            </div>
+
+
+			<!-- patent, add patent list -->
+			<div name="patent" style="display:none">
+				<ul id="patent-list"> </ul>
+
+            </div>
+
+			<!-- service, add patent list -->
+			<div name="service" style="display:none">
+				<ul id="service-list"> </ul>
+
+            </div>
+
+            <!-- venue -->
+            <div name="venue" class="people" style="display:none">
+				<div class="col-md-5 col-xm-3 text-center">
+                    <img src="./files/img/xiong.png" class="img-circle img-padding photo">
+                    <p><a href="http://sei.pku.edu.cn/~xiongyf04/" target="_blank">熊英飞 | 研究员</a></p>
+                    <p>北京大学</p>
+                    <p><strong>项目负责人</strong></p>
+                </div>
+
+				<div class="col-md-5 col-xm-3 text-center">
+                    <img src="./files/img/haodan.png" style="height:170px" class="img-circle img-padding photo">
+                    <p><a href="http://sei.pku.edu.cn/~haod/" target="_blank">郝丹 | 副教授</a></p>
+                    <p>北京大学</p>
+                    <p><strong>项目骨干</strong></p>
+                </div>
+
+				<div class="col-md-5 col-xm-3 text-center">
+                    <img src="./files/img/xuanzhe.png" class="img-circle img-padding photo ">
+                    <p><a href="http://www.liuxuanzhe.com/" target="_blank">刘譞哲 | 副教授</a></p>
+                    <p>北京大学</p>
+                    <p><strong>项目骨干</strong></p>
+                </div>
+
+				<div class="col-md-5 col-xm-3 text-center">
+                    <img src="./files/img/yangfan.png" style="height:170px" class="img-circle img-padding photo ">
+                    <p><a href="http://www.y-droid.com/" target="_blank">周扬帆 | 副教授</a></p>
+                    <p>复旦大学</p>
+                    <p><strong>项目骨干</strong></p>
+                </div>
+
+				<div class="col-md-5 col-xm-3 text-center">
+                    <img src="./files/img/zhengzibin.png" class="img-circle img-padding photo ">
+                    <p><a href="http://www.zibinzheng.com/" target="_blank">郑子彬 | 教授</a></p>
+                    <p>中山大学</p>
+                    <p><strong>项目骨干</strong></p>
+                </div>
+
+            </div>
+            
+            
+
+            <!-- discuss -->
+            <div name="educate" class="text-justify" style="display: none;">
+
+				<ul>
+					<li>培养博士研究生15名，硕士研究生12名</li>
+					<li>微软学者奖学金获得者3名</li>
+					<li>IBM博士英才奖学金获得者2名</li>
+					<li>CCF优秀大学生奖3人</li>
+					<li>北京大学五四奖章获得者1名</li>
+				</ul>
+               
+            </div>
+
+
+           
+            <!-- gallery -->
+            <div name="gallery" class="" style="display:none">
+				<h4>会议照片</h4>
+                <p>持续更新中</p>
+                <!-- <table class="table table-hover my-table">
+					<tbody><tr><td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7387.jpg"> <img src="./files/pic/DSC_7387_thumb.jpg"></a></td>
+						<td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7410.jpg"> <img src="./files/pic/DSC_7410_thumb.jpg"></a></td></tr>
+					<tr><td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7392.jpg"> <img src="./files/pic/DSC_7392_thumb.jpg"></a></td>
+						<td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7396.jpg"> <img src="./files/pic/DSC_7396_thumb.jpg"></a></td></tr>
+					<tr><td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7427.jpg"> <img src="./files/pic/DSC_7427_thumb.jpg"></a></td>
+						<td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7458.jpg"> <img src="./files/pic/DSC_7458_thumb.jpg"></a></td></tr>
+					<tr><td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7467.jpg"> <img src="./files/pic/DSC_7467_thumb.jpg"></a></td>
+						<td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7469.jpg"> <img src="./files/pic/DSC_7469_thumb.jpg"></a></td></tr>
+					<tr><td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7479.jpg"> <img src="./files/pic/DSC_7479_thumb.jpg"></a></td>
+						<td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7496.jpg"> <img src="./files/pic/DSC_7496_thumb.jpg"></a></td></tr>
+					<tr><td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7497.jpg"> <img src="./files/pic/DSC_7497_thumb.jpg"></a></td>
+						<td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7508.jpg"> <img src="./files/pic/DSC_7508_thumb.jpg"></a></td></tr>
+					<tr><td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7511.jpg"> <img src="./files/pic/DSC_7511_thumb.jpg"></a></td>
+						<td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7526.jpg"> <img src="./files/pic/DSC_7526_thumb.jpg"></a></td></tr>
+					<tr><td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7543.jpg"> <img src="./files/pic/DSC_7543_thumb.jpg"></a></td>
+						<td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7544.jpg"> <img src="./files/pic/DSC_7544_thumb.jpg"></a></td></tr>
+					<tr><td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7547.jpg"> <img src="./files/pic/DSC_7547_thumb.jpg"></a></td>
+						<td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7591.jpg"> <img src="./files/pic/DSC_7591_thumb.jpg"></a></td></tr>
+					<tr><td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7601.jpg"> <img src="./files/pic/DSC_7601_thumb.jpg"></a></td>
+						<td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7605.jpg"> <img src="./files/pic/DSC_7605_thumb.jpg"></a></td></tr>
+					<tr><td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7619.jpg"> <img src="./files/pic/DSC_7619_thumb.jpg"></a></td>
+						<td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7620.jpg"> <img src="./files/pic/DSC_7620_thumb.jpg"></a></td></tr>
+					<tr><td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7624.jpg"> <img src="./files/pic/DSC_7624_thumb.jpg"></a></td>
+						<td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7629.jpg"> <img src="./files/pic/DSC_7629_thumb.jpg"></a></td></tr>
+					<tr><td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7644.jpg"> <img src="./files/pic/DSC_7644_thumb.jpg"></a></td>
+						<td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7650.jpg"> <img src="./files/pic/DSC_7650_thumb.jpg"></a></td></tr>
+					<tr><td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7653.jpg"> <img src="./files/pic/DSC_7653_thumb.jpg"></a></td>
+						<td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7654.jpg"> <img src="./files/pic/DSC_7654_thumb.jpg"></a></td></tr>
+					<tr><td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7660.jpg"> <img src="./files/pic/DSC_7660_thumb.jpg"></a></td>
+						<td><a target="_blank" href="http://oscar-lab.org/yoser15-1/image/gallery/DSC_7679.jpg"> <img src="./files/pic/DSC_7679_thumb.jpg"></a></td></tr>
+					</tbody>
+                </table>
+				<h4>打包下载</h4>
+				<p><a href="http://oscar-lab.org/yoser15-1/doc/openning.rar" target="_blank">开幕式</a></p>
+				<p><a href="http://oscar-lab.org/yoser15-1/doc/talks.rar" target="_blank">大会报告</a></p>
+				<p><a href="http://oscar-lab.org/yoser15-1/doc/graduate.forum.rar" target="_blank">研究生论坛</a></p>
+				<p><a href="http://oscar-lab.org/yoser15-1/doc/panel.session.rar" target="_blank">专家论坛</a></p>
+				<p><a href="http://oscar-lab.org/yoser15-1/doc/discussion.rar" target="_blank">发展研讨</a></p> -->
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+<!-- <footer class="footer">
+    <div class="container">
+        <hr class="small">
+      <p class="text-muted">中国计算机学会软件工程专委会主办  技术支持: 李中元</p>
+    </div>
+</footer> -->
+
+
+
+<script src="./files/js/jquery.min.js"></script>
+<script src="./files/js/bootstrap.min.js"></script>
+<script src="./files/js/ccfconf.js"></script>
+<script type="text/javascript">
+
+</script>
+</body></html>
