@@ -1,0 +1,31 @@
+First Seminar on Programming Languages @ PKU
+首届程序设计语言讨论班@北京大学
+
+Time: 14:00-17:00, August 20th, 2019
+Place: Rm. 1501, Science Building 1, Peking University
+Talk 1: Guarded Kleene Algebra with Tests
+Speaker: Nate Foster (Cornel University)
+
+Abstract: Guarded Kleene Algebra with Tests (GKAT) is a variation on Kleene Algebra with Tests (KAT) that arises by restricting the union (+) and iteration (∗) operations from KAT to predicate-guarded versions. We develop the (co)algebraic theory of GKAT and show how it can be efficiently used to reason about imperative programs. In contrast to KAT, whose equational theory is PSPACE-complete, we show that the equational theory of GKAT is (almost) linear time. We also provide a full Kleene theorem and prove completeness for an analogue of Salomaa's axiomatization of Kleene Algebra. 
+
+Draft Paper: https://arxiv.org/abs/1907.05920
+
+Bio: Nate Foster (https://www.cs.cornell.edu/~jnfoster) is an Associate Professor of Computer Science at Cornell University and a Principal Research Engineer at Barefoot Networks. The goal of his research is to develop languages and tools that make it easy for programmers to build secure and reliable systems. His current work focuses on the design and implementation of languages for programming software-defined networks. In the past he has also worked on bidirectional languages (also known as "lenses"), database query languages, data provenance, type systems, mechanized proof, and formal semantics.
+Talks 2: Adaptive Program Reasoning via Online Learning
+Speaker: Xin Zhang (MIT)
+
+Abstract: Software is becoming increasingly pervasive and complex. These trends expose masses of users to unintended software failures and deliberate cyber-attacks. A widely adopted solution to enforce software quality is automated program analysis. A key challenge in designing an effective analysis is to decide what approximations to apply. Approximations are inevitable as program analysis problems are undecidable in general. The state-of-the-art relies on an expert analysis designer to choose fixed approximations. These approximations, however, often fail to meet the needs of individual usage scenarios as software artifacts and analysis clients become increasingly diverse. This in turn hinders the soundness, scalability, and precision of existing analysis tools.
+
+To address this challenge, this talk presents an online-learning-based approach that automatically adapts an analysis to a given usage scenario. By adapting to user feedback, program properties of interest, and characteristics of the program at hand, the approach synthesizes approximations that are optimal for the given setting. To enable learning, it converts a conventional program analysis specified by the analysis designer into a probabilistic analysis, which is expressed using a system of weighted constraints. Our empirical evaluation shows that this approach substantially reduces the numbers of false alarms produced by real-world analyses on large and widely used Java programs. I will also describe new algorithmic techniques to solve very large instances of weighted constraints that arise not only in our domain but also in other domains such as Big Data analytics and statistical AI.
+
+Bio: Xin Zhang is a postdoctoral associate at MIT CSAIL. His research interest lies in the intersection of programming languages and software engineering. His work has received Distinguished Paper Awards from PLDI'14 and FSE'15. Xin received his Ph.D. from Georgia Tech in 2017 which was partly supported by a Facebook Fellowship.
+Talk 3: Inferring Program Transformations From Singular Examples via Big Code
+Speaker: Jiajun Jiang (Peking University)
+
+Abstract: Inferring program transformations from concrete program changes has many potential uses, such as applying systematic program edits, refactoring, and automated program repair. Existing work for inferring program transformations usually rely on statistical information over a potentially large set of program-change examples. However, in many practical scenarios we do not have such a large set of program-change examples.
+
+In this paper, we address the challenge of inferring a program transformation from one single example. Our core insight is that “big code” can provide effective guide for the generalization of a concrete change into a program transformation, i.e., code elements appear in many files are general and should not be abstracted away. We first propose a framework for transformation inference, where programs are represented as hypergraphs to enable fine-grained generalization of transformations. We then design a transformation inference approach, GENPAT, that infers a transformation based on code context and statistics from a big code corpus.
+
+We have evaluated GENPAT under two distinct application scenarios, systematic editing and program repair. The evaluation on systematic editing shows that GENPAT significantly outperforms state-of-the-art approach, SYDIT , with up to 5.5x correctly transformed cases. The evaluation on program repair suggests that GENPAT has the potential to be integrated in advanced program repair tools: GENPAT successfully repaired 17 real-word bugs in the Defects4J benchmark by simply applying transformations inferred from existing patches, where 4 bugs have never been repaired by any existing technique. Overall, the evaluation results suggest that GENPAT is effective for transformation inference and can potentially be adopted for many different applications.
+
+Bio: Jiajun Jiang, majoring in computer software and theory, is a fourth-year Ph.D student at Software Engineering Institute, Peking University, before which he received the bachelor degree of engineering from Northwestern Polytechnical University in 2015. His interests mainly fall into the research fields of software debugging, program transformation and mining software repositories. He has published multiple papers on conferences and journals of software engineering, including ECOOP'16, ISSTA'18, Sci. China Inf 2019, ASE'19. Besides, he served the ISSTA'19 as co-chairs of student volunteers.
