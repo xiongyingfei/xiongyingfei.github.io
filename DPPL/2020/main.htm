@@ -1,0 +1,289 @@
+﻿<!--<?php header("content-type:text/html;charset=UTF-8")?>
+  -->
+<?php header("content-type:text/html;charset=UTF-8")?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+  <head>
+    <title>编程语言的设计原理</title>
+  </head>
+
+  <body>
+    <div id="header">
+      <div id="menu">
+        <a href="#info">课程信息</a>
+        <a href="#participation">课程通知</a>
+        <a href="#desc">课程介绍</a>
+        <a href="#texts">参考书目</a>
+        <a href="#schedule">课程讲义</a>
+        往年课程:
+        <a href="../2019/main.htm">2019</a>
+        <a href="../2018/main.htm">2018</a>
+        <a href="../2017/main.htm">2017</a>
+        <a href="../2016/main.htm">2016</a>
+        <a href="../2015/main.htm">2015</a>
+        <a href="../2014/main.htm">2014</a>
+      </div>
+    </div>
+
+    <div id="content">
+      <h1>编程语言的设计原理</h1>
+      <hr></hr>
+
+      <div id="info">
+        <h2>课程信息</h2>
+        <table class="disp">
+          <tr>
+	    <td> 上课时间： </td>
+	    <td> 每周 周三 10-12节 </td>
+          </tr>
+          <tr>
+	    <td> 上课地点： </td>
+            <td>地学 <b>108</b></td>
+          </tr>
+          <tr>
+	    <td> 任课教师： </td>
+	    <td> <a href="http://research.nii.ac.jp/~hu/">胡振江 教授</a> </td>
+          </tr>
+          <tr>
+            <td> </td>
+            <td> <a href="http://sei.pku.edu.cn/~zhhy/">赵海燕 副教授</a></td>
+          </tr>
+          <tr>
+            <td> </td>
+            <td> <a href="http://sei.pku.edu.cn/~xiongyf04/index_cn.html">熊英飞 副教授</a></td>
+          </tr>
+          <tr>
+	    <td> 课程助教： </td>
+	    <td> 曾沐焓（邮件：<a href="mailto:mhzeng@pku.edu.cn">mhzeng@pku.edu.cn</a>） </td>
+            <td>  </td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="participation">
+        <h2>课程通知</h2>
+        <p><pre>作业请尽量用电子方式完成，或者手写之后拍照。每次课的作业在下次课上课前发送到助教的邮箱，邮件标题请以“X月X日课作业_学号_姓名”格式书写。</pre></p>
+        <p><pre>因为新冠疫情的影响，暂定前两周的课通过网络自学的方式完成。课程内容会在上课时间前上线，请大家参照教材和PPT（部分带录音）自学。如果有问题可以随时在微信群里交流。</pre></p>      
+      </div>
+
+      <div id="desc">
+        <h2>课程简介</h2>
+        <p> 新兴的程序设计语言层出不穷，这些语言是如何设计出来的？
+          主流语言中不断扩展出新的高级语言特征，这些特征是如何定义的？
+          为什么说Java语言的设计是有缺陷的？面向对象、函数语言、泛型编程等新型编程模型是否有共通的理论基础？
+          本课程将揭示这些问题的答案。
+        </p>
+        <p>
+          近十多年来，编程语言的发展呈现两个趋势：1）从固定少量语言到大量领域特定语言的变化；
+          2）从简单语言到复杂高级语言。比如，在2013年9月的TIOBE的编程语言排行榜上，
+          C和Java两个占统治地位的语言只能各自占到16%左右的份额，
+          大量的份额被近年来涌现的新型编程语言比如Javascript, Scala, Erlang, R占据。
+          同时，更多的新语言还在不断被设计出来。另一方面，大量经典语言也不断扩展，
+          引入各种高级语言成分。比如Java起初的设计目标为一个简化版的语言，
+          但最新的Java 8设计中已经包含了泛型、函数式编程、动态性等多种高级特性。在这样的情况下，
+          掌握设计新的编程语言的能力，已经不仅限前沿科研人员所掌握的高级技能，而是一线软件开发工程师的基本要求
+          。同时，对语言设计原理的了解和掌握，也有助于更好的理解高级语言中的各种新特性，以更好的使用主流编程语言。
+        </p>
+        <p>
+          为指导编程语言的设计，研究人员们已经提出了一系列的原理和方法，其中最核心的就是类型理论。
+          类型声明是现代语言中避免编程错误的一个基本手段，而类型理论解释了一个良好的类型系统应该具有的特征和复杂类型的定义方法。
+          本课程将围绕类型理论这个核心进行组织，讲授程序设计语言的现代理论。
+        </p>
+        <p>
+          本课程具有两个特点：1. 严谨性：课程中的概念元素都将有严格的数学定义，可以进行形式演绎和归纳，      而非空泛的概念介绍。2. 操作性：课程中的所有重要概念都将通过课程作业的方式编程实现，使得同学们在动手过程中真正掌握知识。希望通过本课程的学习，使得同学们在编程语言领域拥有扎实的理论功底和实践能力，在产业方面能胜任设计新语言的任务，在学术方面为开展程序语言相关研究打下基础。
+        </p>
+      </div>
+
+      <div id="texts">
+        <h2>参考书目</h2>
+
+        <table class="disp">
+          <tr>
+            <td>
+              <a href="http://www.cis.upenn.edu/~bcpierce/tapl/"><cite>
+                  Types and Programming Languages</cite></a>
+              , Benjamin C. Pierce, The MIT Press, 2002. (<b>教材</b>)
+          </tr>
+        </table>
+
+      </div>
+
+      <div id="schedule">
+        <h2>课程讲义和作业</h2>
+        <table class="disp" id="sched" rules="all" border="1">
+          <colgroup width="10%" align="center"/>
+          <colgroup width="10%" align="center"/>
+          <colgroup width="40%" align="center"/>
+          <colgroup width="40%" align="center"/>
+          <thead>
+	    <tr>
+              <th>课程日期</th> <th>讲师</th> <th>课程章节和讲义</th> <th>作业</th>
+	    </tr>
+          </thead>
+
+          <tbody>
+ 	    <tr>
+          <td style="text-align:center;">2019/2/20</td>
+	      <td style="text-align:center;">熊英飞</td>
+	      <td style="text-align:center;">
+                <a href="https://disk.pku.edu.cn:443/link/EEFF858DE713A62BFEA1281E60FF900A">课程介绍（带录音，3月11日前链接有效）</a><br/>
+                <a href="xiong_ch3.pdf">Untyped Systems</a>
+              </td>
+              <td style="text-align:center;">
+                3.5.16; 安装使用OCaml
+              </td>
+      </tr>
+      <!--
+	    <tr>
+          <td style="text-align:center;">2019/2/27</td>
+	      <td style="text-align:center;">赵海燕</td>
+	      <td style="text-align:center;">
+                <a href="zhao_OCaml_Overview.pdf">OCaml Overview</a>
+              </td>
+	      <td style="text-align:center;">
+	      	4.2.2
+              </td>
+	    </tr>
+	    <tr>
+              <td style="text-align:center;">2019/3/6</td>
+	      <td style="text-align:center;">熊英飞</td>
+	      <td style="text-align:center;">
+                <a href="xiong_ch5.pdf">Untyped Lambda Calculus</a><br/>
+                <a href="xiong_ch6.pdf">Nameless Representation</a>
+              </td>
+	      <td style="text-align:center;">
+                见两份胶片的最后一页，共两题
+              </td>
+	    </tr>
+	    <tr>
+              <td style="text-align:center;">2019/3/13</td>
+	      <td style="text-align:center;">熊英飞</td>
+	      <td style="text-align:center;">
+                <a href="xiong_ch8.pdf">Typed Arithmetic Expression</a><br/>
+                <a href="xiong_ch9.pdf">Simply Typed Lambda Calculus</a><br/>
+                <a href="xiong_ch11.pdf">Simply Extensions</a><br/>
+                <a href="xiong_project.pdf">课程项目</a>
+              </td>
+	      <td style="text-align:center;">
+                见三份胶片的最后一页，共三题
+              </td>
+	    </tr>
+	    <tr>
+              <td style="text-align:center;">2019/3/20</td>
+	      <td style="text-align:center;">熊英飞</td>
+	      <td style="text-align:center;">
+                <a href="xiong_practice_public.pdf">In-Class Practice</a><br/>
+                </td>
+	      <td style="text-align:center;">
+          见胶片最后一页<br/>
+                Ocaml老版本程序包：<br/>
+                <a href="arith.tar.gz">arith</a>
+                <a href="fullsimple.tar.gz">fullsimple</a>
+                <a href="fullsimple.match.problem.tar.gz">fullsimple.match.problem</a><br/>
+                Ocaml 4.06可用的程序包（感谢卢思睿同学）：<br/>
+                <a href="arith.newocaml.zip">arith</a>
+                <a href="fullsimple.newocaml.zip">fullsimple</a>
+                <a href="fullsimple.match.problem.newocaml.zip">fullsimple.match.problem</a>
+              </td>
+	    </tr>
+	    <tr>
+              <td style="text-align:center;">2019/3/27</td>
+	      <td style="text-align:center;">赵海燕</td>
+	      <td style="text-align:center;">
+                <a href="zhao_ch13_reference.pdf">Reference</a><br/>
+              </td>
+	      <td style="text-align:center;">
+                13.3.1, 13.5.2
+              </td>
+	    </tr>
+	    <tr>
+              <td style="text-align:center;">2019/4/3</td>
+	      <td style="text-align:center;">赵海燕</td>
+	      <td style="text-align:center;">
+                <a href="zhao_ch14_exception.pdf">Exception</a><br/>
+                <a href="zhao_ch15_subTyping.pdf">Subtyping</a><br/>
+              </td>
+	      <td style="text-align:center;">
+                14.3.1, 15.3.2, 15.3.6
+              </td>
+	    </tr>
+	    <tr>
+              <td style="text-align:center;">2019/4/10</td>
+	      <td style="text-align:center;">各位同学</td>
+	      <td style="text-align:center;">
+                开题报告和期中测验
+              </td>
+	      <td style="text-align:center;">
+                无
+              </td>
+	    </tr>
+	    <tr>
+              <td style="text-align:center;">2019/4/17</td>
+	      <td style="text-align:center;">赵海燕</td>
+	      <td style="text-align:center;">
+                <a href="zhao_ch16_mSubtyping.pdf">Metatheory of Subtyping</a><br/>
+              </td>
+	      <td style="text-align:center;">
+                16.1.2, 16.2.6, 16.3.4
+              </td>
+	    </tr>
+	    <tr>
+              <td style="text-align:center;">2019/4/24</td>
+	      <td style="text-align:center;">胡振江</td>
+	      <td style="text-align:center;">
+                <a href="hu_ch18.pdf">Case Study: Imperative Objects</a><br/>
+                <a href="hu_ch19.pdf">Case Study: Featherweight Java</a>
+              </td>
+	      <td style="text-align:center;">
+                18.11.1
+              </td>
+	    </tr>
+	    <tr>
+              <td style="text-align:center;">2019/5/8</td>
+	      <td style="text-align:center;">赵海燕</td>
+	      <td style="text-align:center;">
+                <a href="zhao_ch13-19-Practice.pptx">In-Class Practice</a><br/>
+              </td>
+	      <td style="text-align:center;">
+                18.6.1;18.7.1;17.3.1;17.3.3;19.4.3
+              </td>
+	    </tr>
+	    <tr>
+              <td style="text-align:center;">2019/5/15</td>
+	      <td style="text-align:center;">胡振江</td>
+	      <td style="text-align:center;">
+                <a href="hu_ch20.pdf">Recursive Types</a><br/>
+              </td>
+	      <td style="text-align:center;">
+                见第20章胶片最后一页
+              </td>
+	    </tr>
+	    <tr>
+              <td style="text-align:center;">2019/5/22</td>
+	      <td style="text-align:center;">胡振江</td>
+	      <td style="text-align:center;">
+                <a href="hu_ch21.pdf">Metatheory of Recursive Types</a><br/>
+                <a href="hu_ch22.pdf">Type Reconstruction</a><br/>
+              </td>
+	      <td style="text-align:center;">
+                见胶片最后一页
+              </td>
+	    </tr>
+	    <tr>
+              <td style="text-align:center;">2019/5/29</td>
+	      <td style="text-align:center;">熊英飞</td>
+	      <td style="text-align:center;">
+		      <a href="xiong_ch23.pdf">Universal Types</a><br/>
+		<a href="xiong_ch24.pdf">Existential Types</a><br/>
+		<a href="xiong_ch26.pdf">Bounded Quantification</a>
+              </td>
+	      <td style="text-align:center;">
+                
+              </td>
+            </tr> -->
+           </tbody>
+        </table>
+      </div>
+      <hr></hr>
+    </div>
+  </body>
+</html>
