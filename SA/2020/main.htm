@@ -1,0 +1,371 @@
+﻿<!--<?php header("content-type:text/html;charset=UTF-8")?>
+  -->
+<?php header("content-type:text/html;charset=UTF-8")?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+  <title>软件分析技术</title>
+</head>
+<body>
+  <div id="header">
+    <div id="menu">
+      <a href="#info">课程信息</a> <a href="#participation">课程通知</a> <a href="#desc">课程简介</a> <a href="#schedule">教学内容</a> 往年课程: <a href="../2019/main.htm">2019</a> <a href="../2018/main.htm">2018</a> <a href="../2017/main.htm">2017</a> <a href="../2016/main.htm">2016</a> <a href="../2015/main.htm">2015</a> <a href="../2014/main.htm">2014</a>
+    </div>
+  </div>
+  <div id="content">
+    <h1>软件分析技术（Software Analysis）</h1>
+    <hr />
+    <div id="info">
+      <h2>课程信息</h2>
+      <table class="disp">
+        <tr>
+          <td>学分：</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>周学时：</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>总学时：</td>
+          <td>54</td>
+        </tr>
+        <tr>
+          <td>上课时间：</td>
+          <td>单周周二 3-4节 每周周三5-6节</td>
+        </tr>
+        <tr>
+          <td>上课地点：</td>
+          <td>理教 <b>315</b></td>
+        </tr>
+        <tr>
+          <td>任课教师：</td>
+          <td>熊英飞 xiongyf@pku.edu.cn</td>
+        </tr>
+        <tr>
+          <td>授课对象：</td>
+          <td>本科生/研究生</td>
+        </tr>
+        <tr>
+          <td>课程助教：</td>
+          <td>陈逸凡  yf_chen@pku.edu.cn</td>
+        </tr>
+      </table>
+    </div>
+    <div id="participation">
+      <h2>课程通知</h2>
+      <p>作业提交方式：以微信群通知为准。如无特别声明，作业的截止日期为下一周上课之前。</p>
+    </div>
+    <div id="desc">
+      <h2>课程简介</h2>
+      <p>软件开发过程中会产生大量的代码制品，包括代码、测试数据、配置方案等等，对这些制品进行分析是各种软件工程工具的基本手段之一。典型软件开发工具比如编译器、代码编辑器、测试与调试工具等等都离不开对软件制品进行分析。在工业界，各大公司的基础平台部门对掌握软件分析技术的人才有大量需求；在学术界，软件分析技术是软件工程领域开展研究的必备基础知识之一。本课程将系统地介绍软件分析技术。本课程同时面向高年级本科生和研究生开设。</p>
+      <p>软件分析技术主要用于回答关于程序本身性质的问题。程序分析技术是开发和代码直接相关的工具，比如编译器、调试器、代码编辑器的基本手段。根据哥德尔不完备定理，大量问题都无法静态的回答，所以程序分析技术关注如何做出正确的近似逼近，或者采用统计等概率手段来弥补。但是，软件分析技术相关文献存在内容广，流派多，数学基础要求高等方面的特点，使得学习软件分析技术一直是一件很困难的事。本课程希望通过对这一类技术进行通俗易懂的讲解，帮助同学们构建较完整的软件分析技术知识体系，了解该领域的前沿知识，学术上为进一步开展软件工程领域的学术研究打下基础，在实践上培养开发大型软件工程工具的开发能力。</p>
+    </div>
+    <div id="schedule">
+      <h2>教学内容</h2>
+      <table class="disp" id="sched" rules="groups" border="true">
+        <colgroup width="5%"></colgroup>
+        <colgroup width="20%"></colgroup>
+        <colgroup width="10%"></colgroup>
+        <colgroup width="20%"></colgroup>
+        <colgroup width="20%"></colgroup>
+        <thead>
+          <tr>
+            <th>课程日期</th>
+            <th>课程内容</th>
+            <th>讲师</th>
+            <th>讲义</th>
+            <th>作业/项目</th>
+          </tr>
+        </thead>
+<!--        <tbody>
+          <tr>
+            <td>9月10日</td>
+            <td>课程介绍</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="01_intro.pdf">01_intro.pdf</a>
+            </td>
+            <td>
+              <a href="project1.zip">项目1开发包</a><br/>
+              组队截止日期：10月7日<br/>
+              提交截止日期：12月1日<br/>
+              汇报日期：12月5日
+              无
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>9月11日</td>
+            <td>数据流分析I：基础</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="02_dataflow_analysis_I.pdf">02_dataflow_analysis_I.pdf</a>
+            </td>
+            <td>
+            	见胶片
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>9月18日</td>
+            <td>数据流分析II：性质和扩展</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="03_dataflow_analysis_II.pdf">03_dataflow_analysis_II.pdf</a>
+            </td>
+            <td>
+            	无
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>9月24日</td>
+            <td>数据流分析III：多视角理解数据流分析</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="04_dataflow_analysis_III.pdf">04_dataflow_analysis_III.pdf</a>
+            </td>
+            <td>
+              见胶片最后一页
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>9月25日</td>
+            <td>静态单赋值和稀疏分析</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="05_static_single_assignment.pdf">05_static_single_assignment.pdf</a>
+            </td>
+            <td>
+              无
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>10月8日</td>
+            <td>过程间分析I：基础<br/>课程项目1</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="06_interprocedural_analysis_basics.pdf">06_interprocedural_analysis_basics.pdf</a><br/>
+              <a href="course_project_1.pdf">课程项目1介绍</a><br/>
+            </td>
+            <td>
+              见胶片最后一页<br/>
+              <a href="course_project_1.zip">课程项目1程序包</a><br/>
+              提交截止：12月1日<br/>
+              现场报告：12月3日每组报告8分钟，提问2分钟
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>10月9日</td>
+            <td>过程间分析II：优化</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="07_interprocedural_analysis_optimization.pdf">07_interprocedural_analysis_optimization.pdf</a>
+            </td>
+            <td>
+              见胶片最后一页
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>10月16日</td>
+            <td>过程内指针分析</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="08_pointer_analysis.pdf">08_pointer_analysis.pdf</a>
+            </td>
+            <td>
+              无
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>10月22日</td>
+            <td>控制流分析</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="09_control_flow_analysis.pdf">09_control_flow_analysis.pdf</a>
+            </td>
+            <td>
+              无
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>10月24日</td>
+            <td>抽象解释</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="10_abstract_interpretation.pdf">10_abstract_interpretation.pdf</a>
+            </td>
+            <td>
+              见胶片最后一页
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>10月25日</td>
+            <td>SAT</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="11_SAT.pdf">11_SAT.pdf</a>
+            </td>
+            <td>
+              无
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>11月5日</td>
+            <td>SMT</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="12_SMT.pdf">12_SMT.pdf</a>
+            </td>
+            <td>
+              见胶片最后一页<br/>
+              截止时间：11月19日
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>11月6日</td>
+            <td>符号执行</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="13_symbolic_execution.pdf">13_symbolic_execution.pdf</a>
+            </td>
+            <td>
+              无
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>11月13日</td>
+            <td>SOOT</td>
+            <td>陈逸凡</td>
+            <td>
+              <a href="14_SOOT-chenyifan.pdf">14_SOOT-chenyifan.pdf</a>
+            </td>
+            <td>
+              见胶片最后一页
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>11月19日</td>
+            <td>符号抽象</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="15_symbolic_abstraction.pdf">15_symbolic_abstraction.pdf</a>
+            </td>
+            <td>
+              无
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>11月20日</td>
+            <td>搜索算法</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="16_Searching.pdf">16_Searching.pdf</a>
+            </td>
+            <td>
+              无
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>11月27日</td>
+            <td>程序综合1<br/>课程项目2</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="17_program_synthesis_basic.pdf">17_program_synthesis_basic.pdf</a><br/>
+              <a href="course_project_2.pdf">课程项目2介绍</a>
+            </td>
+            <td>
+              <a href="course_project_2.zip">课程项目2开发包</a><br/>
+              提交截止：12月22日<br/>
+              汇报日期：12月25日每组报告8分钟，提问2分钟
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>12月4日</td>
+            <td>程序综合：优化</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="18_program_synthesis_advanced.pdf">18_program_synthesis_advanced.pdf</a>
+            </td>
+            <td>
+              无
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>12月11日</td>
+            <td>程序生成学习</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="19_learning_to_synthesis.pdf">19_learning_to_synthesis.pdf</a>
+            </td>
+            <td>
+              无
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>12月17日</td>
+            <td>缺陷定位</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="20_fault_localization.pdf">20_fault_localization.pdf</a>
+            </td>
+            <td>
+              无
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>12月18日</td>
+            <td>缺陷修复</td>
+            <td>熊英飞</td>
+            <td>
+              <a href="21_program_repair.pdf">21_program_repair.pdf</a>
+            </td>
+            <td>
+              无
+            </td>
+          </tr>
+        </tbody>
+      -->
+      </table>
+    </div>
+  </div>
+</body>
+</html>
