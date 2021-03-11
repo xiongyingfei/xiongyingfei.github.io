@@ -1,14 +1,14 @@
 instructors:
-  - name: 胡振江
+  胡振江:
     title: 教授
     profile_pic: /_images/instructors/Zhenjiang-Hu.jpg
     webpage: http://sei.pku.edu.cn/~hu/
-  - name: 熊英飞
+  熊英飞:
     title: 副教授
     profile_pic: /_images/instructors/Yingfei-Xiong.jpg
     webpage: https://xiongyingfei.github.io
 
 teaching_assistants:
-  - name: 谢睿峰
+  谢睿峰:
     profile_pic: /_images/anonymous.jpg
     email: xieruifeng@pku.edu.cn

@@ -8,7 +8,7 @@ layout: default
     <h1>{{ course_name }} <span style="font-size: 20px;color: #0006;">/ {{ course_semester }} </span></h1>
 
     {% include announcements.html %}
-    <br />
+    <br>
 
     <h2>课程简介</h2>
     <p>{{ course_description | newline_to_br }}</p>
@@ -31,22 +31,17 @@ layout: default
     <br>
     <div>
         <div style="width:35%; float: left">
-            <!-- <h2>Instructors</h2> -->
-            <!-- <div class="image--cover-container">
-                <img src="{{site.data.people.instructor.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                <p>{{site.data.people.instructor.name}}</p>
-            </div> -->
-
             <div class="profile-pic-gallary ">
                 <h2>任课教师</h2>
-                {% for ins in site.data.people.instructors %}
+                {% for ins_name in this_course.instructors %}
+                {% assign ins = site.data.people.instructors[ins_name] %}
                 <div class="image--cover-container">
                     <img src="{{ ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
                     <p>
                         {% if ins.webpage %}
-                        <a href="{{ ins.webpage }}">{{ins.name}}</a>
+                        <a href="{{ ins.webpage }}">{{ins_name}}</a>
                         {% else %}
-                        {{ins.name}}
+                        {{ins_name}}
                         {% endif %}
                         <br />
                         {{ins.title}}
@@ -59,14 +54,15 @@ layout: default
         <div style="width:65%; float: left">
             <div class="profile-pic-gallary ">
                 <h2>课程助教</h2>
-                {% for ta in site.data.people.teaching_assistants %}
+                {% for ta_name in this_course.teaching_assistants %}
+                {% assign ta = site.data.people.teaching_assistants[ta_name] %}
                 <div class="image--cover-container">
                     <img src="{{ ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
                     <p>
                         {% if ta.webpage %}
-                        <a href="{{ ta.webpage }}">{{ ta.name }}</a>
+                        <a href="{{ ta.webpage }}">{{ ta_name }}</a>
                         {% else %}
-                        {{ ta.name }}
+                        {{ ta_name }}
                         {% endif %}
                         {% if ta.email %}
                         <br /><a href="mailto:{{ ta.email }}">{{ ta.email }}</a>
