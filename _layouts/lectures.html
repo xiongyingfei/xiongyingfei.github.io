@@ -1,0 +1,51 @@
+---
+layout: page
+---
+
+{% include which_course.html %}
+
+{{ content }}
+
+{% capture course_year %}_{{ course_year }}{% endcapture %}
+
+<ul id="archive">
+  {% for lecture in site.data[course_name_raw][course_year].lectures %}
+  <li class="archiveposturl" style="background: transparent">
+    <div class="lecture-container">
+      {% if lecture.thumbnail %}
+      <div class="thumbnail">
+        <div class="center-cropped"
+          style="margin-top:5px;margin-bottom:5px;background-image: url('{{ lecture.thumbnail | prepend: site.baseurl }}');">
+          <img src="{{ lecture.thumbnail | prepend: site.baseurl }}" />
+        </div>
+      </div>
+      {% endif %}
+      <div class="content">
+        <span style="color: gray;">{{ lecture.date }}</span>
+        <span style="padding-left: 1.5em;"></span>{{ lecture.teacher }}：
+        <span style="font-weight: bold;">{{ lecture.title }}</span>
+        {% if lecture.slides %}
+        <a href="{{ lecture.slides }}" style="padding-left: 0.7em;">[幻灯片]</a>
+        {% endif %}
+        <a href="{{ course_base_url }}/assignments" style="padding-left: 0.5em;">[作业]</a>
+
+        {% if lecture.tldr %}
+        <br><strong>概述：</strong> {{ lecture.tldr }}
+        {% endif %}
+        {% if lecture.links %}
+        <strong>
+          <br>{% include lecture_links.html lecture=lecture %}
+        </strong>
+        {% endif %}
+
+        {% if lecture.content != '' %}
+        <br>
+        <div class="markdown-content" style="margin-top: 3px;">
+          {{ lecture.content }}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
