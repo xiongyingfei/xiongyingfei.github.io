@@ -2,6 +2,12 @@
 layout: home
 ---
 
+## 课程信息
+
+上课时间：双周周二5~6节、每周周五3~4节
+<br>
+上课地点：第三教学楼 504
+
 {% include image.html href="https://softwarefoundations.cis.upenn.edu/plf-current/index.html" url="/_images/book2.jpg" width=175 align="right" %}
 {% include image.html href="https://softwarefoundations.cis.upenn.edu/lf-current/index.html" url="/_images/book1.jpg" width=175 align="right" %}
 
