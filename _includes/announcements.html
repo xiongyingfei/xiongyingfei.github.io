@@ -8,18 +8,39 @@
 
 {% if all_events_sorted.size > 0 %}
 <div class="announcement-box" style="margin-top:30px">
-    <h2>新通知</h2>
-    <ul>
-        {% for n in all_events_sorted limit:2 %}
-        <li class="no-p-margin">
-            新讲义发布：{{ n.title }}
-            {% if n.slides %}
-            <a href="{{ n.slides }}" style="padding-left: 0.7em;">[幻灯片]</a>
-            {% endif %}
-            <a href="{{ course_base_url }}/assignments" style="padding-left: 0.5em;">[作业]</a>
-            {% if n.tldr %}{{ n.tldr }}{% endif %}
-        </li>
-        {% endfor %}
-    </ul>
+  <h2>新通知</h2>
+  <ul>
+    {% for lecture in all_events_sorted limit:1 %}
+    {% for slides in lecture.slides %}
+    <li class="no-p-margin">
+      <span style="color: gray; margin-right: 0.7em;">{{ lecture.date }}</span>
+      讲义：<a href="{{ slides.link }}"">{{ slides.title }}</a>
+    </li>
+    {% endfor %}
+    {% if lecture.assignment %}
+    <li class="no-p-margin">
+      <span style="color: gray; margin-right: 0.7em;">{{ lecture.date }}</span>
+      作业：
+      {{ lecture.teacher }}：
+      <div style="display: inline-block; vertical-align: top;">
+        {% assign first_slides = lecture.slides[0] %}
+        <span style="font-style: italic;">{{ first_slides.title }}</span>
+        {% if lecture.slides.size > 1 %}
+        <span style="margin-left: 0.5em;">等</span>
+        {% endif %}
+      </div>
+      <span style="margin-left: 0.5em;">
+        <a href="{{ course_base_url }}/assignments">
+          {% if lecture.assignment.due %}
+          [{{ lecture.assignment.due }} 截止]
+          {% else %}
+          [不需要提交]
+          {% endif %}
+        </a>
+      </span>
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
 </div>
 {% endif %}

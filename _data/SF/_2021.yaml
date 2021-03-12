@@ -1,5 +1,14 @@
-lectures: []
-  # - title: 测试
-  #   teacher: 熊英飞
-  #   date: 2021/03/11
-  #   slides: test.pdf
+lectures:
+- teacher: 胡振江
+  date: 2021/03/12
+  slides:
+  - title: "导言：软件理论基础与实践"
+    link: intro.pdf
+  - title: "Basics: Functional Programming in Coq"
+    link: basics.pdf
+  assignment:
+    descriptions:
+    - text: 下载教科书及相关Coq代码
+      link: https://softwarefoundations.cis.upenn.edu
+    - text: 安装Coq系统
+      link: https://coq.inria.fr/download
