@@ -1,0 +1,10 @@
+{%- include which_course.html -%}
+<ul class="menu">
+    {% for item in this_course.nav %}
+    <li>
+        <a class="page-link" href="{{ course_base_url }}{{ item.url }}">
+            <i class="{{ item.icon_class }}"></i> {{ item.name }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
