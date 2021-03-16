@@ -3,13 +3,32 @@
 {% capture _course_year %}_{{ course_year }}{% endcapture %}
 
 {% assign all_events = site.data[course_name_raw][_course_year].lectures %}
+{% assign updates = site.data[course_name_raw][_course_year].updates %}
 
 {% assign all_events_sorted = all_events | sort: 'date' | reverse %}
 
 {% if all_events_sorted.size > 0 %}
+{% if include.updates_only %}
+<div style="margin-top:30px">
+{% else %}
 <div class="announcement-box" style="margin-top:30px">
+{% endif %}
+  {% if include.updates_only %}
+  <h2>讲义更新</h2>
+  {% else %}
   <h2>新通知</h2>
+  {% endif %}
   <ul>
+    {% for update in updates %}
+    <li class="no-p-margin">
+      <span style="color: gray; margin-right: 0.7em;">{{ update.date }}</span>
+      {%- unless include.updates_only -%}
+      更新：
+      {%- endunless -%}
+      <a href="{{ update.link }}"">{{ update.slides }}</a>
+    </li>
+    {% endfor %}
+    {% unless include.updates_only %}
     {% for lecture in all_events_sorted limit:1 %}
     {% for slides in lecture.slides %}
     <li class="no-p-margin">
@@ -41,6 +60,7 @@
     </li>
     {% endif %}
     {% endfor %}
+    {% endunless %}
   </ul>
 </div>
 {% endif %}
