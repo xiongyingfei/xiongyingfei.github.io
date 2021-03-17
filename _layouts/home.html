@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<div class="home">
+    {%- include which_course.html -%}
+
+    <h1>{{ course_name }} <span style="font-size: 20px;color: #0006;">/ {{ course_semester }} </span></h1>
+
+    {% include announcements.html %}
+    <br>
+
+    <h2>课程简介</h2>
+    <p>{{ course_description | newline_to_br }}</p>
+
+    {{ content }}
+
+    <h2>往年课程</h2>
+    <ul class="previous-offerings">
+        {% for year in this_course.years %}
+        <li>
+            {% if year != course_year %}
+            <a href="/{{ course_name_raw }}/{{ year }}">{{ year }}{{ this_course.semester }}</a>
+            {% else %}
+            {{ year }}{{ this_course.semester }}
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+
+    <br>
+    <div>
+        <div style="width:35%; float: left">
+            <div class="profile-pic-gallary ">
+                <h2>任课教师</h2>
+                {% for ins_name in this_course.instructors %}
+                {% assign ins = site.data.people.instructors[ins_name] %}
+                <div class="image--cover-container">
+                    <img src="{{ ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                    <p>
+                        {% if ins.webpage %}
+                        <a href="{{ ins.webpage }}">{{ins_name}}</a>
+                        {% else %}
+                        {{ins_name}}
+                        {% endif %}
+                        <br />
+                        {{ins.title}}
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div style="width:65%; float: left">
+            <div class="profile-pic-gallary ">
+                <h2>课程助教</h2>
+                {% for ta_name in this_course.teaching_assistants %}
+                {% assign ta = site.data.people.teaching_assistants[ta_name] %}
+                <div class="image--cover-container">
+                    <img src="{{ ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                    <p>
+                        {% if ta.webpage %}
+                        <a href="{{ ta.webpage }}">{{ ta_name }}</a>
+                        {% else %}
+                        {{ ta_name }}
+                        {% endif %}
+                        {% if ta.email %}
+                        <br /><a href="mailto:{{ ta.email }}">{{ ta.email }}</a>
+                        {% endif %}
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

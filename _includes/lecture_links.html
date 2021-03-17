@@ -1,0 +1,11 @@
+
+    {% if include.lecture.links %}
+    {% for link in include.lecture.links %}
+    [<a title="Download {{ link.name }}" href="
+    {% if link.url contains '://' %}
+      {{ link.url }} 
+    {% else %}
+      {{ link.url | prepend: site.baseurl }} 
+    {% endif %}">{{ link.name }}</a>]
+    {% endfor %}
+    {% endif %}

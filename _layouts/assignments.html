@@ -1,0 +1,49 @@
+---
+layout: page
+---
+
+{% include which_course.html %}
+
+{{ content }}
+
+{% capture _course_year %}_{{ course_year }}{% endcapture %}
+{% assign lectures = site.data[course_name_raw][_course_year].lectures %}
+
+<ul id="archive">
+  {% for lecture in lectures %}
+  {% if lecture.assignment %}
+  <li class="archiveposturl" style="background: transparent">
+    <span style="color: gray;">{{ lecture.date }}</span>
+    <span style="padding-left: 1.5em;"></span>{{ lecture.teacher }}：
+    <div style="display: inline-block; vertical-align: top;">
+      {% assign first_slides = lecture.slides[0] %}
+      <span style="font-weight: bold;">{{ first_slides.title }}</span>
+      {% if lecture.slides.size > 1 %}
+      <span style="margin-left: 0.5em;">等</span>
+      {% endif %}
+    </div>
+    <span style="margin-left: 1em;">
+      {% if lecture.assignment.due %}
+      [{{ lecture.assignment.due }} 截止]
+      {% else %}
+      [不需要提交]
+      {% endif %}
+    </span>
+    <ul id="assignment-list">
+      {% for desc in lecture.assignment.descriptions %}
+      <li>
+        {% if desc.text %}
+        {{ desc.text }}
+        {% if desc.link %}
+        ：<a href="{{ desc.link }}">{{ desc.link }}</a>
+        {% endif %}
+        {% else %}
+        {{ desc }}
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>
