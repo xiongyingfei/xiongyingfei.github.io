@@ -7,7 +7,7 @@
 
 {% assign all_events_sorted = all_events | sort: 'date' | reverse %}
 
-{% unless include.update_only %}
+{% unless include.updates_only %}
   {% assign latest = all_events_sorted[0].date %}
   {% assign _updates = "" | split: ',' %}
   {% for u in updates %}
