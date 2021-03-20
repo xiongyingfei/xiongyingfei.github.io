@@ -24,6 +24,16 @@ lectures:
     - text: 完成Basics.v中的⾄少10个练习题。
     - text: 完成Induction.v中的⾄少10个练习题。
     due: 2021/03/30
+- teacher: 胡振江
+  date: 2021/03/19
+  slides:
+  - title: "Polymorphism and Higher-Order Functions"
+    link: poly.pdf
+  assignment:
+    descriptions:
+    - text: 完成Lists.v中的⾄少10个练习题。
+    - text: 完成Poly.v中的⾄少10个练习题。
+    due: 2021/03/30
 
 updates:
 - slides: "Basics: Functional Programming in Coq"
