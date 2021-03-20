@@ -7,6 +7,17 @@
 
 {% assign all_events_sorted = all_events | sort: 'date' | reverse %}
 
+{% unless include.update_only %}
+  {% assign latest = all_events_sorted[0].date %}
+  {% assign _updates = "" | split: ',' %}
+  {% for u in updates %}
+    {% if u.date == latest %}
+      {% assign _updates = _updates | push: u %}
+    {% endif %}
+  {% endfor %}
+  {% assign updates = _updates %}
+{% endunless %}
+
 {% if all_events_sorted.size > 0 %}
 {% if include.updates_only %}
 <div style="margin-top:30px">
