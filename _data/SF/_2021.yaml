@@ -1,5 +1,41 @@
-lectures: []
-  # - title: 测试
-  #   teacher: 熊英飞
-  #   date: 2021/03/11
-  #   slides: test.pdf
+lectures:
+- teacher: 胡振江
+  date: 2021/03/12
+  slides:
+  - title: "导言：软件理论基础与实践"
+    link: intro.pdf
+  - title: "Basics: Functional Programming in Coq"
+    link: basics.pdf
+  assignment:
+    descriptions:
+    - text: 下载教科书及相关Coq代码
+      link: https://softwarefoundations.cis.upenn.edu
+    - text: 安装Coq系统
+      link: https://coq.inria.fr/download
+- teacher: 胡振江
+  date: 2021/03/16
+  slides:
+  - title: "Induction: Proof by Induction"
+    link: induction.pdf
+  - title: "List: Working with Structured Data"
+    link: lists.pdf
+  assignment:
+    descriptions:
+    - text: 完成Basics.v中的⾄少10个练习题。
+    - text: 完成Induction.v中的⾄少10个练习题。
+    due: 2021/03/30
+- teacher: 胡振江
+  date: 2021/03/19
+  slides:
+  - title: "Polymorphism and Higher-Order Functions"
+    link: poly.pdf
+  assignment:
+    descriptions:
+    - text: 完成Lists.v中的⾄少10个练习题。
+    - text: 完成Poly.v中的⾄少10个练习题。
+    due: 2021/03/30
+
+updates:
+- slides: "Basics: Functional Programming in Coq"
+  link: basics.pdf
+  date: 2021/03/16
