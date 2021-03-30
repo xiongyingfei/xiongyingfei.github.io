@@ -43,6 +43,11 @@ lectures:
     descriptions:
     - text: 完成Tactics.v中的⾄少10个练习题。
     due: 2021/04/13
+- teacher: 胡振江
+  date: 2021/03/30
+  slides:
+  - title: "Logic: Logic in Coq"
+    link: logic.pdf
 
 updates:
 - slides: "Basics: Functional Programming in Coq"
