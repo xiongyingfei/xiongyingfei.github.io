@@ -34,6 +34,20 @@ lectures:
     - text: 完成Lists.v中的⾄少10个练习题。
     - text: 完成Poly.v中的⾄少10个练习题。
     due: 2021/03/30
+- teacher: 胡振江
+  date: 2021/03/26
+  slides:
+  - title: "Tactics: More Basic Tactics"
+    link: tactics.pdf
+  assignment:
+    descriptions:
+    - text: 完成Tactics.v中的⾄少10个练习题。
+    due: 2021/04/13
+- teacher: 胡振江
+  date: 2021/03/30
+  slides:
+  - title: "Logic: Logic in Coq"
+    link: logic.pdf
 
 updates:
 - slides: "Basics: Functional Programming in Coq"
