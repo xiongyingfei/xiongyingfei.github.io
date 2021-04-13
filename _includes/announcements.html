@@ -33,9 +33,9 @@
     {% for update in updates %}
     <li class="no-p-margin">
       <span style="color: gray; margin-right: 0.7em;">{{ update.date }}</span>
-      {%- unless include.updates_only -%}
+      {% unless include.updates_only %}
       更新：
-      {%- endunless -%}
+      {% endunless %}
       <a href="slides/{{ update.link }}"">{{ update.slides }}</a>
     </li>
     {% endfor %}
