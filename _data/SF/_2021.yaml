@@ -48,8 +48,43 @@ lectures:
   slides:
   - title: "Logic: Logic in Coq"
     link: logic.pdf
+- teacher: 胡振江
+  date: 2021/03/30
+  slides:
+  - title: "Logic: Logic in Coq"
+    link: logic.pdf
+  assignment:
+    descriptions:
+    - text: 完成Logic.v中的⾄少10个练习题。
+    due: 2021/04/13
+- teacher: 熊英飞
+  date: 2021/04/09
+  slides:
+  - title: |
+      ProofObjects: The Curry Howard Correspondence<br>
+      IndPrinciples: Induction Principles
+    link: 9-xiong-proofobjects.pdf
+  assignment:
+    descriptions:
+    - text: 完成ProofObject、IndPrinciples中standard非optional的习题。
+    - text: 请使用最新英文版教材。
+    - text: 注意IndPrinciples中Induction Principles for Propositions的部分将在下次课介绍，该部分无习题。
+    due: 2021/04/13
+- teacher: 熊英飞
+  date: 2021/04/13
+  slides:
+  - title: "IndProp : Inductively Defined Propositions"
+    link: 10-xiong-indprop.pdf
+  assignment:
+    descriptions:
+    - text: 完成IndProp中standard非optional截止到case study（不含）之前的习题
+    - text: 请使用最新英文版教材。
+    due: 2021/04/27
 
 updates:
 - slides: "Basics: Functional Programming in Coq"
   link: basics.pdf
   date: 2021/03/16
+- slides: "ProofObjects: The Curry Howard Correspondence"
+  link: 9-xiong-proofobjects.pdf
+  date: 2021/04/13

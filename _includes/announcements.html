@@ -33,10 +33,10 @@
     {% for update in updates %}
     <li class="no-p-margin">
       <span style="color: gray; margin-right: 0.7em;">{{ update.date }}</span>
-      {%- unless include.updates_only -%}
+      {% unless include.updates_only %}
       更新：
-      {%- endunless -%}
-      <a href="{{ update.link }}"">{{ update.slides }}</a>
+      {% endunless %}
+      <a href="slides/{{ update.link }}"">{{ update.slides }}</a>
     </li>
     {% endfor %}
     {% unless include.updates_only %}
@@ -44,7 +44,7 @@
     {% for slides in lecture.slides %}
     <li class="no-p-margin">
       <span style="color: gray; margin-right: 0.7em;">{{ lecture.date }}</span>
-      讲义：<a href="{{ slides.link }}"">{{ slides.title }}</a>
+      讲义：<a href="slides/{{ slides.link }}" style="display: inline-block; vertical-align: top;">{{ slides.title }}</a>
     </li>
     {% endfor %}
     {% if lecture.assignment %}
