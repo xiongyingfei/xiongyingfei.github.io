@@ -73,11 +73,24 @@ lectures:
 - teacher: 熊英飞
   date: 2021/04/13
   slides:
-  - title: "IndProp : Inductively Defined Propositions"
+  - title: "IndProp: Inductively Defined Propositions"
     link: 10-xiong-indprop.pdf
   assignment:
     descriptions:
-    - text: 完成IndProp中standard非optional截止到case study（不含）之前的习题
+    - text: 完成IndProp中standard非optional截止到case study（不含）之前的习题。
+    - text: 请使用最新英文版教材。
+    due: 2021/04/27
+- teacher: 熊英飞
+  date: 2021/04/16
+  slides:
+  - title: "Maps: Total and Partial Maps"
+    link: 11-xiong-maps.pdf
+  - title: "Imp: Simple Imperative Programs"
+    link: 12-xiong-imp.pdf
+  assignment:
+    descriptions:
+    - text: 完成Maps中2道standard非optional的习题和t_update_eq。
+    - text: 完成Imp中standard非optional并不属于Additional Exercises的习题。
     - text: 请使用最新英文版教材。
     due: 2021/04/27
 
