@@ -98,6 +98,16 @@ lectures:
   slides:
   - title: "AUTO: More Automation"
     link: 13-xiong-auto.pdf
+- teacher: 熊英飞
+  date: 2021/04/27
+  slides:
+  - title: "EQUIV: Program Equivalence"
+    link: 14-xiong-equiv.pdf
+  assignment:
+    descriptions:
+    - text: 完成Equiv中standard非optional并不属于Additional Exercises的习题。
+    - text: 请使用最新英文版教材。
+    due: 2021/05/11
 
 updates:
 - slides: "Basics: Functional Programming in Coq"
