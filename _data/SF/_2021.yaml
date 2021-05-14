@@ -118,7 +118,7 @@ lectures:
     - text: 完成Hoare中standard非optional并不属于Additional Exercises的11道习题。
     - text: 请使用最新英文版教材。
     - text: 推荐也完成Havoc部分的习题。
-    due: 2021/05/18
+    due: 2021/05/25
 - teacher: 熊英飞
   date: 2021/05/11
   slides:
@@ -128,7 +128,7 @@ lectures:
     descriptions:
     - text: 完成Hoare2中standard非optional习题。
     - text: 请使用最新英文版教材。
-    due: 2021/05/18
+    due: 2021/05/25
 
 updates:
 - slides: "Basics: Functional Programming in Coq"
