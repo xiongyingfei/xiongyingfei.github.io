@@ -129,6 +129,16 @@ lectures:
     - text: 完成Hoare2中standard非optional习题。
     - text: 请使用最新英文版教材。
     due: 2021/05/25
+- teacher: 熊英飞
+  date: 2021/05/14
+  slides:
+  - title: "HoareAsLogic : Haore Logic as a Logic"
+    link: 17-xiong-hoareAsLogic.pdf
+  assignment:
+    descriptions:
+    - text: 完成HoareLogic中的习题。
+    - text: 请使用最新英文版教材。
+    due: 2021/05/25
 
 updates:
 - slides: "Basics: Functional Programming in Coq"
@@ -140,3 +150,6 @@ updates:
 - slides: "Imp: Simple Imperative Programs"
   link: 12-xiong-imp.pdf
   date: 2021/04/23
+- slides: "Hoare2: Haore Logic, Part II"
+  link: 16-xiong-hoare2.pdf
+  date: 2021/05/14
