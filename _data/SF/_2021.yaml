@@ -98,6 +98,47 @@ lectures:
   slides:
   - title: "AUTO: More Automation"
     link: 13-xiong-auto.pdf
+- teacher: 熊英飞
+  date: 2021/04/27
+  slides:
+  - title: "EQUIV: Program Equivalence"
+    link: 14-xiong-equiv.pdf
+  assignment:
+    descriptions:
+    - text: 完成Equiv中standard非optional并不属于Additional Exercises的习题。
+    - text: 请使用最新英文版教材。
+    due: 2021/05/11
+- teacher: 熊英飞
+  date: 2021/05/07
+  slides:
+  - title: "Hoare: Haore Logic, Part I"
+    link: 15-xiong-hoare.pdf
+  assignment:
+    descriptions:
+    - text: 完成Hoare中standard非optional并不属于Additional Exercises的11道习题。
+    - text: 请使用最新英文版教材。
+    - text: 推荐也完成Havoc部分的习题。
+    due: 2021/05/25
+- teacher: 熊英飞
+  date: 2021/05/11
+  slides:
+  - title: "Hoare2: Haore Logic, Part II"
+    link: 16-xiong-hoare2.pdf
+  assignment:
+    descriptions:
+    - text: 完成Hoare2中standard非optional习题。
+    - text: 请使用最新英文版教材。
+    due: 2021/05/25
+- teacher: 熊英飞
+  date: 2021/05/14
+  slides:
+  - title: "HoareAsLogic : Haore Logic as a Logic"
+    link: 17-xiong-hoareAsLogic.pdf
+  assignment:
+    descriptions:
+    - text: 完成HoareLogic中的习题。
+    - text: 请使用最新英文版教材。
+    due: 2021/05/25
 
 updates:
 - slides: "Basics: Functional Programming in Coq"
@@ -109,3 +150,6 @@ updates:
 - slides: "Imp: Simple Imperative Programs"
   link: 12-xiong-imp.pdf
   date: 2021/04/23
+- slides: "Hoare2: Haore Logic, Part II"
+  link: 16-xiong-hoare2.pdf
+  date: 2021/05/14
