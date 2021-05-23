@@ -139,6 +139,16 @@ lectures:
     - text: 完成HoareLogic中的习题。
     - text: 请使用最新英文版教材。
     due: 2021/05/25
+- teacher: 熊英飞
+  date: 2021/05/23
+  slides:
+  - title: "SmallStep : Small Step Operational Semantics"
+    link: 18-xiong-smallstep.pdf
+  assignment:
+    descriptions:
+    - text: 完成SmallStep中standard非optional并不属于Additional Exercises的习题。
+    - text: 请使用最新英文版教材。
+    due: 2021/05/28
 
 updates:
 - slides: "Basics: Functional Programming in Coq"
