@@ -140,13 +140,26 @@ lectures:
     - text: 请使用最新英文版教材。
     due: 2021/05/25
 - teacher: 熊英飞
-  date: 2021/05/23
+  date: 2021/05/21
   slides:
   - title: "SmallStep : Small Step Operational Semantics"
     link: 18-xiong-smallstep.pdf
   assignment:
     descriptions:
     - text: 完成SmallStep中standard非optional并不属于Additional Exercises的习题。
+    - text: 请使用最新英文版教材。
+    due: 2021/05/28
+- teacher: 熊英飞
+  date: 2021/05/25
+  slides:
+  - title: "Types: Type Systems"
+    link: 19-xiong-types.pdf
+  - title: "STLC: The Simply Typed Lambda Calculus"
+    link: 20-xiong-stlc.pdf
+  assignment:
+    descriptions:
+    - text: 完成STLC中standard非optional的3道习题以及typing_nonexample_3。
+    - text: 完成Types中standard非optional并不属于Additional Exercises的习题。
     - text: 请使用最新英文版教材。
     due: 2021/05/28
 
