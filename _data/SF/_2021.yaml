@@ -162,6 +162,19 @@ lectures:
     - text: 完成Types中standard非optional并不属于Additional Exercises的习题。
     - text: 请使用最新英文版教材。
     due: 2021/05/28
+- teacher: 熊英飞
+  date: 2021/05/28
+  slides:
+  - title: "STLCPROP: Properties of STLC"
+    link: 21-xiong-stlcprop.pdf
+  - title: "MORESTLC: More on the Simply Typed Lambda Calculus"
+    link: 22-xiong-morestlc.pdf
+  assignment:
+    descriptions:
+    - text: 完成progress_from_term_ind和unique_types。
+    - text: 完成MoreSTLC中standard非optional的习题。
+    - text: 请使用最新英文版教材。
+    due: 2021/06/04
 
 updates:
 - slides: "Basics: Functional Programming in Coq"
@@ -176,3 +189,6 @@ updates:
 - slides: "Hoare2: Haore Logic, Part II"
   link: 16-xiong-hoare2.pdf
   date: 2021/05/14
+- slides: "STLC: The Simply Typed Lambda Calculus"
+  link: 20-xiong-stlc.pdf
+  date: 2021/05/28
