@@ -175,6 +175,13 @@ lectures:
     - text: 完成MoreSTLC中standard非optional的习题。
     - text: 请使用最新英文版教材。
     due: 2021/06/04
+- teacher: 熊英飞
+  date: 2021/05/28
+  slides:
+  - title: "TYPECHECKING: A Typechecker for STLC"
+    link: 23-xiong-typechecking.pdf
+  - title: "REFERENCES: Typing Mutable References"
+    link: 24-xiong-references.pdf
 
 updates:
 - slides: "Basics: Functional Programming in Coq"
