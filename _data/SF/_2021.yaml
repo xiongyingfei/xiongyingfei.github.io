@@ -176,12 +176,25 @@ lectures:
     - text: 请使用最新英文版教材。
     due: 2021/06/04
 - teacher: 熊英飞
-  date: 2021/05/28
+  date: 2021/06/04
   slides:
   - title: "TYPECHECKING: A Typechecker for STLC"
     link: 23-xiong-typechecking.pdf
   - title: "REFERENCES: Typing Mutable References"
     link: 24-xiong-references.pdf
+- teacher: 熊英飞
+  date: 2021/06/08
+  slides:
+  - title: "Sub: Subtyping"
+    link: 25-xiong-subtyping.pdf
+  assignment:
+    descriptions:
+    - text: subtype_instances_tf_2
+    - text: subtype_concepts_tf
+    - text: small_large_4
+    - text: sub_inversion_arrow
+    - text: variations
+    due: 2021/06/18
 
 updates:
 - slides: "Basics: Functional Programming in Coq"
@@ -199,3 +212,6 @@ updates:
 - slides: "STLC: The Simply Typed Lambda Calculus"
   link: 20-xiong-stlc.pdf
   date: 2021/05/28
+- slides: "REFERENCES: Typing Mutable References"
+  link: 24-xiong-references.pdf
+  date: 2021/06/08
