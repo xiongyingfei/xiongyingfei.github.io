@@ -215,3 +215,9 @@ updates:
 - slides: "REFERENCES: Typing Mutable References"
   link: 24-xiong-references.pdf
   date: 2021/06/08
+- slides: "REFERENCES: Typing Mutable References"
+  link: 24-xiong-references.pdf
+  date: 2021/06/11
+- slides: "Sub: Subtyping"
+  link: 25-xiong-subtyping.pdf
+  date: 2021/06/11
