@@ -4,8 +4,6 @@ SF:
   english_name: Software Foundations
   english_semester: Spring
   years: [2021]
-  instructors: [胡振江, 熊英飞]
-  teaching_assistants: [谢睿峰]
   description: |
     理论计算机科学通常被认为分为A和B两部分（参考ICALP的CFP），A主要是计算相关的理论，包括自动机、算法复杂度等；B主要是软件相关的理论，包括数理逻辑、形式语义、类型系统等。部分国内学者也通俗的将这两部分称为“美式计算机科学”和“欧式计算机科学”。本课程主要讲授软件部分的基础理论，即数理逻辑、形式语义、类型系统的知识。
 
