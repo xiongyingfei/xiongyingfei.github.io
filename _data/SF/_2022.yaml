@@ -1,8 +1,7 @@
 instructors: [熊英飞]
 teaching_assistants: [关智超]
 lectures: 
-- teacher: 熊英飞
-  date: 2022/02/24
+- date: 2022/02/24
   slides:
   - title: "课程介绍"
     link: 1-intro.pdf

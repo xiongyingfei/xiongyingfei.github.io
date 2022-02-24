@@ -14,7 +14,9 @@ layout: page
   {% if lecture.assignment %}
   <li class="archiveposturl" style="background: transparent">
     <span style="color: gray;">{{ lecture.date }}</span>
-    <span style="padding-left: 1.5em;"></span>{{ lecture.teacher }}：
+    {% if lecture.teacher %}
+      <span style="padding-left: 1.5em;"></span>{{ lecture.teacher }}：
+    {% endif %}
     <div style="display: inline-block; vertical-align: top;">
       {% assign first_slides = lecture.slides[0] %}
       <span style="font-weight: bold;">{{ first_slides.title }}</span>
