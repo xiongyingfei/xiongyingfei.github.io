@@ -19,5 +19,18 @@ lectures:
     descriptions:
     - text: 完成Bascis.v中standard非optional的11道习题
     due: 2022/03/09
+- date: 2022/03/03
+  slides:
+  - title: "Induction: Proof by Induction"
+    link: 3-Induction.pdf
+  - title: "Lists: Working with Structured Data"
+    link: 4-lists.pdf
+  - title: "Poly: Polymorphism and Higher-Order Functions"
+    link: 5-poly.pdf
+  assignment:
+    descriptions:
+    - text: 完成Induction.v中standard非optional的4道习题
+    - text: 完成Lists.v中standard非optional的11道习题
+    due: 2022/03/09
 
 updates: []
