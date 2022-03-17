@@ -42,5 +42,14 @@ lectures:
     - text: 完成Tactics.v中standard非optional且不属于Additional Exercises的8道习题
     - text: （可选）如果之前没有接触过函数式语言，可以考虑做一下Poly中Additional Exercises中的习题
     due: 2022/03/16
+- date: 2022/3/17
+  slides:
+  - title: "Logic: Logic in Coq"
+    link: 7-logics.pdf
+  assignment:
+    descriptions:
+    - text: 完成Logic.v中standard非optional且不在下面列表中的14道习题
+    - text: tr_rev_correct, even_double_conv, eqb_list
+    due: 2022/3/24
 
 updates: []
