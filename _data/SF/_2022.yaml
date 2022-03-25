@@ -50,6 +50,14 @@ lectures:
     descriptions:
     - text: 完成Logic.v中standard非optional且不在下面列表中的14道习题
     - text: tr_rev_correct、even_double_conv、eqb_list
-    due: 2022/03/24
+    due: 2022/03/23
+- date: 2022/03/24
+  slides:
+  - title: "ProofObjects: The Curry-Howard Correspondence"
+    link: 8-proofobjects.pdf
+  assignment:
+    descriptions:
+    - text: 完成ProofObject中standard非optional的7道习题
+    due: 2022/03/31
 
 updates: []
