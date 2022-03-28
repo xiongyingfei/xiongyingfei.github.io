@@ -58,6 +58,16 @@ lectures:
   assignment:
     descriptions:
     - text: 完成ProofObject中standard非optional的7道习题
-    due: 2022/03/31
-
+    due: 2022/03/30
+- date: 2022/03/28
+  slides:
+  - title: "IndProp: Inductively Defined Propositions"
+    link: 9-indprop.pdf
+  - title: "IndPrinciples: Induction Principles"
+    link: 10-indprinciples.pdf
+  assignment:
+    descriptions:
+    - text: 完成IndProp中standard非optional截止到case study（不含）之前的7道习题
+    - text: 完成IndPrinciples中standard非optional的3道习题
+    due: 2022/04/06
 updates: []
