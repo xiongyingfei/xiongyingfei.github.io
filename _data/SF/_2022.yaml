@@ -67,7 +67,7 @@ lectures:
     link: 10-indprinciples.pdf
   assignment:
     descriptions:
-    - text: 完成IndProp中standard非optional截止到case study（不含）之前的7道习题
+    - text: 完成IndProp中standard非optional截止到case study（不含）之前的5道习题
     - text: 完成IndPrinciples中standard非optional的3道习题
     due: 2022/04/06
 updates: []
