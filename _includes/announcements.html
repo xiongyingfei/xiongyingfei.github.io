@@ -51,7 +51,9 @@
     <li class="no-p-margin">
       <span style="color: gray; margin-right: 0.7em;">{{ lecture.date }}</span>
       作业：
-      {{ lecture.teacher }}：
+      {%- if lecture.teacher -%}
+        {{ lecture.teacher }}：
+      {%- endif -%}
       <div style="display: inline-block; vertical-align: top;">
         {% assign first_slides = lecture.slides[0] %}
         <span style="font-style: italic;">{{ first_slides.title }}</span>

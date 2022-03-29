@@ -22,8 +22,11 @@ layout: page
       {% endif %}
       <div class="content">
         <span style="color: gray;">{{ lecture.date }}</span>
-        <span style="padding-left: 1.5em;"></span>{{ lecture.teacher }}：
-        <div style="display: inline-block; vertical-align: top;">
+        <span style="padding-left: 1.5em;"></span>
+        {% if lecture.teacher %}
+          {{ lecture.teacher }}：
+        {% endif %}
+          <div style="display: inline-block; vertical-align: top;">
           {% assign first_slides = true %}
           {% for slides in lecture.slides %}
           {% unless first_slides %}<br>{% endunless %}

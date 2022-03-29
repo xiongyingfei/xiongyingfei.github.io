@@ -1,4 +1,73 @@
 instructors: [熊英飞]
 teaching_assistants: [关智超]
-lectures: []
+lectures: 
+- date: 2022/02/24
+  slides:
+  - title: "课程介绍"
+    link: 1-intro.pdf
+  assignment:
+    descriptions:
+    - text: 下载教科书及相关Coq代码
+      link: https://softwarefoundations.cis.upenn.edu
+    - text: 安装Coq系统和至少一个开发环境
+      link: https://coq.inria.fr/download
+- date: 2022/02/28
+  slides:
+  - title: "Basics: Functional Programming in Coq"
+    link: 2-basics.pdf
+  assignment:
+    descriptions:
+    - text: 完成Bascis.v中standard非optional的11道习题
+    due: 2022/03/09
+- date: 2022/03/03
+  slides:
+  - title: "Induction: Proof by Induction"
+    link: 3-Induction.pdf
+  - title: "Lists: Working with Structured Data"
+    link: 4-lists.pdf
+  - title: "Poly: Polymorphism and Higher-Order Functions"
+    link: 5-poly.pdf
+  assignment:
+    descriptions:
+    - text: 完成Induction.v中standard非optional的4道习题
+    - text: 完成Lists.v中standard非optional的11道习题
+    due: 2022/03/09
+- date: 2022/03/10
+  slides:
+  - title: "Tactics: More Tactics"
+    link: 6-tactics.pdf
+  assignment:
+    descriptions:
+    - text: 完成Poly.v中standard非optional且不属于Additional Exercises的6道习题
+    - text: 完成Tactics.v中standard非optional且不属于Additional Exercises的8道习题
+    - text: （可选）如果之前没有接触过函数式语言，可以考虑做一下Poly中Additional Exercises中的习题
+    due: 2022/03/16
+- date: 2022/03/17
+  slides:
+  - title: "Logic: Logic in Coq"
+    link: 7-logics.pdf
+  assignment:
+    descriptions:
+    - text: 完成Logic.v中standard非optional且不在下面列表中的14道习题
+    - text: tr_rev_correct、even_double_conv、eqb_list
+    due: 2022/03/23
+- date: 2022/03/24
+  slides:
+  - title: "ProofObjects: The Curry-Howard Correspondence"
+    link: 8-proofobjects.pdf
+  assignment:
+    descriptions:
+    - text: 完成ProofObject中standard非optional的7道习题
+    due: 2022/03/30
+- date: 2022/03/28
+  slides:
+  - title: "IndProp: Inductively Defined Propositions"
+    link: 9-indprop.pdf
+  - title: "IndPrinciples: Induction Principles"
+    link: 10-indprinciples.pdf
+  assignment:
+    descriptions:
+    - text: 完成IndProp中standard非optional截止到case study（不含）之前的7道习题
+    - text: 完成IndPrinciples中standard非optional的3道习题
+    due: 2022/04/06
 updates: []
