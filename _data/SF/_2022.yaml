@@ -46,6 +46,8 @@ lectures:
   slides:
   - title: "Logic: Logic in Coq"
     link: 7-logics.pdf
+  - title: "第一次习题课"
+    link: exercise-1.pdf
   assignment:
     descriptions:
     - text: 完成Logic.v中standard非optional且不在下面列表中的14道习题
@@ -76,6 +78,8 @@ lectures:
     link: 11-maps.pdf
   - title: "Imp: Simple Imperative Programs"
     link: 12-imp.pdf
+  - title: "第二次习题课"
+    link: exercise-2.pdf
   assignment:
     descriptions:
     - text: 完成Maps中2道standard非optional的习题
