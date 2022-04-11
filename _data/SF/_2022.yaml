@@ -92,8 +92,16 @@ lectures:
     link: 13-auto.pdf
   assignment:
     descriptions:
-    - text: 无（享受快乐）
-    - text: 可以使用auto策略继续完成上周的作业
+    - text: 无（可以使用auto策略继续完成上周的作业）
     due: 2022/04/13
-
+- date: 2022/04/11
+  slides:
+  - title: "EQUIV: Program Equivalence"
+    link: 14-equiv.pdf
+  assignment:
+    descriptions:
+    - text: 完成Equiv中standard非optional并不属于Extended/Additional Exercises的9道习题
+    - text: 推荐完成Nondeterministic Imp部分的两道习题
+    due: 2022/04/20
+  
 updates: []
