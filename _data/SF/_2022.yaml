@@ -103,10 +103,10 @@ lectures:
     - text: 完成Equiv中standard非optional并不属于Extended/Additional Exercises的9道习题
     - text: 推荐完成Nondeterministic Imp部分的两道习题
     due: 2022/04/20
-- date: 2022/04/18
+- date: 2022/04/14
   slides:
   - title: "Hoare: Haore Logic, Part I"
-    link: 15-hoare
+    link: 15-hoare.pdf
   assignment:
     descriptions:
     - text: 完成Hoare中standard非optional并不属于Additional Exercises的11道习题
@@ -115,7 +115,7 @@ lectures:
 - date: 2022/4/21
   slides:
   - title: "Hoare2: Haore Logic, Part II"
-    link: 16-hoare2
+    link: 16-hoare2.pdf
   assignment:
     descriptions:
     - text: 同周一
