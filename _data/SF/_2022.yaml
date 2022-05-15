@@ -134,8 +134,16 @@ lectures:
     link: 18-smallstep.pdf
   assignment:
     descriptions:
-    - text: 完成SmallStep中standard非optional并不属于Additional Exercises的9道习题
+    - text: 完成SmallStep中standard非optional并不属于Additional Exercises的8道习题
     - text: 如有时间，推荐完成par_body_n__Sn
+    due: 2022/05/18
+- date: 2022/05/12
+  slides:
+  - title: "Types: Type Systems"
+    link: 19-types.pdf
+  assignment:
+    descriptions:
+    - text: 完成Types中standard非optional并不属于Additional Exercises的5道习题
     due: 2022/05/18
   
 updates: []
