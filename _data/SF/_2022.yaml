@@ -147,9 +147,9 @@ lectures:
     due: 2022/05/18
 - date: 2022/05/19
   slides:
-  - title: STLC: The Simply Typed Lambda-Calculus
+  - title: "STLC: The Simply Typed Lambda-Calculus"
     link: 20-stlc.pdf
-  - title: STLCPROP: Properties of STLC
+  - title: "STLCPROP: Properties of STLC"
     link: 21-stlcprop.pdf
   assignment:
     description:
