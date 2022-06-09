@@ -182,5 +182,21 @@ lectures:
     descriptions:
     - text: subtype_instances_tf_2, subtype_concepts_tf, small_large_4, sub_inversion_arrow, variations
     due: 2022/06/08
+- date: 2022/06/06
+  slides:
+  - title: "Separation Logic: a Quick Look"
+    link: 26-separationLogic.pdf
+  assignment:
+    descriptions:
+    - text: 无
+    due: 2022/06/23
+- date: 2022/06/09
+  slides:
+  - title: "习题课：总复习"
+    link: review.pdf
+  assignment:
+    descriptions:
+    - text: 祝大家考试顺利！
+    due: 2022/06/23
 
 updates: []
