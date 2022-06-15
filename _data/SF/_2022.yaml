@@ -46,6 +46,8 @@ lectures:
   slides:
   - title: "Logic: Logic in Coq"
     link: 7-logics.pdf
+  - title: "第一次习题课"
+    link: exercise-1.pdf
   assignment:
     descriptions:
     - text: 完成Logic.v中standard非optional且不在下面列表中的14道习题
@@ -67,7 +69,134 @@ lectures:
     link: 10-indprinciples.pdf
   assignment:
     descriptions:
-    - text: 完成IndProp中standard非optional截止到case study（不含）之前的7道习题
+    - text: 完成IndProp中standard非optional截止到case study（不含）之前的5道习题
     - text: 完成IndPrinciples中standard非optional的3道习题
     due: 2022/04/06
+- date: 2022/03/31
+  slides:
+  - title: "Maps: Total and Partial Maps"
+    link: 11-maps.pdf
+  - title: "Imp: Simple Imperative Programs"
+    link: 12-imp.pdf
+  - title: "第二次习题课"
+    link: exercise-2.pdf
+  assignment:
+    descriptions:
+    - text: 完成Maps中2道standard非optional的习题
+    - text: 完成Imp中standard非optional并不属于Additional Exercises的6道习题
+    - text: 从本章起证明长度有显著增加，请尽早动手
+    due: 2022/04/13
+- date: 2022/04/07
+  slides:
+  - title: "AUTO: More Automation"
+    link: 13-auto.pdf
+  assignment:
+    descriptions:
+    - text: 无（可以使用auto策略继续完成上周的作业）
+    due: 2022/04/13
+- date: 2022/04/11
+  slides:
+  - title: "EQUIV: Program Equivalence"
+    link: 14-equiv.pdf
+  assignment:
+    descriptions:
+    - text: 完成Equiv中standard非optional并不属于Extended/Additional Exercises的9道习题
+    - text: 推荐完成Nondeterministic Imp部分的两道习题
+    due: 2022/04/20
+- date: 2022/04/14
+  slides:
+  - title: "Hoare: Haore Logic, Part I"
+    link: 15-hoare.pdf
+  assignment:
+    descriptions:
+    - text: 完成Hoare中standard非optional并不属于Additional Exercises的11道习题
+    - text: 推荐也完成Havoc部分的习题
+    due: 2022/04/27
+- date: 2022/04/21
+  slides:
+  - title: "Hoare2: Haore Logic, Part II"
+    link: 16-hoare2.pdf
+  assignment:
+    descriptions:
+    - text: 完成Hoare2中standard非optional的5道习题和slow_assignment_dec
+    due: 2022/05/04
+- date: 2022/04/28
+  slides:
+  - title: "HoareAsLogic: Haore Logic as a Logic"
+    link: 17-hoareAsLogic.pdf
+  assignment:
+    descriptions:
+    - text: 完成HoareAsLogic中的6道习题
+    due: 2022/05/11
+- date: 2022/05/09
+  slides:
+  - title: "SmallStep: Small-Step Operational Semantics"
+    link: 18-smallstep.pdf
+  assignment:
+    descriptions:
+    - text: 完成SmallStep中standard非optional并不属于Additional Exercises的8道习题
+    - text: 如有时间，推荐完成par_body_n__Sn
+    due: 2022/05/18
+- date: 2022/05/12
+  slides:
+  - title: "Types: Type Systems"
+    link: 19-types.pdf
+  assignment:
+    descriptions:
+    - text: 完成Types中standard非optional并不属于Additional Exercises的5道习题
+    due: 2022/05/18
+- date: 2022/05/19
+  slides:
+  - title: "STLC: The Simply Typed Lambda-Calculus"
+    link: 20-stlc.pdf
+  - title: "STLCPROP: Properties of STLC"
+    link: 21-stlcprop.pdf
+  assignment:
+    descriptions:
+    - text: 完成STLC中standard非optional的3道习题以及typing_nonexample_3
+    - text: 完成STLCPROP中progress_from_term_ind和unique_types
+    due: 2022/05/25
+- date: 2022/05/23
+  slides:
+  - title: "MORESTLC: More on the Simply Typed Lambda-Calculus"
+    link: 22-morestlc.pdf
+  - title: "TYPECHECKING: A Typechecker for STLC"
+    link: 23-typechecking.pdf
+  assignment:
+    descriptions:
+    - text: 完成MoreSTLC中standard非optional的5道习题
+    due: 2022/06/01
+- date: 2022/05/26
+  slides:
+  - title: "REFERENCES: Typing Mutable References"
+    link: 24-references.pdf
+  assignment:
+    descriptions:
+    - text: 无
+    due: 2022/06/01
+- date: 2022/06/02
+  slides:
+  - title: "Sub: Subtyping"
+    link: 25-subtyping.pdf
+  assignment:
+    descriptions:
+    - text: subtype_instances_tf_2, subtype_concepts_tf, small_large_4, sub_inversion_arrow, variations
+    due: 2022/06/08
+- date: 2022/06/06
+  slides:
+  - title: "Separation Logic: a Quick Look"
+    link: 26-separationLogic.pdf
+  assignment:
+    descriptions:
+    - text: 无
+    due: 2022/06/23
+- date: 2022/06/09
+  slides:
+  - title: "习题课：总复习"
+    link: review.pdf
+  assignment:
+    descriptions:
+    - text: 祝大家考试顺利！
+    due: 2022/06/23
+
 updates: []
