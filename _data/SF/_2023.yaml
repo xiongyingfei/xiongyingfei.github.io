@@ -11,12 +11,12 @@ lectures:
       link: https://softwarefoundations.cis.upenn.edu
     - text: 安装Coq系统和至少一个开发环境
       link: https://coq.inria.fr/download
-- date: 2022/02/27
+- date: 2023/02/27
   slides:
   - title: "Basics: Functional Programming in Coq"
     link: 2-basics.pdf
   assignment:
     descriptions:
     - text: 完成Bascis.v中standard非optional的11道习题（请使用最新版本英文教材）
-    due: 2022/03/08
+    due: 2023/03/08
 updates: []
