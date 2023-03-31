@@ -30,5 +30,51 @@ lectures:
     - text: 完成Induction.v中standard非optional的6道习题
     - text: 完成Lists.v中standard非optional的11道习题
     due: 2023/03/12
-
+- date: 2023/03/09
+  slides:
+  - title: "Poly: Polymorphism and Higher-Order Functions"
+    link: 5-poly.pdf
+  assignment:
+    descriptions:
+    - text: 完成Poly.v中standard非optional且不属于Additional Exercises的7道习题
+    - text: （可选，不评分）如果之前没有接触过函数式语言，可以尝试Poly中Additional Exercises中的习题
+    due: 2023/03/15
+- date: 2023/03/13
+  slides:
+  - title: "Tactics: More Tactics"
+    link: 6-tactics.pdf
+  assignment:
+    descriptions:
+    - text: 完成Tactics.v中standard非optional且不属于Additional Exercises的8道习题
+    due: 2023/03/22
+- date: 2023/03/16
+  slides:
+  - title: "Logic: Logic in Coq"
+    link: 7-logics.pdf
+  - title: "第一次习题课"
+    link: ex-1.pdf
+  assignment:
+    descriptions:
+    - text: 完成Logic.v中standard非optional且不在下面列表中的14道习题
+    - text: tr_rev_correct、even_double_conv、eqb_list
+    due: 2023/03/26 
+- date: 2023/03/27
+  slides:
+  - title: "ProofObjects: The Curry-Howard Correspondence"
+    link: 8-proofobjects.pdf
+  assignment:
+    descriptions:
+    - text: 完成ProofObject中standard非optional的9道习题
+    due: 2023/04/05
+- date: 2023/03/30
+  slides:
+  - title: "IndProp: Inductively Defined Propositions"
+    link: 9-indprop.pdf
+  - title: "IndPrinciples: Induction Principles"
+    link: 10-indprinciples.pdf
+  assignment:
+    descriptions:
+    - text: 完成IndProp中standard非optional截止到case study（不含）之前的5道习题
+    - text: 完成IndPrinciples中standard非optional的3道习题
+    due: 2023/04/09
 updates: []
