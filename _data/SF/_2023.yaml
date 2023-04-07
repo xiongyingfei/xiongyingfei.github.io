@@ -77,4 +77,17 @@ lectures:
     - text: 完成IndProp中standard非optional截止到case study（不含）之前的5道习题
     - text: 完成IndPrinciples中standard非optional的3道习题
     due: 2023/04/09
+- date: 2023/04/06
+  slides:
+  - title: "Maps: Total and Partial Maps"
+    link: 11-maps.pdf
+  - title: "Imp: Simple Imperative Programs"
+    link: 12-imp.pdf
+  assignment:
+    descriptions:
+    - text: 完成Maps中2道standard非optional的习题
+    - text: 完成Imp中standard非optional并不属于Additional Exercises的6道习题
+    - text: 从本章起证明长度有显著增加，请尽早动手
+    due: 2023/04/16
+
 updates: []
