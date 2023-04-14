@@ -93,5 +93,16 @@ lectures:
   slides:
   - title: "AUTO: More Automation"
     link: 13-auto.pdf
+- date: 2023/04/13
+  slides:
+  - title: "EQUIV: Program Equivalence"
+    link: 14-equiv.pdf
+  - title: "第二次习题课"
+    link: ex-2.pdf  
+  assignment:
+    descriptions:
+    - text: 完成Equiv中standard非optional并不属于Extended/Additional Exercises的9道习题
+    - text: 推荐完成Nondeterministic Imp部分的两道习题
+    due: 2023/04/23
 
 updates: []
