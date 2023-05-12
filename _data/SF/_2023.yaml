@@ -121,12 +121,21 @@ lectures:
     descriptions:
     - text: 完成Hoare2中standard非optional的4道习题
     due: 2023/05/07
-- date: 2023/05/8
+- date: 2023/05/08
   slides:
   - title: "HoareAsLogic: Hoare Logic as a Logic"
     link: 17-hoareAsLogic.pdf
   assignment:
     descriptions:
     - text: 完成HoareAsLogic中的6道习题
+    due: 2023/05/17
+- date: 2023/05/11
+  slides:
+  - title: "SmallStep: Small-Step Operational Semantics"
+    link: 18-smallstep.pdf
+  assignment:
+    descriptions:
+    - text: 完成SmallStep中standard非optional并不属于Additional Exercises的8道习题
+    - text: 如有时间，推荐完成par_body_n__Sn
     due: 2023/05/17
 updates: []
