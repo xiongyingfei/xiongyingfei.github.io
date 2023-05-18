@@ -138,4 +138,18 @@ lectures:
     - text: 完成SmallStep中standard非optional并不属于Additional Exercises的8道习题
     - text: 如有时间，推荐完成par_body_n__Sn
     due: 2023/05/17
+- date: 2023/5/18
+  slides:
+  - title: "Types: Type Systems"
+    link: 19-types.pdf
+  - title: "STLC: The Simply Typed Lambda-Calculus"
+    link: 20-stlc.pdf
+  - title: "STLCPROP: Properties of STLC"
+    link: 21-stlcprop.pdf
+  assignment:
+    descriptions:
+    - text: 完成Types中standard非optional并不属于Additional Exercises的5道习题
+    - text: 完成STLC中standard非optional的3道习题以及typing_nonexample_3
+    - text: 完成STLCPROP中progress_from_term_ind和unique_types
+    due: 2023/05/28
 updates: []
