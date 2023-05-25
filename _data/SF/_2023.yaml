@@ -160,4 +160,10 @@ lectures:
     descriptions:
     - text: 完成MoreSTLC中standard非optional的6道习题
     due: 2023/05/31
+- date: 2023/05/25
+  slides:
+  - title: "TYPECHECKING: A Typechecker for STLC"
+    link: 23-typechecking.pdf
+  - title: "第三次习题课"
+    link: ex-3.pdf
 updates: []
