@@ -170,4 +170,9 @@ lectures:
     descriptions:
     - text: 完成TypeChecking中type_check_defn和ext_type_checking_sound的•Sums•Lists•Fix
     due: 2023/05/31
+- date: 2023/06/01
+  slides:
+  - title: "REFERENCES: Typing Mutable References"
+    link: 24-references.pdf
+
 updates: []
