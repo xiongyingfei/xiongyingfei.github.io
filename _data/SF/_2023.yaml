@@ -174,5 +174,13 @@ lectures:
   slides:
   - title: "REFERENCES: Typing Mutable References"
     link: 24-references.pdf
+- date: 2023/06/05
+  slides:
+  - title: "Sub: Subtyping"
+    link: 25-subtyping.pdf
+  assignment:
+    descriptions:
+    - text: subtype_instances_tf_2, subtype_concepts_tf, small_large_4, sub_inversion_arrow, variations
+    due: 2023/06/11
 
 updates: []
