@@ -182,5 +182,9 @@ lectures:
     descriptions:
     - text: subtype_instances_tf_2, subtype_concepts_tf, small_large_4, sub_inversion_arrow, variations
     due: 2023/06/11
+- date: 2023/06/08
+  slides:
+  - title: "Separation Logic: a Quick Look"
+    link: 26-separationlogic.pdf
 
 updates: []
