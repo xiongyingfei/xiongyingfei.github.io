@@ -77,4 +77,114 @@ lectures:
     - text: 完成IndProp中standard非optional截止到case study（不含）之前的5道习题
     - text: 完成IndPrinciples中standard非optional的3道习题
     due: 2023/04/09
+- date: 2023/04/06
+  slides:
+  - title: "Maps: Total and Partial Maps"
+    link: 11-maps.pdf
+  - title: "Imp: Simple Imperative Programs"
+    link: 12-imp.pdf
+  assignment:
+    descriptions:
+    - text: 完成Maps中2道standard非optional的习题
+    - text: 完成Imp中standard非optional并不属于Additional Exercises的6道习题
+    - text: 从本章起证明长度有显著增加，请尽早动手
+    due: 2023/04/16
+- date: 2023/04/10
+  slides:
+  - title: "AUTO: More Automation"
+    link: 13-auto.pdf
+- date: 2023/04/13
+  slides:
+  - title: "EQUIV: Program Equivalence"
+    link: 14-equiv.pdf
+  - title: "第二次习题课"
+    link: ex-2.pdf  
+  assignment:
+    descriptions:
+    - text: 完成Equiv中standard非optional并不属于Extended/Additional Exercises的9道习题
+    - text: 推荐完成Nondeterministic Imp部分的两道习题
+    due: 2023/04/23
+- date: 2023/04/20
+  slides:
+  - title: "Hoare: Hoare Logic, Part I"
+    link: 15-hoare.pdf
+  assignment:
+    descriptions:
+    - text: 完成Hoare中standard非optional并不属于Additional Exercises的11道习题
+    - text: 推荐也完成Havoc部分的习题
+    due: 2023/04/30
+- date: 2023/04/27
+  slides:
+  - title: "Hoare2: Hoare Logic, Part II"
+    link: 16-hoare2.pdf
+  assignment:
+    descriptions:
+    - text: 完成Hoare2中standard非optional的4道习题
+    due: 2023/05/07
+- date: 2023/05/08
+  slides:
+  - title: "HoareAsLogic: Hoare Logic as a Logic"
+    link: 17-hoareAsLogic.pdf
+  assignment:
+    descriptions:
+    - text: 完成HoareAsLogic中的6道习题
+    due: 2023/05/17
+- date: 2023/05/11
+  slides:
+  - title: "SmallStep: Small-Step Operational Semantics"
+    link: 18-smallstep.pdf
+  assignment:
+    descriptions:
+    - text: 完成SmallStep中standard非optional并不属于Additional Exercises的8道习题
+    - text: 如有时间，推荐完成par_body_n__Sn
+    due: 2023/05/17
+- date: 2023/5/18
+  slides:
+  - title: "Types: Type Systems"
+    link: 19-types.pdf
+  - title: "STLC: The Simply Typed Lambda-Calculus"
+    link: 20-stlc.pdf
+  - title: "STLCPROP: Properties of STLC"
+    link: 21-stlcprop.pdf
+  assignment:
+    descriptions:
+    - text: 完成Types中standard非optional并不属于Additional Exercises的5道习题
+    - text: 完成STLC中standard非optional的3道习题以及typing_nonexample_3
+    - text: 完成STLCPROP中progress_from_term_ind和unique_types
+    due: 2023/05/28
+- date: 2023/05/22
+  slides:
+  - title: "MORESTLC: More on the Simply Typed Lambda-Calculus"
+    link: 22-morestlc.pdf
+  assignment:
+    descriptions:
+    - text: 完成MoreSTLC中standard非optional的6道习题
+    due: 2023/05/31
+- date: 2023/05/25
+  slides:
+  - title: "TYPECHECKING: A Typechecker for STLC"
+    link: 23-typechecking.pdf
+  - title: "第三次习题课"
+    link: ex-3.pdf
+  assignment:
+    descriptions:
+    - text: 完成TypeChecking中type_check_defn和ext_type_checking_sound的•Sums•Lists•Fix
+    due: 2023/05/31
+- date: 2023/06/01
+  slides:
+  - title: "REFERENCES: Typing Mutable References"
+    link: 24-references.pdf
+- date: 2023/06/05
+  slides:
+  - title: "Sub: Subtyping"
+    link: 25-subtyping.pdf
+  assignment:
+    descriptions:
+    - text: subtype_instances_tf_2, subtype_concepts_tf, small_large_4, sub_inversion_arrow, variations
+    due: 2023/06/11
+- date: 2023/06/08
+  slides:
+  - title: "Separation Logic: a Quick Look"
+    link: 26-separationlogic.pdf
+
 updates: []
