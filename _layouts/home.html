@@ -15,6 +15,7 @@ layout: default
 
     {{ content }}
 
+    {% if course_name!="软件分析技术"}
     <h2>往年课程</h2>
     <ul class="previous-offerings">
         {% for year in this_course.years %}
@@ -27,6 +28,7 @@ layout: default
         </li>
         {% endfor %}
     </ul>
+    {% endif %}
 
     {% capture _course_year %}_{{ course_year }}{% endcapture %}
 
