@@ -29,3 +29,32 @@ SF:
   - url: /materials.html
     name: 材料
     icon_class: fas fa-book
+
+SA:
+  name: 软件分析技术
+  semester: 秋
+  english_name: Software Analysis
+  english_semester: Autumn
+  years: [2023]
+  description: |
+    对软件代码进行分析是各种软件工程工具的基本手段之一。典型软件开发工具比如编译器、代码编辑器、测试与调试工具等等都离不开对软件代码进行分析。在工业界，各大公司的基础平台部门对掌握软件分析技术的人才有大量需求；在学术界，软件分析技术是程序设计语言和软件工程领域开展研究的必备基础知识之一。但是，软件分析技术相关文献存在内容广，流派多，数学基础要求高等方面的特点，使得学习软件分析技术一直是一件很困难的事。本课程希望通过对这一类技术进行通俗易懂的讲解，帮助同学们构建较完整的软件分析技术知识体系，了解该领域的前沿知识，学术上为进一步开展程序设计语言和软件工程领域的学术研究打下基础，在实践上培养开发大型软件工程工具的开发能力。
+
+  nav:
+  - url: /
+    name: 主页
+    icon_class: fa fa-home fa-lg
+  # - url: /schedule.html
+  #   name: 课程计划
+  #   icon_class: fas fa-calendar-alt
+  - url: /lectures.html
+    name: 课程讲义
+    icon_class: fas fa-book-reader
+  - url: /assignments.html
+    name: 作业
+    icon_class: fas fa-user-graduate
+  # - url: /project.html
+  #   name: Project
+  #   icon_class: fas fa-user-graduate
+  - url: /materials.html
+    name: 材料
+    icon_class: fas fa-book
