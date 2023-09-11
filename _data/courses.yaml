@@ -30,7 +30,7 @@ SF:
     name: 材料
     icon_class: fas fa-book
 
-SA:
+SA_new:
   name: 软件分析技术
   semester: 秋
   english_name: Software Analysis
