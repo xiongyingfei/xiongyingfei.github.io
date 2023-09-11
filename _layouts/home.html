@@ -60,7 +60,7 @@ layout: default
                 {% assign ta = site.data.people.teaching_assistants[ta_name] %}
                 <div class="image--cover-container">
                     <img src="{{ ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                    <p>
+                    <p style="word-break: break-all;">
                         {% if ta.webpage %}
                         <a href="{{ ta.webpage }}">{{ ta_name }}</a>
                         {% else %}
