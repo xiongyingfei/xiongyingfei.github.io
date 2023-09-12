@@ -1,5 +1,11 @@
 instructors: [熊英飞]
 teaching_assistants: [肖元安, 张钊, 练琪灏]
-lectures: []
+lectures: 
+- date: 2023/09/12
+  slides:
+  - title: "课程介绍胶片"
+    link: 01_intro.pdf
+  - title: "课程介绍讲义"
+    link: 1.intro.pdf
 
 updates: []
