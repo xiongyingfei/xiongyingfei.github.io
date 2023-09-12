@@ -7,5 +7,8 @@ lectures:
     link: 01_intro.pdf
   - title: "课程介绍讲义"
     link: 1.intro.pdf
-
+  assignment:
+    descriptions:
+    - text: 完成课程介绍讲义中的练习并提交pdf文件
+    due: 2023/09/26
 updates: []
