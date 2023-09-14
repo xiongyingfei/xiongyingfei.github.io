@@ -44,9 +44,15 @@
     {% for slides in lecture.slides %}
     <li class="no-p-margin">
       <span style="color: gray; margin-right: 0.7em;">{{ lecture.date }}</span>
-      讲义：<a href="slides/{{ slides.link }}" style="display: inline-block; vertical-align: top;">{{ slides.title }}</a>
+      幻灯片：<a href="slides/{{ slides.link }}" style="display: inline-block; vertical-align: top;">{{ slides.title }}</a>
     </li>
     {% endfor %}
+    {% if lecture.note %}
+    <li class="no-p-margin">
+      <span style="color: gray; margin-right: 0.7em;">{{ lecture.date }}</span>
+      讲义：<a href="slides/{{ lecture.note.link }}" style="display: inline-block; vertical-align: top;">{{ lecture.note.title }}</a>
+    </li>
+    {% endif %}
     {% if lecture.assignment %}
     <li class="no-p-margin">
       <span style="color: gray; margin-right: 0.7em;">{{ lecture.date }}</span>
