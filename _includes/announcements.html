@@ -47,7 +47,7 @@
       幻灯片：<a href="slides/{{ slides.link }}" style="display: inline-block; vertical-align: top;">{{ slides.title }}</a>
     </li>
     {% endfor %}
-    {% if lecture.note %}
+    {% if lecture.notes %}
     {%for note in lecture.notes %}
     <li class="no-p-margin">
       <span style="color: gray; margin-right: 0.7em;">{{ lecture.date }}</span>

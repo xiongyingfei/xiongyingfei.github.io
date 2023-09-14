@@ -35,7 +35,7 @@ layout: page
           <a href="slides/{{ slides.link }}" style="padding-left: 0.7em; float: right;">[幻灯片]</a>
           {% endfor %}
         </div>
-        {% if lecture.note %}
+        {% if lecture.notes %}
         {%for note in lecture.notes %}
         <a href="slides/{{ note.link }}" style="padding-left: 0.5em;">[讲义]</a>
         {% endfor %}
