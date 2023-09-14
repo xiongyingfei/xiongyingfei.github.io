@@ -3,12 +3,12 @@ teaching_assistants: [肖元安, 张钊, 练琪灏]
 lectures: 
 - date: 2023/09/12
   slides:
-  - title: "课程介绍胶片"
+  - title: "课程介绍"
     link: 01_intro.pdf
-  - title: "课程介绍讲义"
-    link: 1.intro.pdf
   assignment:
     descriptions:
     - text: 完成课程介绍讲义中的练习并提交pdf文件
     due: 2023/09/19 
+  note:
+    - link: 1.intro.pdf
 updates: []

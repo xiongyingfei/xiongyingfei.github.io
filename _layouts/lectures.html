@@ -35,6 +35,8 @@ layout: page
           <a href="slides/{{ slides.link }}" style="padding-left: 0.7em; float: right;">[幻灯片]</a>
           {% endfor %}
         </div>
+        {% if lecture.note %}
+        <a href="slides/{{ slides.link }}" style="padding-left: 0.5em;">[讲义]</a>
         {% if lecture.assignment %}
         <a href="{{ course_base_url }}/assignments" style="padding-left: 0.5em;">[作业]</a>
         {% endif %}
