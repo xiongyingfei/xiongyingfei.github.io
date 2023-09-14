@@ -48,10 +48,12 @@
     </li>
     {% endfor %}
     {% if lecture.note %}
+    {%for note in lecture.notes %}
     <li class="no-p-margin">
       <span style="color: gray; margin-right: 0.7em;">{{ lecture.date }}</span>
       讲义：<a href="slides/{{ note.link }}" style="display: inline-block; vertical-align: top;">{{ note.title }}</a>
     </li>
+    {% endfor %}
     {% endif %}
     {% if lecture.assignment %}
     <li class="no-p-margin">

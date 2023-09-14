@@ -10,5 +10,6 @@ lectures:
     - text: 完成课程介绍讲义中的练习并提交pdf文件
     due: 2023/09/19 
   note:
-   link: 1.intro.pdf
+  - title: "课程介绍"
+    link: 1.intro.pdf
 updates: []
