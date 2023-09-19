@@ -4,13 +4,21 @@ lectures:
 - date: 2023/09/12
   slides:
   - title: "课程介绍"
-    link: 01_intro.pdf
+    link: slides01_intro.pdf
   notes:
   - title: "课程介绍"
-    link: 1.intro.pdf
+    link: lecnotes1_intro.pdf
   assignment:
     descriptions:
     - text: 完成课程介绍讲义中的练习并提交pdf文件
     due: 2023/09/19 
+- date:2023/09/19
+  slides:
+  - title: "程序设计语言基础知识"
+    link: slides02_basic.pdf
+  assignment:
+    descriptions:
+    - text: 完成课程介绍讲义中的练习并提交pdf文件
+    due: 2023/09/26
 
 updates: []
