@@ -20,13 +20,13 @@ lectures:
     descriptions:
     - text: 完成课程介绍讲义中的练习并提交pdf文件
     due: 2023/09/26
-- date: 2023/09/26
+- date: 2023/09/21
   slides:
   - title: "数据流分析：基础"
     link: slides03_dataflow_analysis_I.pdf
   assignment:
     descriptions:
     - text: 完成课程介绍讲义中的练习并提交pdf文件
-    due: 2023/10/03
+    due: 2023/10/10
 
 updates: []
