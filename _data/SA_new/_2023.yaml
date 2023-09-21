@@ -18,7 +18,7 @@ lectures:
     link: slides02_basics.pdf
   assignment:
     descriptions:
-    - text: 完成课程介绍讲义中的练习并提交pdf文件
+    - text: 完成程序设计语言基础知识讲义中的练习并提交pdf文件
     due: 2023/09/26
 - date: 2023/09/21
   slides:
@@ -26,7 +26,7 @@ lectures:
     link: slides03_dataflow_analysis_I.pdf
   assignment:
     descriptions:
-    - text: 完成课程介绍讲义中的练习并提交pdf文件
+    - text: 完成数据流分析：基础讲义中的练习并提交pdf文件
     due: 2023/09/28
 
 updates: []
