@@ -10,30 +10,30 @@ lectures:
     link: lecnotes1_intro.pdf
   assignment:
     descriptions:
-    - text: 截止日期上课前完成课程介绍讲义中的练习并提交pdf文件
-    due: 2023/09/19 
+    - text: 完成课程介绍讲义中的练习并提交pdf文件
+    due: 2023/09/19 上课前
 - date: 2023/09/19
   slides:
   - title: "程序设计语言基础知识"
     link: slides02_basics.pdf
   assignment:
     descriptions:
-    - text: 截止日期上课前完成程序设计语言基础知识讲义中的练习并提交pdf文件
-    due: 2023/09/26 
+    - text: 完成程序设计语言基础知识讲义中的练习并提交pdf文件
+    due: 2023/09/26 上课前
 - date: 2023/09/21
   slides:
   - title: "数据流分析：基础"
     link: slides03_dataflow_analysis_I.pdf
   assignment:
     descriptions:
-    - text: 截止日期当晚UTC+8 23:59:59前完成数据流分析：基础讲义中的练习并提交pdf文件
-    due: 2023/09/28 
+    - text: 完成数据流分析：基础讲义中的练习并提交pdf文件
+    due: 2023/09/28 UTC+8 23:59:59
 - date: 2023/09/26
   slides:
   - title: "数据流分析：框架和扩展"
     link: slides04_dataflow_analysis_II.pdf
   assignment:
     descriptions:
-    - text: 截止日期上课前完成数据流分析：框架和扩展讲义中的练习并提交pdf文件
-    due: 2023/10/10 
+    - text: 完成数据流分析：框架和扩展讲义中的练习并提交pdf文件
+    due: 2023/10/10 上课前
 updates: []
