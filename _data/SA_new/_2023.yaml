@@ -45,4 +45,15 @@ lectures:
     descriptions:
     - text: 完成数据流分析：框架和扩展讲义中的练习并提交pdf文件
     due: 2023/10/10 上课前
+- date: 2023/10/10
+  slides:
+  - title: "抽象解释和分析精度"
+    link: slides05_dataflow_analysis_III.pdf
+  notes:  
+  - title: "抽象解释和分析精度"
+    link: lecnotes.pdf
+  assignment:
+    descriptions:
+    - text: 完成抽象解释和分析精度讲义中的练习并提交pdf文件
+    due: 2023/10/17 上课前
 updates: []
