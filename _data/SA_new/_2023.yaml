@@ -56,4 +56,17 @@ lectures:
     descriptions:
     - text: 完成抽象解释和分析精度讲义中的练习并提交pdf文件
     due: 2023/10/17 上课前
+- date: 2023/10/17
+  slides:
+  - title: "多角度理解程序分析"
+    link: slides06_datalog.pdf
+  - title: "过程间分析"
+    link: slides07_interprocedural_analysis_basics.pdf
+  notes:
+  - title: "多角度理解程序分析"
+    link: lecnotes.pdf
+  assignment:
+    descriptions:
+    - text: 完成过程间分析及多角度理解程序分析讲义中的练习并提交pdf文件
+    due: 2023/10/24 上课前
 updates: []
