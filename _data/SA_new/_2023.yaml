@@ -65,11 +65,9 @@ lectures:
   notes:
   - title: "多角度理解程序分析"
     link: lecnotes.pdf
-  - title: "过程间分析"
-    link: lecnotes.pdf
   assignment:
     descriptions:
     - text: 完成过程间分析及多角度理解程序分析讲义中的练习并提交pdf文件
     due: 2023/10/24 上课前
-    
+
 updates: []
