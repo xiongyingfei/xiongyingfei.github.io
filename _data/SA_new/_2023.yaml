@@ -69,5 +69,16 @@ lectures:
     descriptions:
     - text: 完成多角度理解程序分析讲义中的练习并提交pdf文件
     due: 2023/10/24 上课前
+- date: 2023/10/19
+  slides:
+  - title: "过程间分析加速技术"
+    link: slides08_interprocedural_analysis_optimization.pdf
+  notes:
+  - title: "过程间分析加速技术"
+    link: lecnotes.pdf
+  assignment:
+    descriptions:
+    - text: 作业七（不要交错序号）：完成过程间分析（上一个胶片）以及过程间分析加速技术（本胶片）讲义中的练习并提交一份pdf文件（交在一起）
+    due: 2023/10/31 上课前
 
 updates: []
