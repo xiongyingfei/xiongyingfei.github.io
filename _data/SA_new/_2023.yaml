@@ -80,6 +80,10 @@ lectures:
     descriptions:
     - text: 作业七（不要交错序号）：完成过程间分析（上一个胶片）以及过程间分析加速技术（本胶片）讲义中的练习并提交一份pdf文件（交在一起）
     due: 2023/10/31 上课前
+- date: 2023/10/24
+  slides:
+  - title: "Tai-e"
+    link: slides_taie.pdf
 - date: 2023/10/31
   slides:
   - title: "静态单赋值和稀疏分析"
