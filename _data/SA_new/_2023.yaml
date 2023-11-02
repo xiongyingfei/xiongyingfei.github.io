@@ -95,5 +95,11 @@ lectures:
     descriptions:
     - text: 完成静态单赋值和稀疏分析讲义中的练习并提交pdf文件
     due: 2023/11/07 上课前
-
+- date: 2023/11/02
+  slides:
+  - title: "过程内指针分析"
+    link: slides10_pointer_analysis.pdf
+  notes:
+  - title: "过程内指针分析"
+    link: lecnotes.pdf
 updates: []
