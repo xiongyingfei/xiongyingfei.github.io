@@ -102,11 +102,22 @@ lectures:
   notes:
   - title: "过程内指针分析"
     link: lecnotes.pdf
-- date: 2023/11/14
+- date: 2023/11/07
   slides:
   - title: "其他过程内指针分析过程间指针分析"
     link: slides11_control_flow_analysis.pdf
   notes:
   - title: "其他过程内指针分析过程间指针分析"
     link: lecnotes.pdf
+- date: 2023/11/14
+  slides:
+  - title: "关系型抽象域"
+    link: slides12_relational_abstraction.pdf
+  notes:
+  - title: "关系型抽象域"
+    link: lecnotes.pdf
+  assignment:
+    descriptions:
+    - text: 完成关系型抽象域讲义中的练习并提交pdf文件
+    due: 2023/11/21 上课前
 updates: []
