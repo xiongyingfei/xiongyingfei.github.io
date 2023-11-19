@@ -118,6 +118,17 @@ lectures:
     link: lecnotes.pdf
   assignment:
     descriptions:
-    - text: 完成关系型抽象域讲义中的练习并提交pdf文件
+    - text: 作业九:完成关系型抽象域讲义中的练习并提交pdf文件
     due: 2023/11/21 上课前
+- date: 2023/11/16
+  slides:
+  - title: "布尔可满足性"
+    link: slides13_SAT.pdf
+  notes:
+  - title: "布尔可满足性"
+    link: lecnotes.pdf
+  assignment:
+    descriptions:
+    - text: 作业十:完成布尔可满足性讲义中的练习并提交pdf文件
+    due: 2023/11/28 上课前
 updates: []
