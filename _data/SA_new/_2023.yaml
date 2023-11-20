@@ -119,7 +119,7 @@ lectures:
   assignment:
     descriptions:
     - text: 作业九:完成关系型抽象域讲义中的练习并提交pdf文件
-    due: 2023/11/21 上课前
+    due: 2023/11/28 上课前
 - date: 2023/11/16
   slides:
   - title: "布尔可满足性"
