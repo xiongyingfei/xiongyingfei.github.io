@@ -131,4 +131,15 @@ lectures:
     descriptions:
     - text: 作业十:完成布尔可满足性讲义中的练习并提交pdf文件
     due: 2023/11/28 上课前
+- date: 2023/11/21
+  slides:
+  - title: "可满足性模理论"
+    link: slides14_SMT.pdf
+  notes:
+  - title: "可满足性模理论"
+    link: lecnotes.pdf
+  assignment:
+    descriptions:
+    - text: 作业十一:完成可满足性模理论讲义中的练习并提交pdf文件
+    due: 2023/11/28 上课前
 updates: []
