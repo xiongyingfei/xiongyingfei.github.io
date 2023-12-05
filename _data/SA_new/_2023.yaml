@@ -160,8 +160,4 @@ lectures:
   notes:
   - title: "程序合成：枚举"
     link: lecnotes.pdf
-  assignment:
-    descriptions:
-    - text: 作业十三:完成程序合成：枚举讲义中的练习并提交pdf文件
-    due: 2023/12/12 上课前
 updates: []
