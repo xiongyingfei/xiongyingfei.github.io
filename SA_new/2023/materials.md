@@ -20,3 +20,7 @@ title: 材料
   - 项目要求：[胶片](https://xiongyingfei.github.io/SA_new/2023/slides/course_project_2.pdf)
   - 提交网址：[https://sa2023-lab-2.xmcp.ltd/](https://sa2023-lab-2.xmcp.ltd/)
   - 项目包：[下载](https://xiongyingfei.github.io/SA_new/2023/slides/lab2-handout.7z)
+  - 日期节点：
+    * 组队报给助教:（12月9日23:59:59）
+    * 代码提交（12月25日23:59:59）
+    * 现场报告（12月28日前十名报告）
