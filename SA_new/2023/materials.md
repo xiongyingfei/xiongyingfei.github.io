@@ -17,7 +17,7 @@ title: 材料
 
 课程项目二
   - 组队信息：发邮件到ruanfen2023@163.com，标题\[Lab2组队\]队长学号 ，正文为所有队员的学号和姓名
-  - 项目要求：[胶片](https://xiongyingfei.github.io/SA_new/2023/slides/course_project_2.pdf)
+  - 项目要求：[胶片](https://xiongyingfei.github.io/SA_new/2023/slides/slides16_program_synthesis_enumerative.pdf)
   - 提交网址：[https://sa2023-lab-2.xmcp.ltd/](https://sa2023-lab-2.xmcp.ltd/)
   - 项目包：[下载](https://xiongyingfei.github.io/SA_new/2023/slides/lab2-handout.7z)
   - 日期节点：
