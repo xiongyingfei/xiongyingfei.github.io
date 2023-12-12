@@ -160,4 +160,11 @@ lectures:
   notes:
   - title: "程序合成：枚举"
     link: lecnotes.pdf
+- date: 2023/12/12
+  slides:
+  - title: "程序合成：空间表示和约束求解"
+    link: slides17_program_synthesis_representation.pdf
+  notes:
+  - title: "程序合成：空间表示和约束求解"
+    link: lecnotes.pdf
 updates: []
