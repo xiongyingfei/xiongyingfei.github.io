@@ -167,4 +167,11 @@ lectures:
   notes:
   - title: "程序合成：空间表示和约束求解"
     link: lecnotes.pdf
+- date: 2023/12/19
+  slides:
+  - title: "程序合成：概率"
+    link: slides18_program_synthesis_probability.pdf
+  notes:
+  - title: "程序合成：概率"
+    link: lecnotes.pdf
 updates: []
