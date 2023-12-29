@@ -181,5 +181,11 @@ lectures:
   notes:
   - title: "符号抽象"
     link: lecnotes.pdf
-
+- date: 2023/12/25
+  slides:
+  - title: "错误定位技术"
+    link: slides20_fault_localization.pdf
+  notes:
+  - title: "错误定位技术"
+    link: lecnotes.pdf
 updates: []
