@@ -18,5 +18,17 @@ lectures:
   assignment:
     descriptions:
     - text: 完成Bascis.v中standard非optional的11道习题（请使用最新版本英文教材）
-    due: 2023/03/08
+    due: 2023/03/07
+- date: 2023/02/29
+  slides:
+  - title: "Induction: Proof by Induction"
+    link: 3-Induction.pdf
+  - title: "Lists: Working with Structured Data"
+    link: 4-lists.pdf
+  assignment:
+    descriptions:
+    - text: 完成Induction.v中standard非optional的6道习题
+    - text: 完成Lists.v中standard非optional的11道习题
+    due: 2023/03/07
+
 updates: []
