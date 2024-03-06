@@ -29,6 +29,6 @@ lectures:
     descriptions:
     - text: 完成Induction.v中standard非optional的6道习题
     - text: 完成Lists.v中standard非optional的11道习题
-    due: 2023/03/07
+    due: 2023/03/11
 
 updates: []
