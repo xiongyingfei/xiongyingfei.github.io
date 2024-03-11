@@ -30,5 +30,14 @@ lectures:
     - text: 完成Induction.v中standard非optional的6道习题
     - text: 完成Lists.v中standard非optional的11道习题
     due: 2023/03/11
+- date: 2023/03/07
+  slides:
+  - title: "Poly: Polymorphism and Higher-Order Functions"
+    link: 5-poly.pdf
+  assignment:
+    descriptions:
+    - text: 完成Poly.v中standard非optional且不属于Additional Exercises的7道习题
+    - text: （可选，不评分）如果之前没有接触过函数式语言，可以尝试Poly中Additional Exercises中的习题
+    due: 2023/03/14
 
 updates: []
