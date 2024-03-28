@@ -73,6 +73,17 @@ lectures:
   assignment:
     descriptions:
     - text: 完成IndProp中standard非optional截止到case study（不含）之前的5道习题                                      
-    due: 2023/04/04
+    due: 2023/04/09
+- date: 2023/03/26                                                                
+  slides:
+  - title: "IndPrinciples: Induction Principles"
+    link: 10-indprinciples.pdf
+  - title: "Maps: Total and Partial Maps"
+    link: 11-maps.pdf
+  assignment:
+    descriptions:
+    - text: 完成IndPrinciples中standard非optional的3道习题
+    - text: 完成Maps中2道standard非optional的习题
+    due: 2023/04/09
 
 updates: []
