@@ -80,6 +80,8 @@ lectures:
     link: 10-indprinciples.pdf
   - title: "Maps: Total and Partial Maps"
     link: 11-maps.pdf
+  - title: "第一次习题课"
+    link: exercise1.pdf
   assignment:
     descriptions:
     - text: 完成IndPrinciples中standard非optional的3道习题
