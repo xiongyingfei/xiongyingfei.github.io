@@ -1,7 +1,7 @@
 instructors: [熊英飞]
 teaching_assistants: [石元峰]
 lectures: 
-- date: 2023/02/22
+- date: 2024/02/22
   slides:
   - title: "课程介绍"
     link: 1-intro.pdf
@@ -11,15 +11,15 @@ lectures:
       link: https://softwarefoundations.cis.upenn.edu
     - text: 安装Coq系统和至少一个开发环境
       link: https://coq.inria.fr/download
-- date: 2023/02/27
+- date: 2024/02/27
   slides:
   - title: "Basics: Functional Programming in Coq"
     link: 2-basics.pdf
   assignment:
     descriptions:
     - text: 完成Bascis.v中standard非optional的11道习题（请使用最新版本英文教材）
-    due: 2023/03/07
-- date: 2023/02/29
+    due: 2024/03/07
+- date: 2024/02/29
   slides:
   - title: "Induction: Proof by Induction"
     link: 3-Induction.pdf
@@ -29,8 +29,8 @@ lectures:
     descriptions:
     - text: 完成Induction.v中standard非optional的6道习题
     - text: 完成Lists.v中standard非optional的11道习题
-    due: 2023/03/11
-- date: 2023/03/07
+    due: 2024/03/11
+- date: 2024/03/07
   slides:
   - title: "Poly: Polymorphism and Higher-Order Functions"
     link: 5-poly.pdf
@@ -38,16 +38,16 @@ lectures:
     descriptions:
     - text: 完成Poly.v中standard非optional且不属于Additional Exercises的7道习题
     - text: （可选，不评分）如果之前没有接触过函数式语言，可以尝试Poly中Additional Exercises中的习题
-    due: 2023/03/14
-- date: 2023/03/12
+    due: 2024/03/14
+- date: 2024/03/12
   slides:
   - title: "Tactics: More Tactics"
     link: 6-tactics.pdf
   assignment:
     descriptions:
     - text: 完成Tactics.v中standard非optional且不属于Additional Exercises的8道习题
-    due: 2023/03/21
-- date: 2023/03/14
+    due: 2024/03/21
+- date: 2024/03/14
   slides:
   - title: "Logic: Logic in Coq"
     link: 7-logics.pdf
@@ -55,16 +55,16 @@ lectures:
     descriptions:
     - text: 完成Logic.v中standard非optional且不在下面列表中的17道习题
     - text: tr_rev_correct、even_double_conv、eqb_list
-    due: 2023/03/25
-- date: 2023/03/21
+    due: 2024/03/25
+- date: 2024/03/21
   slides:
   - title: "ProofObjects: The Curry-Howard Correspondence"
     link: 8-proofobjects.pdf
   assignment:
     descriptions:
     - text: 完成ProofObject中standard非optional的9道习题
-    due: 2023/04/04
-- date: 2023/03/26
+    due: 2024/04/04
+- date: 2024/03/26
   slides:
   - title: "IndProp: Inductively Defined Propositions"
     link: 9-indprop.pdf
@@ -73,8 +73,8 @@ lectures:
   assignment:
     descriptions:
     - text: 完成IndProp中standard非optional截止到case study（不含）之前的5道习题                                      
-    due: 2023/04/09
-- date: 2023/03/26                                                                
+    due: 2024/04/09
+- date: 2024/03/26                                                                
   slides:
   - title: "IndPrinciples: Induction Principles"
     link: 10-indprinciples.pdf
@@ -86,6 +86,15 @@ lectures:
     descriptions:
     - text: 完成IndPrinciples中standard非optional的3道习题
     - text: 完成Maps中2道standard非optional的习题
-    due: 2023/04/09
+    due: 2024/04/09
+- date: 2024/04/09
+  slides:
+  - title: "Imp: Simple Imperative Programs"
+    link: 12-imp.pdf                            
+  assignment:
+    descriptions:
+    - text: 完成Imp中standard非optional并不属于Additional Exercises的6道习题
+    - text: 从本章起证明长度有显著增加，请尽早动手
+    due: 2024/04/18  
 
 updates: []
