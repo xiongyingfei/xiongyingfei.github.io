@@ -95,6 +95,10 @@ lectures:
     descriptions:
     - text: 完成Imp中standard非optional并不属于Additional Exercises的6道习题
     - text: 从本章起证明长度有显著增加，请尽早动手
-    due: 2024/04/18  
+    due: 2024/04/18 
+- date: 2023/04/10
+  slides:
+  - title: "AUTO: More Automation"
+    link: 13-auto.pdf 
 
 updates: []
