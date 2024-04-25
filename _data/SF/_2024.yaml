@@ -117,6 +117,14 @@ lectures:
     descriptions:
     - text: 完成Hoare中standard非optional并不属于Additional Exercises的10道习题
     - text: 推荐也完成Havoc部分的习题
-    due: 2023/05/04
+    due: 2023/05/09
+- date: 2023/04/25
+  slides:
+  - title: "Hoare2: Hoare Logic, Part II"
+    link: 16-hoare2.pdf
+  assignment:
+    descriptions:
+    - text: 完成Hoare2中standard非optional的4道习题
+    due: 2023/05/09
 
 updates: []
