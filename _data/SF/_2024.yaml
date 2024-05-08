@@ -126,5 +126,15 @@ lectures:
     descriptions:
     - text: 完成Hoare2中standard非optional的4道习题
     due: 2023/05/09
+- date: 2023/05/07
+  slides:
+  - title: "HoareAsLogic: Hoare Logic as a Logic"
+    link: 17-hoareAsLogic.pdf
+  - title: "第二次习题课"
+    link: exercise2.pdf
+  assignment:
+    descriptions:
+    - text: 完成HoareAsLogic中的6道习题
+    due: 2023/05/16
 
 updates: []
