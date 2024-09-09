@@ -1,5 +1,8 @@
 instructors: [熊英飞]
 teaching_assistants: [赵雨薇, 汪文韬, 智旭生]
-lectures: []
-
+lectures: 
+- date: 2024/09/09
+  notes:
+  - title: "课程讲义"
+    link: lecnotes.pdf
 updates: []
