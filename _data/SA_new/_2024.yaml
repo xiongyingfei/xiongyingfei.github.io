@@ -5,4 +5,8 @@ lectures:
   notes:
   - title: "课程讲义"
     link: lecnotes.pdf
+- date: 2024/09/10
+  slides:
+  - title: "课程介绍"
+    link: slides01_intro.pdf
 updates: []
