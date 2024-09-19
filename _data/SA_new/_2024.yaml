@@ -9,4 +9,8 @@ lectures:
   slides:
   - title: "课程介绍"
     link: slides01_intro.pdf
+- date: 2024/09/19
+  slides:
+  - title: "程序设计语言基础知识"
+    link: slides02_basics.pdf
 updates: []
