@@ -21,4 +21,12 @@ lectures:
   slides:
   - title: "数据流分析：框架和扩展"
     link: slides04_dataflow_analysis_II.pdf
+- date: 2024/10/15
+  slides:
+  - title: "抽象解释和分析精度"
+    link: slides05_dataflow_analysis_III.pdf
+- date: 2024/10/17
+  slides:
+  - title: "多角度理解程序分析"
+    link: slides06_datalog.pdf
 updates: []
