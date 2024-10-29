@@ -29,4 +29,8 @@ lectures:
   slides:
   - title: "多角度理解程序分析"
     link: slides06_datalog.pdf
+- date: 2024/10/29
+  slides:
+  - title: "过程间分析"
+    link: slides07_interprocedural_analysis_basics.pdf
 updates: []

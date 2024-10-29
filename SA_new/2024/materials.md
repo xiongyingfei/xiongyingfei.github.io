@@ -8,7 +8,7 @@ title: 材料
 课程项目一
 - 项目要求：[胶片](https://xiongyingfei.github.io/SA_new/2024/slides/course_project_1.pdf)
 - 提交网址：见微信群/教学网通知
-- 《Tai-e框架》介绍:[胶片](https://xiongyingfei.github.io/SA_new/2024/slides/SA24_Tai-e.pdf)
+- 《Tai-e框架》介绍：[胶片](https://xiongyingfei.github.io/SA_new/2024/slides/SA24_Tai-e.pdf)
 - 项目包：[下载](https://xiongyingfei.github.io/SA_new/2024/slides/lab1-handout.7z)
 - 日期节点：
   * 组队报给助教（11月11日23:59:59）
