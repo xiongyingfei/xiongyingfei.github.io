@@ -33,4 +33,8 @@ lectures:
   slides:
   - title: "过程间分析"
     link: slides07_interprocedural_analysis_basics.pdf
+- date: 2023/10/31
+  slides:
+  - title: "过程间分析加速技术"
+    link: slides08_interprocedural_analysis_optimization.pdf
 updates: []
