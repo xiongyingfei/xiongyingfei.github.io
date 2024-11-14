@@ -45,4 +45,12 @@ lectures:
   slides:
   - title: "其他过程内指针分析过程间指针分析"
     link: slides10_control_flow_analysis.pdf
+- date: 2024/11/14
+  slides:
+  - title: "静态单赋值和稀疏分析"
+    link: slides11_sparse_analysis.pdf
+- date: 2024/11/14
+  slides:
+  - title: "关系型抽象域"
+    link: slides12_relational_abstraction.pdf
 updates: []
