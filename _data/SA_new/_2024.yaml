@@ -53,4 +53,8 @@ lectures:
   slides:
   - title: "关系型抽象域"
     link: slides12_relational_abstraction.pdf
+- date: 2024/11/19
+  slides:
+  - title: "布尔可满足性"
+    link: slides13_SAT.pdf
 updates: []
