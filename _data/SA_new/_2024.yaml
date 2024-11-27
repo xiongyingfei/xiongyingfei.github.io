@@ -57,4 +57,8 @@ lectures:
   slides:
   - title: "布尔可满足性"
     link: slides13_SAT.pdf
+- date: 2024/11/26
+  slides:
+  - title: "可满足性模理论"
+    link: slides14_SMT.pdf
 updates: []
