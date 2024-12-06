@@ -61,4 +61,8 @@ lectures:
   slides:
   - title: "可满足性模理论"
     link: slides14_SMT.pdf
+- date: 2024/11/28
+  slides:
+  - title: "符号执行"
+    link: slides15_symbolic_execution.pdf
 updates: []
