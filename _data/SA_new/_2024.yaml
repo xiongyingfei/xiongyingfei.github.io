@@ -69,4 +69,8 @@ lectures:
   slides:
   - title: "程序合成：枚举"
     link: slides16_program_synthesis_enumerative.pdf
+- date: 2024/12/12
+  slides:
+  - title: "程序合成：约束求解和空间表示"
+    link: slides17_program_synthesis_representation.pdf
 updates: []
