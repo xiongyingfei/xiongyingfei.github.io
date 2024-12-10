@@ -65,4 +65,8 @@ lectures:
   slides:
   - title: "符号执行"
     link: slides15_symbolic_execution.pdf
+- date: 2024/12/10
+  slides:
+  - title: "程序合成：枚举"
+    link: slides16_program_synthesis_enumerative.pdf
 updates: []
