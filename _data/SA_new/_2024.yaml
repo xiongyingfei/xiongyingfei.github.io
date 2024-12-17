@@ -73,4 +73,8 @@ lectures:
   slides:
   - title: "程序合成：约束求解和空间表示"
     link: slides17_program_synthesis_representation.pdf
+- date: 2024/12/17
+  slides:
+  - title: "程序合成：概率"
+    link: slides18_program_synthesis_probability.pdf
 updates: []
