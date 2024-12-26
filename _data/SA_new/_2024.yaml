@@ -77,4 +77,8 @@ lectures:
   slides:
   - title: "程序合成：概率"
     link: slides18_program_synthesis_probability.pdf
+- date: 2024/12/24
+  slides:
+  - title: "错误定位技术"
+    link: slides19_fault_localization.pdf
 updates: []
