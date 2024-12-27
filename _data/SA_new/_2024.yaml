@@ -65,4 +65,20 @@ lectures:
   slides:
   - title: "符号执行"
     link: slides15_symbolic_execution.pdf
+- date: 2024/12/10
+  slides:
+  - title: "程序合成：枚举"
+    link: slides16_program_synthesis_enumerative.pdf
+- date: 2024/12/12
+  slides:
+  - title: "程序合成：约束求解和空间表示"
+    link: slides17_program_synthesis_representation.pdf
+- date: 2024/12/17
+  slides:
+  - title: "程序合成：概率"
+    link: slides18_program_synthesis_probability.pdf
+- date: 2024/12/24
+  slides:
+  - title: "错误定位技术"
+    link: slides19_fault_localization.pdf
 updates: []
