@@ -1,5 +1,14 @@
 instructors: [熊英飞]
 teaching_assistants: [黄柘铳]
 lectures: 
-
+- date: 2025/02/20
+  slides:
+  - title: "课程介绍"
+    link: 1-intro.pdf
+  assignment:
+    descriptions:
+    - text: 下载教科书及相关Coq代码
+      link: https://softwarefoundations.cis.upenn.edu
+    - text: 安装Coq系统和至少一个开发环境
+      link: https://coq.inria.fr/download
 updates: []
