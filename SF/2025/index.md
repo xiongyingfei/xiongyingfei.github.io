@@ -4,9 +4,10 @@ layout: home
 
 ## 课程信息
 
-上课时间：双周周二7~8节、每周周四5~6节
+上课时间地点：
+1~16周 双周周二7~8节 二教402
+1~16周 每周周四5~6节 二教402
 <br>
-上课地点：第三教学楼 401
 
 {% include image.html href="https://softwarefoundations.cis.upenn.edu/plf-current/index.html" url="/_images/book2.jpg" width=175 align="right" %}
 {% include image.html href="https://softwarefoundations.cis.upenn.edu/lf-current/index.html" url="/_images/book1.jpg" width=175 align="right" %}
