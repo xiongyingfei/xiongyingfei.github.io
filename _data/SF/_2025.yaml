@@ -1,0 +1,33 @@
+instructors: [熊英飞]
+teaching_assistants: [黄柘铳]
+lectures: 
+- date: 2025/02/20
+  slides:
+  - title: "课程介绍"
+    link: 1-intro.pdf
+  assignment:
+    descriptions:
+    - text: 下载教科书及相关Coq代码
+      link: https://softwarefoundations.cis.upenn.edu
+    - text: 安装Coq系统和至少一个开发环境
+      link: https://coq.inria.fr/download
+- date: 2025/02/25
+  slides:
+  - title: "Basics: Functional Programming in Coq"
+    link: 2-basics.pdf
+  assignment:
+    descriptions:
+    - text: 完成Bascis.v中standard非optional的11道习题,More Exercise下的习题除外
+    due: 2025/03/06 13:00
+- date: 2025/02/27
+  slides:
+  - title: "Induction: Proof by Induction"
+    link: 3-Induction.pdf
+  - title: "Lists: Working with Structured Data"
+    link: 4-lists.pdf
+  assignment:
+    descriptions:
+    - text: 完成Induction.v中standard非optional的6道习题,More Exercise下的习题除外
+    - text: 完成Lists.v中standard非optional的11道习题,More Exercise下的习题除外
+    due: 2025/03/06 13:00
+updates: []
