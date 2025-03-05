@@ -27,7 +27,7 @@ lectures:
     link: 4-lists.pdf
   assignment:
     descriptions:
-    - text: 完成Induction.v中standard非optional的6道习题,More Exercise下的习题除外
-    - text: 完成Lists.v中standard非optional的11道习题,More Exercise下的习题除外
-    due: 2025/03/06 13:00
+    - text: 完成Induction.v中standard非optional的6道习题
+    - text: 完成Lists.v中standard非optional的11道习题
+    due: 2025/03/10 13:00
 updates: []
