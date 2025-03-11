@@ -39,4 +39,12 @@ lectures:
     - text: 完成Poly.v中standard非optional且不属于Additional Exercises的7道习题
     - text: （可选，不评分）如果之前没有接触过函数式语言，可以尝试Poly中Additional Exercises中的习题
     due: 2024/03/13 13:00
+- date: 2024/03/11
+  slides:
+  - title: "Tactics: More Tactics"
+    link: 6-tactics.pdf
+  assignment:
+    descriptions:
+    - text: 完成Tactics.v中standard非optional且不属于Additional Exercises的8道习题
+    due: 2024/03/20 13:00
 updates: []
