@@ -47,4 +47,13 @@ lectures:
     descriptions:
     - text: 完成Tactics.v中standard非optional且不属于Additional Exercises的8道习题
     due: 2024/03/20 13:00
+- date: 2024/03/13
+  slides:
+  - title: "Logic: Logic in Coq"
+    link: 7-logics.pdf
+  assignment:
+    descriptions:
+    - text: 完成Logic.v中standard非optional且不在下面列表中的17道习题
+    - text: tr_rev_correct、even_double_conv、eqb_list
+    due: 2024/03/20 13:00
 updates: []
