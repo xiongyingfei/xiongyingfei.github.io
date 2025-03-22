@@ -55,5 +55,16 @@ lectures:
     descriptions:
     - text: 完成Logic.v中standard非optional且不在下面列表中的17道习题
     - text: tr_rev_correct、even_double_conv、eqb_list
-    due: 2025/03/20 13:00
+    due: 2025/03/27 13:00
+- date: 2025/03/20
+  slides:
+  - title: "Logic: Logic in Coq"
+    link: 7-logics.pdf
+  - title: "ProofObjects: The Curry-Howard Correspondence"
+    link: 8-proofobjects.pdf
+  assignment:
+    descriptions:
+    - text: 完成Logic.v中standard非optional且不在下面列表中的17道习题
+    - text: tr_rev_correct、even_double_conv、eqb_list
+    due: 2025/03/27 13:00
 updates: []
