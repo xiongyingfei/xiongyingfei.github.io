@@ -67,4 +67,23 @@ lectures:
     - text: 完成Logic.v中standard非optional且不在下面列表中的17道习题
     - text: tr_rev_correct、even_double_conv、eqb_list
     due: 2025/03/27 13:00
+- date: 2025/03/25
+  slides:
+  - title: "IndProp: Inductively Defined Propositions"
+    link: 9-indprop.pdf
+  assignment:
+    descriptions:
+    - text: 见03/27课程内容                                   
+    due: 2025/04/03 13:00
+- date: 2025/03/27
+  slides:
+  - title: "IndProp: Inductively Defined Propositions"
+    link: 9-indprop.pdf
+  - title: "IndPrinciples: Induction Principles"
+    link: 10-indprinciples.pdf
+  assignment:
+    descriptions:
+    - text: 完成IndProp中standard非optional截止到case study（不含）之前且不包括如下题目的8道习题：le_facts, plus_le_facts1, plus_le_facts2
+    - text: 完成IndPrinciples中standard非optional的3道习题                                
+    due: 2025/04/03 13:00
 updates: []
