@@ -69,11 +69,13 @@ lectures:
     due: 2025/03/27 13:00
 - date: 2025/03/25
   slides:
+  - title: "ProofObjects: The Curry-Howard Correspondence"
+    link: 8-proofobjects.pdf
   - title: "IndProp: Inductively Defined Propositions"
     link: 9-indprop.pdf
   assignment:
     descriptions:
-    - text: 见03/27课程内容                                   
+    - text: 完成ProofObject中standard非optional的10道习题                                   
     due: 2025/04/03 13:00
 - date: 2025/03/27
   slides:
