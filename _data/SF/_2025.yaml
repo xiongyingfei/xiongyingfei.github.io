@@ -83,9 +83,22 @@ lectures:
     link: 9-indprop.pdf
   - title: "IndPrinciples: Induction Principles"
     link: 10-indprinciples.pdf
+  - title: "第一次习题课"
+    link: Coq习题课1.pdf
   assignment:
     descriptions:
     - text: 完成IndProp中standard非optional截止到case study（不含）之前且不包括如下题目的8道习题：le_facts, plus_le_facts1, plus_le_facts2
     - text: 完成IndPrinciples中standard非optional的3道习题                                
     due: 2025/04/03 13:00
+- date: 2025/04/03                                                             
+  slides:
+  - title: "Maps: Total and Partial Maps"
+    link: 11-maps.pdf
+  - title: "Imp: Simple Imperative Programs"
+    link: 12-imp.pdf    
+  assignment:
+    descriptions:
+    - text: 完成Maps中2道standard非optional的习题
+    - text: 完成Imp中standard非optional并不属于Additional Exercises的6道习题
+    due: 2025/04/10 13:00
 updates: []
