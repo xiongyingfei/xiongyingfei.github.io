@@ -101,4 +101,21 @@ lectures:
     - text: 完成Maps中2道standard非optional的习题
     - text: 完成Imp中standard非optional并不属于Additional Exercises的6道习题
     due: 2025/04/10 13:00
+- date: 2025/04/08
+  slides:
+  - title: "AUTO: More Automation"
+    link: 13-auto.pdf 
+- date: 2025/04/10
+  slides:
+  - title: "EQUIV: Program Equivalence"
+    link: 14-equiv.pdf
+  - title: "Hoare: Hoare Logic, Part I"
+    link: 15-hoare.pdf
+  assignment:
+    descriptions:
+    - text: 完成Equiv中standard非optional并不属于Extended/Additional Exercises的9道习题
+    - text: 推荐完成Nondeterministic Imp部分的两道习题
+    # - text: 完成Hoare中standard非optional并不属于Additional Exercises的10道习题
+    # - text: 推荐也完成Havoc部分的习题
+    due: 2025/04/17 13:00
 updates: []
