@@ -135,7 +135,7 @@ lectures:
     descriptions:
     - text: 完成Hoare2中standard非optional的4道习题
     due: 2025/05/01 13:00
-- date: 2024/04/24
+- date: 2025/04/24
   slides:
   - title: "HoareAsLogic: Hoare Logic as a Logic"
     link: 17-hoareAsLogic.pdf
@@ -146,4 +146,27 @@ lectures:
     - text: 完成HoareAsLogic中的6道习题
     - text: 祝大家五一快乐！
     due: 2025/05/01 13:00
+- date: 2025/05/08
+  slides:
+  - title: "SmallStep: Small-Step Operational Semantics"
+    link: 18-smallstep.pdf
+  assignment:
+    descriptions:
+    - text: 完成SmallStep中standard非optional并不属于Additional Exercises的8道习题
+    - text: 如有时间，推荐完成par_body_n__Sn
+    due: 2025/05/15 13:00
+- date: 2025/5/15
+  slides:
+  - title: "Types: Type Systems"
+    link: 19-types.pdf
+  - title: "STLC: The Simply Typed Lambda-Calculus"
+    link: 20-stlc.pdf
+  - title: "STLCPROP: Properties of STLC"
+    link: 21-stlcprop.pdf
+  assignment:
+    descriptions:
+    - text: 完成Types中standard非optional并不属于Additional Exercises的5道习题
+    - text: 完成STLC中standard非optional的3道习题以及typing_nonexample_3
+    - text: 完成STLCPROP中progress_from_term_ind和unique_types
+    due: 2025/05/22 13:00
 updates: []
