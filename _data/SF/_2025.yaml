@@ -169,4 +169,23 @@ lectures:
     - text: 完成STLC中standard非optional的3道习题以及typing_nonexample_3
     - text: 完成STLCPROP中progress_from_term_ind和unique_types
     due: 2025/05/22 13:00
+- date: 2025/05/20
+  slides:
+  - title: "MORESTLC: More on the Simply Typed Lambda-Calculus"
+    link: 22-morestlc.pdf
+  assignment:
+    descriptions:
+    - text: 完成MoreSTLC中standard非optional的6道习题
+    due: 2025/05/29 13:00
+- date: 2025/05/22
+  slides:
+  - title: "TYPECHECKING: A Typechecker for STLC"
+    link: 23-typechecking.pdf
+  - title: "REFERENCES: Typing Mutable References"
+    link: 24-references.pdf
+  assignment:
+    descriptions:
+    - text: 完成TypeChecking中type_check_defn和ext_type_checking_sound的•Sums•Lists•Fix
+    due: 2025/05/29 13:00
+  
 updates: []
