@@ -187,5 +187,18 @@ lectures:
     descriptions:
     - text: 完成TypeChecking中type_check_defn和ext_type_checking_sound的•Sums•Lists•Fix
     due: 2025/05/29 13:00
-  
+- date: 2025/05/29
+  slides:
+  - title: "REFERENCES: Typing Mutable References"
+    link: 24-references.pdf
+  - title: "Sub: Subtyping"
+    link: 25-subtyping.pdf
+  assignment:
+    descriptions:
+    - text: subtype_instances_tf_2, subtype_concepts_tf, small_large_4, sub_inversion_arrow, variations
+    due: 2023/06/05 13:00
+- date: 2023/06/03
+  slides:
+  - title: "Separation Logic & Incorrectness Logic: a Quick Look"
+    link: 26-moreprogramlogic.pdf
 updates: []
