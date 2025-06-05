@@ -201,4 +201,11 @@ lectures:
   slides:
   - title: "Separation Logic & Incorrectness Logic: a Quick Look"
     link: 26-moreprogramlogic.pdf
+- date: 2023/06/05
+  slides:
+  - title: "第三次习题课：总复习"
+    link: Coq习题课3.pdf
+  assignment:
+    descriptions:
+    - text: 祝大家期末考试顺利！
 updates: []
