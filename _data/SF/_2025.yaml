@@ -27,7 +27,185 @@ lectures:
     link: 4-lists.pdf
   assignment:
     descriptions:
-    - text: 完成Induction.v中standard非optional的6道习题,More Exercise下的习题除外
-    - text: 完成Lists.v中standard非optional的11道习题,More Exercise下的习题除外
-    due: 2025/03/06 13:00
+    - text: 完成Induction.v中standard非optional的6道习题
+    - text: 完成Lists.v中standard非optional的11道习题
+    due: 2025/03/10 13:00
+- date: 2025/03/06
+  slides:
+  - title: "Poly: Polymorphism and Higher-Order Functions"
+    link: 5-poly.pdf
+  assignment:
+    descriptions:
+    - text: 完成Poly.v中standard非optional且不属于Additional Exercises的7道习题
+    - text: （可选，不评分）如果之前没有接触过函数式语言，可以尝试Poly中Additional Exercises中的习题
+    due: 2025/03/13 13:00
+- date: 2025/03/11
+  slides:
+  - title: "Tactics: More Tactics"
+    link: 6-tactics.pdf
+  assignment:
+    descriptions:
+    - text: 完成Tactics.v中standard非optional且不属于Additional Exercises的8道习题
+    due: 2025/03/20 13:00
+- date: 2025/03/13
+  slides:
+  - title: "Logic: Logic in Coq"
+    link: 7-logics.pdf
+  assignment:
+    descriptions:
+    - text: 完成Logic.v中standard非optional且不在下面列表中的17道习题
+    - text: tr_rev_correct、even_double_conv、eqb_list
+    due: 2025/03/27 13:00
+- date: 2025/03/20
+  slides:
+  - title: "Logic: Logic in Coq"
+    link: 7-logics.pdf
+  - title: "ProofObjects: The Curry-Howard Correspondence"
+    link: 8-proofobjects.pdf
+  assignment:
+    descriptions:
+    - text: 完成Logic.v中standard非optional且不在下面列表中的17道习题
+    - text: tr_rev_correct、even_double_conv、eqb_list
+    due: 2025/03/27 13:00
+- date: 2025/03/25
+  slides:
+  - title: "ProofObjects: The Curry-Howard Correspondence"
+    link: 8-proofobjects.pdf
+  - title: "IndProp: Inductively Defined Propositions"
+    link: 9-indprop.pdf
+  assignment:
+    descriptions:
+    - text: 完成ProofObject中standard非optional的10道习题                                   
+    due: 2025/04/03 13:00
+- date: 2025/03/27
+  slides:
+  - title: "IndProp: Inductively Defined Propositions"
+    link: 9-indprop.pdf
+  - title: "IndPrinciples: Induction Principles"
+    link: 10-indprinciples.pdf
+  - title: "第一次习题课"
+    link: Coq习题课1.pdf
+  assignment:
+    descriptions:
+    - text: 完成IndProp中standard非optional截止到case study（不含）之前且不包括如下题目的8道习题：le_facts, plus_le_facts1, plus_le_facts2
+    - text: 完成IndPrinciples中standard非optional的3道习题                                
+    due: 2025/04/03 13:00
+- date: 2025/04/03                                                             
+  slides:
+  - title: "Maps: Total and Partial Maps"
+    link: 11-maps.pdf
+  - title: "Imp: Simple Imperative Programs"
+    link: 12-imp.pdf    
+  assignment:
+    descriptions:
+    - text: 完成Maps中2道standard非optional的习题
+    - text: 完成Imp中standard非optional并不属于Additional Exercises的6道习题
+    due: 2025/04/10 13:00
+- date: 2025/04/08
+  slides:
+  - title: "AUTO: More Automation"
+    link: 13-auto.pdf 
+- date: 2025/04/10
+  slides:
+  - title: "EQUIV: Program Equivalence"
+    link: 14-equiv.pdf
+  - title: "Hoare: Hoare Logic, Part I"
+    link: 15-hoare.pdf
+  assignment:
+    descriptions:
+    - text: 完成Equiv中standard非optional并不属于Extended/Additional Exercises的9道习题
+    - text: 推荐完成Nondeterministic Imp部分的两道习题
+    # - text: 完成Hoare中standard非optional并不属于Additional Exercises的10道习题
+    # - text: 推荐也完成Havoc部分的习题
+    due: 2025/04/17 13:00
+- date: 2025/04/17
+  slides:
+  - title: "Hoare: Hoare Logic, Part I"
+    link: 15-hoare.pdf
+  assignment:
+    descriptions:
+    - text: 完成Hoare中standard非optional并不属于Additional Exercises的10道习题
+    - text: 推荐也完成Havoc部分的习题
+    due: 2025/04/24 13:00
+- date: 2025/04/22
+  slides:
+  - title: "Hoare2: Hoare Logic, Part II"
+    link: 16-hoare2.pdf
+  assignment:
+    descriptions:
+    - text: 完成Hoare2中standard非optional的4道习题
+    due: 2025/05/01 13:00
+- date: 2025/04/24
+  slides:
+  - title: "HoareAsLogic: Hoare Logic as a Logic"
+    link: 17-hoareAsLogic.pdf
+  - title: "第二次习题课"
+    link: Coq习题课2.pdf
+  assignment:
+    descriptions:
+    - text: 完成HoareAsLogic中的6道习题
+    - text: 祝大家五一快乐！
+    due: 2025/05/01 13:00
+- date: 2025/05/08
+  slides:
+  - title: "SmallStep: Small-Step Operational Semantics"
+    link: 18-smallstep.pdf
+  assignment:
+    descriptions:
+    - text: 完成SmallStep中standard非optional并不属于Additional Exercises的8道习题
+    - text: 如有时间，推荐完成par_body_n__Sn
+    due: 2025/05/15 13:00
+- date: 2025/5/15
+  slides:
+  - title: "Types: Type Systems"
+    link: 19-types.pdf
+  - title: "STLC: The Simply Typed Lambda-Calculus"
+    link: 20-stlc.pdf
+  - title: "STLCPROP: Properties of STLC"
+    link: 21-stlcprop.pdf
+  assignment:
+    descriptions:
+    - text: 完成Types中standard非optional并不属于Additional Exercises的5道习题
+    - text: 完成STLC中standard非optional的3道习题以及typing_nonexample_3
+    - text: 完成STLCPROP中progress_from_term_ind和unique_types
+    due: 2025/05/22 13:00
+- date: 2025/05/20
+  slides:
+  - title: "MORESTLC: More on the Simply Typed Lambda-Calculus"
+    link: 22-morestlc.pdf
+  assignment:
+    descriptions:
+    - text: 完成MoreSTLC中standard非optional的6道习题
+    due: 2025/05/29 13:00
+- date: 2025/05/22
+  slides:
+  - title: "TYPECHECKING: A Typechecker for STLC"
+    link: 23-typechecking.pdf
+  - title: "REFERENCES: Typing Mutable References"
+    link: 24-references.pdf
+  assignment:
+    descriptions:
+    - text: 完成TypeChecking中type_check_defn和ext_type_checking_sound的•Sums•Lists•Fix
+    due: 2025/05/29 13:00
+- date: 2025/05/29
+  slides:
+  - title: "REFERENCES: Typing Mutable References"
+    link: 24-references.pdf
+  - title: "Sub: Subtyping"
+    link: 25-subtyping.pdf
+  assignment:
+    descriptions:
+    - text: subtype_instances_tf_2, subtype_concepts_tf, small_large_4, sub_inversion_arrow, variations
+    due: 2023/06/05 13:00
+- date: 2023/06/03
+  slides:
+  - title: "Separation Logic & Incorrectness Logic: a Quick Look"
+    link: 26-moreprogramlogic.pdf
+- date: 2023/06/05
+  slides:
+  - title: "第三次习题课：总复习"
+    link: Coq习题课3.pdf
+  assignment:
+    descriptions:
+    - text: 祝大家期末考试顺利！
 updates: []
