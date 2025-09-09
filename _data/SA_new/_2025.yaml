@@ -1,0 +1,10 @@
+instructors: [熊英飞]
+teaching_assistants: [夏廷轩，方屹]
+lectures: 
+- date: 2025/09/09
+  notes:
+  - title: "课程讲义"
+    link: lecnotes.pdf
+  - title: "课程介绍"
+    link: slides01_intro.pdf
+updates: []
