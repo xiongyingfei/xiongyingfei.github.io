@@ -8,4 +8,8 @@ lectures:
   notes:
   - title: "课程讲义"
     link: lecnotes.pdf
+  assignment:
+    descriptions:
+    - text: 完成课程介绍讲义中的练习并提交pdf文件
+    due: 2025/09/16 上课前
 updates: []
