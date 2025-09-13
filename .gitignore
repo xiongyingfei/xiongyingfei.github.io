@@ -4,3 +4,4 @@ _site
 vendor
 Gemfile
 Gemfile.lock
+.vscode/
