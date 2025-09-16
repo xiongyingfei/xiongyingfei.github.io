@@ -18,7 +18,7 @@ lectures:
     link: slides02_basics.pdf
   notes:
   - title: "程序设计语言基础知识"
-    link: slides02_basics.pdf
+    link: lecnotes.pdf
   assignment:
     descriptions:
     - text: 完成课程介绍讲义中的练习并提交pdf文件
