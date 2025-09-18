@@ -23,4 +23,15 @@ lectures:
     descriptions:
     - text: 完成课程介绍讲义中的练习并提交pdf文件
     due: 2025/09/23 上课前
+- date: 2025/09/18
+  slides:
+  - title: "数据流分析：示例"
+    link: slides03_dataflow_analysis_I.pdf
+  notes:
+  - title: "数据流分析：示例"
+    link: lecnotes.pdf
+  assignment:
+    descriptions:
+    - text: 完成课程介绍讲义中的练习并提交pdf文件
+    due: 2025/09/23 上课前
 updates: []
