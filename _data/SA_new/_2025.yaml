@@ -21,7 +21,7 @@ lectures:
     link: lecnotes.pdf
   assignment:
     descriptions:
-    - text: 完成课程介绍讲义中的练习并提交pdf文件
+    - text: 完成幻灯片中的练习并提交pdf文件
     due: 2025/09/23 上课前
 - date: 2025/09/18
   slides:
@@ -32,6 +32,6 @@ lectures:
     link: lecnotes.pdf
   assignment:
     descriptions:
-    - text: 完成课程介绍讲义中的练习并提交pdf文件
+    - text: 完成幻灯片中的练习并提交pdf文件
     due: 2025/09/23 上课前
 updates: []
