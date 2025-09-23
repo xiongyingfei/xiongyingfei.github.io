@@ -39,6 +39,7 @@ lectures:
   slides:
   - title: "数据流分析：框架和扩展"
     link: slides04_dataflow_analysis_II.pdf
+  - title: "上周四胶片《数据流分析：示例》已更新"
   notes:
   - title: "数据流分析：框架和扩展"
     link: lecnotes.pdf
@@ -46,5 +47,3 @@ lectures:
     descriptions:
     - text: 完成幻灯片中的练习并提交pdf文件
     due: 2025/09/30 上课前
-updates: 
-  - title: "上周四胶片《数据流分析：示例》已更新"
