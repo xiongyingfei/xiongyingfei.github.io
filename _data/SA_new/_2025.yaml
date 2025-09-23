@@ -34,4 +34,16 @@ lectures:
     descriptions:
     - text: 完成幻灯片中的练习并提交pdf文件
     due: 2025/09/23 上课前
+
+- date: 2025/09/23
+  slides:
+  - title: "数据流分析：框架和扩展"
+    link: slides04_dataflow_analysis_II.pdf
+  notes:
+  - title: "数据流分析：框架和扩展"
+    link: lecnotes.pdf
+  assignment:
+    descriptions:
+    - text: 完成幻灯片中的练习并提交pdf文件
+    due: 2025/09/30 上课前
 updates: []
