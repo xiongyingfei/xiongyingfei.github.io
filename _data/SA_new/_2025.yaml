@@ -56,3 +56,19 @@ lectures:
     descriptions:
     - text: 完成幻灯片中的练习并提交pdf文件
     due: 2025/10/14 上课前
+- date: 2025/10/14
+  slides:
+  - title: "多角度理解程序分析"
+    link: slides06_dataflow_analysis_IV.pdf
+  assignment:
+    descriptions:
+    - text: 完成幻灯片中的练习并提交pdf文件
+    due: 2025/10/21 上课前
+- date: 2025/10/16
+  slides:
+  - title: "过程间分析"
+    link: slides07_interprocedural_analysis_basics.pdf
+  assignment:
+    descriptions:
+    - text: 完成幻灯片中的练习并提交pdf文件
+    due: 2025/10/21 上课前
