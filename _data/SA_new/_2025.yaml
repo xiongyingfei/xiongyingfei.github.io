@@ -72,3 +72,11 @@ lectures:
     descriptions:
     - text: 完成幻灯片中的练习并提交pdf文件
     due: 2025/10/21 上课前
+- date: 2025/10/21
+  slides:
+  - title: "过程间分析加速技术"
+    link: slides08_interprocedural_analysis_optimization.pdf
+  assignment:
+    descriptions:
+    - text: 完成幻灯片中的练习并提交pdf文件
+    due: 2025/10/28 上课前
