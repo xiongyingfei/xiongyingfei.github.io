@@ -80,3 +80,11 @@ lectures:
     descriptions:
     - text: 完成幻灯片中的练习并提交pdf文件
     due: 2025/10/28 上课前
+- date: 2025/10/30
+  slides:
+  - title: "过程内指针分析"
+    link: slides09_pointer_analysis.pdf
+  assignment:
+    descriptions:
+    - text: 完成幻灯片中的练习并提交pdf文件
+    due: 2025/11/11 上课前
