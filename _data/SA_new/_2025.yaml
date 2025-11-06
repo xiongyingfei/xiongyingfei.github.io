@@ -88,3 +88,12 @@ lectures:
     descriptions:
     - text: 完成幻灯片中的练习并提交pdf文件
     due: 2025/11/11 上课前
+
+- date: 2025/11/4
+  slides:
+  - title: "其他过程内指针分析 过程间指针分析"
+    link: slides10_control_flow_analysis.pdf
+  assignment:
+    descriptions:
+    - text: 完成幻灯片中的练习并提交pdf文件
+    due: 2025/11/18 上课前
