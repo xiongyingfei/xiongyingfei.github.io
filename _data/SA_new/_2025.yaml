@@ -97,3 +97,23 @@ lectures:
     descriptions:
     - text: 完成幻灯片中的练习并提交pdf文件
     due: 2025/11/18 上课前
+
+- date: 2025/11/11
+  slides:
+  - title: "静态单赋值和稀疏分析"
+    link: slides11_sparse_analysis.pdf
+  assignment:
+    descriptions:
+    - text: 完成幻灯片中的练习并提交pdf文件
+    due: 2025/11/18 上课前
+
+- date: 2025/11/13
+  slides:
+  - title: "布尔可满足性"
+    link: slides12_SAT.pdf
+  - title: "可满足性模理论"
+    link: slides13_SMT.pdf
+  assignment:
+    descriptions:
+    - text: 完成幻灯片中的练习并提交pdf文件
+    due: 2025/11/18 上课前
