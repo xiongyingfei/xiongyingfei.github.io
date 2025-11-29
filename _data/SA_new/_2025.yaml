@@ -122,3 +122,12 @@ lectures:
   slides:
   - title: "程序的资源消耗分析"
     link: 程序的资源消耗分析.pdf
+
+- date: 2025/11/25
+  slides:
+  - title: "符号执行"
+    link: slides14_symbolic_execution.pdf
+  assignment:
+    descriptions:
+    - text: 完成幻灯片中的练习并提交pdf文件
+    due: 2025/11/25 上课前
