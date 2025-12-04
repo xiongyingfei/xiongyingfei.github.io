@@ -118,7 +118,7 @@ lectures:
     - text: 完成幻灯片中的练习并提交pdf文件
     due: 2025/11/18 上课前
 
-- date: 2025/11/19
+- date: 2025/11/18
   slides:
   - title: "程序的资源消耗分析"
     link: 程序的资源消耗分析.pdf
@@ -131,3 +131,9 @@ lectures:
     descriptions:
     - text: 完成幻灯片中的练习并提交pdf文件
     due: 2025/11/25 上课前
+
+- date: 2025/12/02
+  slides:
+  - title: "Lab2介绍"
+    link: leb2-intro.pdf
+
