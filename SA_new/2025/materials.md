@@ -21,13 +21,9 @@ title: 材料
 
 课程项目二
 
-<!-- - 项目要求：[胶片](https://xiongyingfei.github.io/SA_new/2024/slides/course_project_2.pdf)
-- 提交网址：见微信群/教学网通知
-- 项目包：[下载](https://xiongyingfei.github.io/SA_new/2024/slides/lab2-handout.zip)
+- 项目要求：[文档](https://xiongyingfei.github.io/SA_new/2025/slides/lab2-guide.pdf)
+- 项目简介：[胶片](https://xiongyingfei.github.io/SA_new/2025/slides/lab2-intro.pdf)
+- 提交网址：见文档
 - 日期节点：
-  * 组队报给助教（12月12日23:59:59）
-  * 开放排行榜（12月22日00:00:00）
-  * 代码提交截止（12月24日23:59:59）
-    （上传至教学网，一个队伍只发一份，标题为: 课程项目二代码-学号1-学号2-学号3）
-  * 测试用例提交截止（12月25日23:59:59）
-  * 现场报告（12月26日课上） -->
+  * 代码提交截止（12月23日23:59:59）
+  * 现场报告（12月25日课上）
