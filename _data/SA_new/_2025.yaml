@@ -131,3 +131,23 @@ lectures:
     descriptions:
     - text: 完成幻灯片中的练习并提交pdf文件
     due: 2025/11/25 上课前
+
+- date: 2025/12/09
+  slides:
+  - title: "符号抽象"
+    link: slides15_symbolic_abstraction.pdf
+  assignment:
+    descriptions:
+    - text: 完成幻灯片中的练习并提交pdf文件
+    due: 2025/12/16 上课前
+
+- date: 2025/12/11
+  slides:
+  - title: "关系型抽象域"
+    link: slides16_relational_abstraction.pdf
+  - title: "程序合成：枚举"
+    link: slides17_program_synthesis_enumerative.pdf
+  assignment:
+    descriptions:
+    - text: 完成幻灯片中的练习并提交pdf文件
+    due: 2025/12/16 上课前
