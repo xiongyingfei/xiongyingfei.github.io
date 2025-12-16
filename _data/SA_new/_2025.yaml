@@ -157,4 +157,12 @@ lectures:
     - text: 完成幻灯片中的练习并提交pdf文件
     due: 2025/12/16 上课前
 
-
+- date: 2025/12/16
+  slides:
+  - title: "程序合成：其他方法"
+    link: slides18_program_synthesis_advanced.pdf
+  
+  assignment:
+    descriptions:
+    - text: 完成幻灯片中的练习并提交pdf文件
+    due: 2025/12/23 上课前
