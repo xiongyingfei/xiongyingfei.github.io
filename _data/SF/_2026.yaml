@@ -7,8 +7,8 @@ lectures:
     link: 1-intro.pdf
   assignment:
     descriptions:
-    - text: 下载教科书及相关Coq代码
+    - text: 下载教科书及相关Rocq代码
       link: https://softwarefoundations.cis.upenn.edu
-    - text: 安装Coq系统和至少一个开发环境
-      link: https://coq.inria.fr/download
+    - text: 安装Rocq系统和至少一个开发环境
+      link: https://rocq-prover.org/install
 updates: []

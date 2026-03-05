@@ -16,7 +16,7 @@ layout: home
 
 《Software Foundations》，在线书籍
 - 网址：[https://softwarefoundations.cis.upenn.edu/](https://softwarefoundations.cis.upenn.edu/)
-- 由志愿者维护的中文翻译版：[https://coq-zh.github.io/SF-zh/](https://coq-zh.github.io/SF-zh/)
+- 由志愿者维护的中文翻译版：[https://rocq-zh.github.io/SF-zh/](https://rocq-zh.github.io/SF-zh/)
 
 本课程将用到该书籍的第一卷*Logic Foundations*和第二卷*Programming Language Foundations*。
 
