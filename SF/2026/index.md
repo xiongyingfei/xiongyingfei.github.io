@@ -5,8 +5,8 @@ layout: home
 ## 课程信息
 
 上课时间地点：
-1~16周 双周周二7~8节 二教501
-1~16周 每周周四5~6节 二教501
+1~15周 双周周二7~8节 二教501
+1~15周 每周周四5~6节 二教501
 <br>
 
 {% include image.html href="https://softwarefoundations.cis.upenn.edu/plf-current/index.html" url="/_images/book2.jpg" width=175 align="right" %}
