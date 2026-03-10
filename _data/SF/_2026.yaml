@@ -7,8 +7,17 @@ lectures:
     link: 1-intro.pdf
   assignment:
     descriptions:
-    - text: 下载教科书及相关Rocq代码
+    - text: 下载教科书及相关 Rocq 代码
       link: https://softwarefoundations.cis.upenn.edu
-    - text: 安装Rocq系统和至少一个开发环境
+    - text: 安装 Rocq 系统和至少一个开发环境
       link: https://rocq-prover.org/install
+    - text: 祝大家学习愉快！
+- date: 2026/03/10
+  slides:
+  - title: "Basics: Functional Programming in Rocq"
+    link: 2-basics.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Bascis.v 中 standard 非 optional 的习题，More Exercise 下的 Course Late Policies 除外，共 11 道。
+    due: 2026/03/19 13:00
 updates: []
