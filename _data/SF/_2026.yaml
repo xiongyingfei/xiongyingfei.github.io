@@ -20,4 +20,16 @@ lectures:
     descriptions:
       - text: 完成 Bascis.v 中 standard 非 optional 的习题，More Exercise 下的 Course Late Policies 除外，共 11 道。
     due: 2026/03/19 13:00
+- date: 2026/03/12
+  slides:
+  - title: "Induction: Proof by Induction"
+    link: 3-induction.pdf
+  - title: "Lists: Working with Structured Data"
+    link: 4-lists.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Induction.v 中 standard 非 optional 的 6 道习题。
+      - text: 完成 Lists.v 中 standard 非 optional 的 10 道习题。
+      - text: 本周作业量较大，请尽早动手完成。
+    due: 2026/03/19 13:00
 updates: []
