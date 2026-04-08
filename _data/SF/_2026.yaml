@@ -67,4 +67,12 @@ lectures:
       - text: 完成 Logic.v 中 standard 非 optional 且不在下面列表中的 17 道习题。
       - text: tr_rev_correct, even_double_conv, eqb_list
     due: 2026/04/09 13:00
+- date: 2026/04/07
+  slides:
+  - title: "ProofObjects: The Curry-Howard Correspondence"
+    link: 8-proofobjects.pdf
+  assignment:
+    descriptions:
+      - text: 完成 ProofObject.v 中 standard 非 optional 的 10 道习题。
+    due: 2026/04/16 13:00
 updates: []
