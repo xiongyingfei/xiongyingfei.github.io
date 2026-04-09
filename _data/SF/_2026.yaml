@@ -75,4 +75,15 @@ lectures:
     descriptions:
       - text: 完成 ProofObject.v 中 standard 非 optional 的 10 道习题。
     due: 2026/04/16 13:00
+- date: 2026/04/09
+  slides:
+  - title: "IndProp: Inductively Defined Propositions"
+    link: 9-indprop.pdf
+  - title: "第一次习题课"
+    link: ex1.pdf
+  assignment:
+    descriptions:
+      - text: 完成 IndProp 中 standard 非 optional 截止到 Case Study（不含）之前且不包括如下题目的 8 道习题。
+      - text: le_facts, plus_le_facts1, plus_le_facts2
+    due: 2026/04/16 13:00
 updates: []
