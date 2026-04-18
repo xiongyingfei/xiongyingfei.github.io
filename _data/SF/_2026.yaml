@@ -83,7 +83,20 @@ lectures:
     link: ex1.pdf
   assignment:
     descriptions:
-      - text: 完成 IndProp 中 standard 非 optional 截止到 Case Study（不含）之前且不包括如下题目的 8 道习题。
+      - text: 完成 IndProp.v 中 standard 非 optional 截止到 Case Study（不含）之前且不包括如下题目的 8 道习题。
       - text: le_facts, plus_le_facts1, plus_le_facts2
     due: 2026/04/16 13:00
+- date: 2026/04/16
+  slides:
+  - title: "IndPrinciples: Induction Principles"
+    link: 10-indprinciples.pdf
+  - title: "Maps: Total and Partial Maps"
+    link: 11-maps.pdf
+  - title: "Imp: Simple Imperative Programs"
+    link: 12-imp.pdf
+  assignment:
+    descriptions:
+      - text: 完成 IndPrinciples.v 中 standard 非 optional 的 3 道习题。
+      - text: 完成 Maps.v 中 standard 非 optional 的 2 道习题。
+    due: 2026/04/23 13:00
 updates: []
