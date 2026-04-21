@@ -99,4 +99,18 @@ lectures:
       - text: 完成 IndPrinciples.v 中 standard 非 optional 的 3 道习题。
       - text: 完成 Maps.v 中 standard 非 optional 的 2 道习题。
     due: 2026/04/23 13:00
-updates: []
+- date: 2026/04/21
+  slides:
+  - title: "Imp: Simple Imperative Programs"
+    link: 12-imp.pdf
+  - title: "AUTO: More Automation"
+    link: 13-auto.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Imp.v 中 standard 非 optional 并不属于 Additional Exercises 的 6 道习题。
+      - text: 从本章起证明长度有显著增加，请尽早动手。
+    due: 2026/04/30 13:00
+updates:
+- slides: "Imp: Simple Imperative Programs"
+  link: 12-imp.pdf
+  date: 2026/04/21
