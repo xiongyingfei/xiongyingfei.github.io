@@ -110,6 +110,15 @@ lectures:
       - text: 完成 Imp.v 中 standard 非 optional 并不属于 Additional Exercises 的 6 道习题。
       - text: 从本章起证明长度有显著增加，请尽早动手。
     due: 2026/04/30 13:00
+- date: 2026/04/23
+  slides:
+  - title: "EQUIV: Program Equivalence"
+    link: 14-equiv.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Equiv.v 中 standard 非 optional 并不属于 Extended/Additional Exercises 的 8 道习题。
+      - text: （可选）推荐也完成 Nondeterministic Imp 部分的两道习题。
+    due: 2026/05/07 13:00
 updates:
 - slides: "Imp: Simple Imperative Programs"
   link: 12-imp.pdf
