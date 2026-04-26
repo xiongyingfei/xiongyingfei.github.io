@@ -7,8 +7,119 @@ lectures:
     link: 1-intro.pdf
   assignment:
     descriptions:
-    - text: 下载教科书及相关Rocq代码
+    - text: 下载教科书及相关 Rocq 代码
       link: https://softwarefoundations.cis.upenn.edu
-    - text: 安装Rocq系统和至少一个开发环境
+    - text: 安装 Rocq 系统和至少一个开发环境
       link: https://rocq-prover.org/install
-updates: []
+    - text: 祝大家学习愉快！
+- date: 2026/03/10
+  slides:
+  - title: "Basics: Functional Programming in Rocq"
+    link: 2-basics.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Bascis.v 中 standard 非 optional 的习题，More Exercise 下的 Course Late Policies 除外，共 11 道。
+    due: 2026/03/19 13:00
+- date: 2026/03/12
+  slides:
+  - title: "Induction: Proof by Induction"
+    link: 3-induction.pdf
+  - title: "Lists: Working with Structured Data"
+    link: 4-lists.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Induction.v 中 standard 非 optional 的 6 道习题。
+      - text: 完成 Lists.v 中 standard 非 optional 的 10 道习题。
+      - text: 本周作业量较大，请尽早动手完成。
+    due: 2026/03/19 13:00
+- date: 2026/03/19
+  slides:
+  - title: "Poly: Polymorphism and Higher-Order Functions"
+    link: 5-poly.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Poly.v 中 standard 非 optional 且不属于 Additional Exercises 的 7 道习题。
+      - text: （可选）如果之前没有接触过函数式语言，可以考虑做一下 Additional Exercises 中的习题，其中第二部分是关于丘奇数的习题。
+    due: 2026/03/26 13:00
+- date: 2026/03/24
+  slides:
+  - title: "Tactics: More Tactics"
+    link: 6-tactics.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Tactics.v 中 standard 非 optional 且不属于 Additional Exercises 的 9 道习题。
+    due: 2026/04/02 13:00
+- date: 2026/03/26
+  slides:
+  - title: "Logic: Logic in Rocq"
+    link: 7-logic.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Logic.v 中 standard 非 optional 且不在下面列表中的 17 道习题。
+      - text: tr_rev_correct, even_double_conv, eqb_list
+    due: 2026/04/09 13:00
+- date: 2026/04/02
+  slides:
+  - title: "Logic: Logic in Rocq"
+    link: 7-logic.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Logic.v 中 standard 非 optional 且不在下面列表中的 17 道习题。
+      - text: tr_rev_correct, even_double_conv, eqb_list
+    due: 2026/04/09 13:00
+- date: 2026/04/07
+  slides:
+  - title: "ProofObjects: The Curry-Howard Correspondence"
+    link: 8-proofobjects.pdf
+  assignment:
+    descriptions:
+      - text: 完成 ProofObject.v 中 standard 非 optional 的 10 道习题。
+    due: 2026/04/16 13:00
+- date: 2026/04/09
+  slides:
+  - title: "IndProp: Inductively Defined Propositions"
+    link: 9-indprop.pdf
+  - title: "第一次习题课"
+    link: ex1.pdf
+  assignment:
+    descriptions:
+      - text: 完成 IndProp.v 中 standard 非 optional 截止到 Case Study（不含）之前且不包括如下题目的 8 道习题。
+      - text: le_facts, plus_le_facts1, plus_le_facts2
+    due: 2026/04/16 13:00
+- date: 2026/04/16
+  slides:
+  - title: "IndPrinciples: Induction Principles"
+    link: 10-indprinciples.pdf
+  - title: "Maps: Total and Partial Maps"
+    link: 11-maps.pdf
+  - title: "Imp: Simple Imperative Programs"
+    link: 12-imp.pdf
+  assignment:
+    descriptions:
+      - text: 完成 IndPrinciples.v 中 standard 非 optional 的 3 道习题。
+      - text: 完成 Maps.v 中 standard 非 optional 的 2 道习题。
+    due: 2026/04/23 13:00
+- date: 2026/04/21
+  slides:
+  - title: "Imp: Simple Imperative Programs"
+    link: 12-imp.pdf
+  - title: "AUTO: More Automation"
+    link: 13-auto.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Imp.v 中 standard 非 optional 并不属于 Additional Exercises 的 6 道习题。
+      - text: 从本章起证明长度有显著增加，请尽早动手。
+    due: 2026/04/30 13:00
+- date: 2026/04/23
+  slides:
+  - title: "EQUIV: Program Equivalence"
+    link: 14-equiv.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Equiv.v 中 standard 非 optional 并不属于 Extended/Additional Exercises 的 8 道习题。
+      - text: （可选）推荐也完成 Nondeterministic Imp 部分的两道习题。
+    due: 2026/05/07 13:00
+updates:
+- slides: "Imp: Simple Imperative Programs"
+  link: 12-imp.pdf
+  date: 2026/04/21
