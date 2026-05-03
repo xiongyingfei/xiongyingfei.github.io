@@ -119,6 +119,18 @@ lectures:
       - text: 完成 Equiv.v 中 standard 非 optional 并不属于 Extended/Additional Exercises 的 8 道习题。
       - text: （可选）推荐也完成 Nondeterministic Imp 部分的两道习题。
     due: 2026/05/07 13:00
+- date: 2026/04/30
+  slides:
+  - title: "EQUIV: Program Equivalence"
+    link: 14-equiv.pdf
+  - title: "Hoare: Hoare Logic, Part I"
+    link: 15-hoare.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Equiv.v 中 standard 非 optional 并不属于 Extended/Additional Exercises 的 8 道习题。
+      - text: （可选）推荐也完成 Nondeterministic Imp 部分的两道习题。
+      - text: 祝大家五一快乐！
+    due: 2026/05/07 13:00
 updates:
 - slides: "Imp: Simple Imperative Programs"
   link: 12-imp.pdf
