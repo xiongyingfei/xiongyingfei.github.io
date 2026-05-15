@@ -140,6 +140,16 @@ lectures:
       - text: 完成 Hoare.v 中 standard 非 optional 并不属于 Additional Exercises 的 10 道习题。
       - text: （可选）推荐也完成 Havoc 部分的习题。
     due: 2026/05/14 13:00
+- date: 2026/05/14
+  slides:
+  - title: "Hoare2: Hoare Logic, Part II"
+    link: 16-hoare2.pdf
+  - title: "第二次习题课"
+    link: ex2.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Hoare2.v 中 standard 非 optional 的 3 道习题。
+    due: 2026/05/21 13:00
 updates:
 - slides: "Imp: Simple Imperative Programs"
   link: 12-imp.pdf
