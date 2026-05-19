@@ -150,6 +150,14 @@ lectures:
     descriptions:
       - text: 完成 Hoare2.v 中 standard 非 optional 的 3 道习题。
     due: 2026/05/21 13:00
+- date: 2026/05/19
+  slides:
+  - title: "HoareAsLogic: Hoare Logic as a Logic"
+    link: 17-hoareaslogic.pdf
+  assignment:
+    descriptions:
+      - text: 完成 HoareAsLogic.v 中的 6 道习题。
+    due: 2026/05/28 13:00
 updates:
 - slides: "Imp: Simple Imperative Programs"
   link: 12-imp.pdf
