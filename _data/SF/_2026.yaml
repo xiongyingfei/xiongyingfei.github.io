@@ -158,6 +158,18 @@ lectures:
     descriptions:
       - text: 完成 HoareAsLogic.v 中的 6 道习题。
     due: 2026/05/28 13:00
+- date: 2026/05/21
+  slides:
+  - title: "SmallStep: Small-Step Operational Semantics"
+    link: 18-smallstep.pdf
+  - title: "Types: Type Systems"
+    link: 19-types.pdf
+  assignment:
+    descriptions:
+      - text: 完成 SmallStep.v 中 standard 非 optional 并不属于 Additional Exercises 的 8 道习题。
+      - text: （可选）推荐完成 par_body_n__Sn。
+      - text: 完成 Types.v 中 standard 非 optional 并不属于 Additional Exercises 的 5 道习题。
+    due: 2026/05/28 13:00
 updates:
 - slides: "Imp: Simple Imperative Programs"
   link: 12-imp.pdf
