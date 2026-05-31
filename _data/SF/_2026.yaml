@@ -170,6 +170,19 @@ lectures:
       - text: （可选）推荐完成 par_body_n__Sn。
       - text: 完成 Types.v 中 standard 非 optional 并不属于 Additional Exercises 的 5 道习题。
     due: 2026/05/28 13:00
+- date: 2026/05/28
+  slides:
+  - title: "STLC: The Simply Typed Lambda-Calculus"
+    link: 20-stlc.pdf
+  - title: "STLCPROP: Properties of STLC"
+    link: 21-stlcprop.pdf
+  - title: "MORESTLC: More on the Simply Typed Lambda-Calculus"
+    link: 22-morestlc.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Stlc.v 中 standard 非 optional 的 3 道习题以及 typing_nonexample_3。
+      - text: 完成 StlcProp.v 的progress_from_term_ind 和 unique_types。
+    due: 2026/06/04 13:00
 updates:
 - slides: "Imp: Simple Imperative Programs"
   link: 12-imp.pdf
