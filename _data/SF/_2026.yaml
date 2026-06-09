@@ -196,6 +196,15 @@ lectures:
       - text: 完成 MoreStlc.v 中 standard 非 optional 的 6 道习题。
       - text: 完成 TypeChecking.v 中 (type_check_defn 和 ext_type_checking_sound) 的 Sums，Lists，Fix。
     due: 2026/06/11 13:00
+- date: 2026/06/04
+  slides:
+  - title: "REFERENCES: Typing Mutable References"
+    link: 24-references.pdf
+  - title: "Sub: Subtyping"
+    link: 25-subtyping.pdf
+  assignment:
+    descriptions:
+      - text: 无
 updates:
 - slides: "Imp: Simple Imperative Programs"
   link: 12-imp.pdf
