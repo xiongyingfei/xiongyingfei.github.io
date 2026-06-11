@@ -205,7 +205,21 @@ lectures:
   assignment:
     descriptions:
       - text: 无
+- date: 2026/06/11
+  slides:
+  - title: "Sub: Subtyping"
+    link: 25-subtyping.pdf
+  - title: "Separation Logic & Incorrectness Logic: a Quick Look"
+    link: 26-moreprogramlogic.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Sub.v 中的 subtype_instances_tf_2, subtype_concepts_tf, small_large_4, sub_inversion_arrow, variations。
+      - text: 祝大家期末考试顺利！
+    due: 2026/06/21 13:00
 updates:
 - slides: "Imp: Simple Imperative Programs"
   link: 12-imp.pdf
   date: 2026/04/21
+- slides: "REFERENCES: Typing Mutable References"
+  link: 24-references.pdf
+  date: 2026/06/11
