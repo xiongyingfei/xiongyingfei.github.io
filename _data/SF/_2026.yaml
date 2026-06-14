@@ -119,7 +119,107 @@ lectures:
       - text: 完成 Equiv.v 中 standard 非 optional 并不属于 Extended/Additional Exercises 的 8 道习题。
       - text: （可选）推荐也完成 Nondeterministic Imp 部分的两道习题。
     due: 2026/05/07 13:00
+- date: 2026/04/30
+  slides:
+  - title: "EQUIV: Program Equivalence"
+    link: 14-equiv.pdf
+  - title: "Hoare: Hoare Logic, Part I"
+    link: 15-hoare.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Equiv.v 中 standard 非 optional 并不属于 Extended/Additional Exercises 的 8 道习题。
+      - text: （可选）推荐也完成 Nondeterministic Imp 部分的两道习题。
+      - text: 祝大家五一快乐！
+    due: 2026/05/07 13:00
+- date: 2026/05/07
+  slides:
+  - title: "Hoare2: Hoare Logic, Part II"
+    link: 16-hoare2.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Hoare.v 中 standard 非 optional 并不属于 Additional Exercises 的 10 道习题。
+      - text: （可选）推荐也完成 Havoc 部分的习题。
+    due: 2026/05/14 13:00
+- date: 2026/05/14
+  slides:
+  - title: "Hoare2: Hoare Logic, Part II"
+    link: 16-hoare2.pdf
+  - title: "第二次习题课"
+    link: ex2.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Hoare2.v 中 standard 非 optional 的 3 道习题。
+    due: 2026/05/21 13:00
+- date: 2026/05/19
+  slides:
+  - title: "HoareAsLogic: Hoare Logic as a Logic"
+    link: 17-hoareaslogic.pdf
+  assignment:
+    descriptions:
+      - text: 完成 HoareAsLogic.v 中的 6 道习题。
+    due: 2026/05/28 13:00
+- date: 2026/05/21
+  slides:
+  - title: "SmallStep: Small-Step Operational Semantics"
+    link: 18-smallstep.pdf
+  - title: "Types: Type Systems"
+    link: 19-types.pdf
+  assignment:
+    descriptions:
+      - text: 完成 SmallStep.v 中 standard 非 optional 并不属于 Additional Exercises 的 8 道习题。
+      - text: （可选）推荐完成 par_body_n__Sn。
+      - text: 完成 Types.v 中 standard 非 optional 并不属于 Additional Exercises 的 5 道习题。
+    due: 2026/05/28 13:00
+- date: 2026/05/28
+  slides:
+  - title: "STLC: The Simply Typed Lambda-Calculus"
+    link: 20-stlc.pdf
+  - title: "STLCPROP: Properties of STLC"
+    link: 21-stlcprop.pdf
+  - title: "MORESTLC: More on the Simply Typed Lambda-Calculus"
+    link: 22-morestlc.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Stlc.v 中 standard 非 optional 的 3 道习题以及 typing_nonexample_3。
+      - text: 完成 StlcProp.v 的 progress_from_term_ind 和 unique_types。
+    due: 2026/06/04 13:00
+- date: 2026/06/02
+  slides:
+  - title: "MORESTLC: More on the Simply Typed Lambda-Calculus"
+    link: 22-morestlc.pdf
+  - title: "TYPECHECKING: A Typechecker for STLC"
+    link: 23-typechecking.pdf
+  - title: "REFERENCES: Typing Mutable References"
+    link: 24-references.pdf
+  assignment:
+    descriptions:
+      - text: 完成 MoreStlc.v 中 standard 非 optional 的 6 道习题。
+      - text: 完成 TypeChecking.v 中 (type_check_defn 和 ext_type_checking_sound) 的 Sums, Lists, Fix。
+    due: 2026/06/11 13:00
+- date: 2026/06/04
+  slides:
+  - title: "REFERENCES: Typing Mutable References"
+    link: 24-references.pdf
+  - title: "Sub: Subtyping"
+    link: 25-subtyping.pdf
+  assignment:
+    descriptions:
+      - text: 无
+- date: 2026/06/11
+  slides:
+  - title: "Sub: Subtyping"
+    link: 25-subtyping.pdf
+  - title: "Separation Logic & Incorrectness Logic: a Quick Look"
+    link: 26-moreprogramlogic.pdf
+  assignment:
+    descriptions:
+      - text: 完成 Sub.v 中的 subtype_instances_tf_2, subtype_concepts_tf, small_large_4, sub_inversion_arrow, variations。
+      - text: 祝大家期末考试顺利！
+    due: 2026/06/21 13:00
 updates:
 - slides: "Imp: Simple Imperative Programs"
   link: 12-imp.pdf
   date: 2026/04/21
+- slides: "REFERENCES: Typing Mutable References"
+  link: 24-references.pdf
+  date: 2026/06/11
