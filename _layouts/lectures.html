@@ -65,4 +65,29 @@ layout: page
   {% endfor %}
 </ul>
 
+{% assign lecture_updates = site.data[course_name_raw][_course_year].updates %}
+{% if page.hide_empty_updates != true or lecture_updates.size > 0 %}
 {% include announcements.html updates_only=true %}
+{% endif %}
+
+{% assign schedule = site.data[course_name_raw][_course_year].schedule %}
+{% if schedule.size > 0 %}
+<h2 id="teaching-plan">教学计划</h2>
+<p>以下为本学期的教学计划，具体安排以课程通知为准。</p>
+<table class="course-table">
+  <thead>
+    <tr><th scope="col">日期</th><th scope="col">星期</th><th scope="col">内容</th></tr>
+  </thead>
+  <tbody>
+    {% assign weekdays = "日,一,二,三,四,五,六" | split: "," %}
+    {% for session in schedule %}
+    {% assign weekday = session.date | date: "%w" | plus: 0 %}
+    <tr>
+      <td>{{ session.date | escape }}</td>
+      <td>{{ weekdays[weekday] }}</td>
+      <td>{{ session.topic | escape }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}

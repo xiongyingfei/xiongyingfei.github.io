@@ -258,6 +258,27 @@ a.tosu {
     padding-right: 10px;
 }
 
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: $spacing-unit / 2;
+
+    th,
+    td {
+        padding: 0.5em 0.6em;
+        text-align: left;
+        vertical-align: top;
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    th:first-child,
+    td:first-child,
+    th:nth-child(2),
+    td:nth-child(2) {
+        white-space: nowrap;
+    }
+}
+
 .responsive-table {
 
     li {
