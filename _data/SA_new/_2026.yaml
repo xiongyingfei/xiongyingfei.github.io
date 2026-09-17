@@ -18,9 +18,7 @@ lectures:
     link: slides02_basics.pdf
   assignment:
     descriptions:
-    - text: 第二次作业已在教学网发布，请查看教学网并按要求提交。
-    - text: 课件最后一页为本次作业题目（幻灯片标号 37）。
-      link: slides/slides02_basics.pdf#page=35
+    - text: 课件中给出的 IMP 程序控制流图构建算法还有两个问题：（1）对于判断结点，出边没有区分是 true 还是 false；（2）对于基本块中的语句没有进行合并。请针对上面两个问题修改算法。注意可能既需要修改 f 函数的定义，也需要修改表示控制流图的数据结构。
     due: 2026/09/22 上课前
 
 # 教学计划来自 schedule2026.xlsx（Sheet1!A2:C25）。
