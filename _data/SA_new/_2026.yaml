@@ -12,6 +12,17 @@ lectures:
     - text: 假设我们把符号分析的抽象域改成{自然数，负，槑}三个值，其中自然数表示所有正数和零，请写出加法和乘法的计算规则，并给出一个式子，在该抽象域上得到的结果不如{正，负，零，槑}精确。
     due: 2026/09/22 上课前
 
+- date: 2026/09/15
+  slides:
+  - title: "程序设计语言基础知识"
+    link: slides02_basics.pdf
+  assignment:
+    descriptions:
+    - text: 第二次作业已在教学网发布，请查看教学网并按要求提交。
+    - text: 课件最后一页为本次作业题目（幻灯片标号 37）。
+      link: slides/slides02_basics.pdf#page=35
+    due: 2026/09/22 上课前
+
 # 教学计划来自 schedule2026.xlsx（Sheet1!A2:C25）。
 # 计划与已发布讲义分开，只有实际提供的课件才加入 lectures。
 schedule:
