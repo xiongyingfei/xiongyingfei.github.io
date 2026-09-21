@@ -39,7 +39,7 @@ lectures:
         6. x=x-y+(a+b)</code></pre>
         <p>在第一行，<code>b-a</code>、<code>a+b</code>、<code>a&gt;b</code> 为繁忙表达式。</p>
         <p>请设计繁忙表达式分析。请给出分析方向、抽象域设计（抽象值集合、γ、初值）、转换函数、合并操作，并简要讨论正确性。</p>
-    due: 2026/09/22 上课前
+    due: 2026/09/29 上课前
 
 # 教学计划来自 schedule2026.xlsx（Sheet1!A2:C25）。
 # 计划与已发布讲义分开，只有实际提供的课件才加入 lectures。
