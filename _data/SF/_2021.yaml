@@ -70,7 +70,9 @@ lectures:
     descriptions:
     - text: 完成ProofObject、IndPrinciples中standard非optional的习题。
     - text: 请使用最新英文版教材。
+      note: true
     - text: 注意IndPrinciples中Induction Principles for Propositions的部分将在下次课介绍，该部分无习题。
+      note: true
     due: 2021/04/13
 - teacher: 熊英飞
   date: 2021/04/13
@@ -81,6 +83,7 @@ lectures:
     descriptions:
     - text: 完成IndProp中standard非optional截止到case study（不含）之前的习题。
     - text: 请使用最新英文版教材。
+      note: true
     due: 2021/04/27
 - teacher: 熊英飞
   date: 2021/04/16
@@ -94,6 +97,7 @@ lectures:
     - text: 完成Maps中2道standard非optional的习题和t_update_eq。
     - text: 完成Imp中standard非optional并不属于Additional Exercises的习题。
     - text: 请使用最新英文版教材。
+      note: true
     due: 2021/04/27
 - teacher: 熊英飞
   date: 2021/04/23
@@ -109,6 +113,7 @@ lectures:
     descriptions:
     - text: 完成Equiv中standard非optional并不属于Additional Exercises的习题。
     - text: 请使用最新英文版教材。
+      note: true
     due: 2021/05/11
 - teacher: 熊英飞
   date: 2021/05/07
@@ -119,7 +124,9 @@ lectures:
     descriptions:
     - text: 完成Hoare中standard非optional并不属于Additional Exercises的11道习题。
     - text: 请使用最新英文版教材。
+      note: true
     - text: 推荐也完成Havoc部分的习题。
+      note: true
     due: 2021/05/25
 - teacher: 熊英飞
   date: 2021/05/11
@@ -130,6 +137,7 @@ lectures:
     descriptions:
     - text: 完成Hoare2中standard非optional习题。
     - text: 请使用最新英文版教材。
+      note: true
     due: 2021/05/25
 - teacher: 熊英飞
   date: 2021/05/14
@@ -140,6 +148,7 @@ lectures:
     descriptions:
     - text: 完成HoareLogic中的习题。
     - text: 请使用最新英文版教材。
+      note: true
     due: 2021/05/25
 - teacher: 熊英飞
   date: 2021/05/21
@@ -150,6 +159,7 @@ lectures:
     descriptions:
     - text: 完成SmallStep中standard非optional并不属于Additional Exercises的习题。
     - text: 请使用最新英文版教材。
+      note: true
     due: 2021/05/28
 - teacher: 熊英飞
   date: 2021/05/25
@@ -163,6 +173,7 @@ lectures:
     - text: 完成STLC中standard非optional的3道习题以及typing_nonexample_3。
     - text: 完成Types中standard非optional并不属于Additional Exercises的习题。
     - text: 请使用最新英文版教材。
+      note: true
     due: 2021/05/28
 - teacher: 熊英飞
   date: 2021/05/28
@@ -176,6 +187,7 @@ lectures:
     - text: 完成progress_from_term_ind和unique_types。
     - text: 完成MoreSTLC中standard非optional的习题。
     - text: 请使用最新英文版教材。
+      note: true
     due: 2021/06/04
 - teacher: 熊英飞
   date: 2021/06/04

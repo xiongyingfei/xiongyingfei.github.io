@@ -38,6 +38,7 @@ lectures:
     descriptions:
     - text: 完成Poly.v中standard非optional且不属于Additional Exercises的7道习题
     - text: （可选，不评分）如果之前没有接触过函数式语言，可以尝试Poly中Additional Exercises中的习题
+      note: true
     due: 2025/03/13 13:00
 - date: 2025/03/11
   slides:
@@ -55,6 +56,7 @@ lectures:
     descriptions:
     - text: 完成Logic.v中standard非optional且不在下面列表中的17道习题
     - text: tr_rev_correct、even_double_conv、eqb_list
+      note: true
     due: 2025/03/27 13:00
 - date: 2025/03/20
   slides:
@@ -66,6 +68,7 @@ lectures:
     descriptions:
     - text: 完成Logic.v中standard非optional且不在下面列表中的17道习题
     - text: tr_rev_correct、even_double_conv、eqb_list
+      note: true
     due: 2025/03/27 13:00
 - date: 2025/03/25
   slides:
@@ -115,6 +118,7 @@ lectures:
     descriptions:
     - text: 完成Equiv中standard非optional并不属于Extended/Additional Exercises的9道习题
     - text: 推荐完成Nondeterministic Imp部分的两道习题
+      note: true
     # - text: 完成Hoare中standard非optional并不属于Additional Exercises的10道习题
     # - text: 推荐也完成Havoc部分的习题
     due: 2025/04/17 13:00
@@ -126,6 +130,7 @@ lectures:
     descriptions:
     - text: 完成Hoare中standard非optional并不属于Additional Exercises的10道习题
     - text: 推荐也完成Havoc部分的习题
+      note: true
     due: 2025/04/24 13:00
 - date: 2025/04/22
   slides:
@@ -145,6 +150,7 @@ lectures:
     descriptions:
     - text: 完成HoareAsLogic中的6道习题
     - text: 祝大家五一快乐！
+      note: true
     due: 2025/05/01 13:00
 - date: 2025/05/08
   slides:
@@ -154,6 +160,7 @@ lectures:
     descriptions:
     - text: 完成SmallStep中standard非optional并不属于Additional Exercises的8道习题
     - text: 如有时间，推荐完成par_body_n__Sn
+      note: true
     due: 2025/05/15 13:00
 - date: 2025/5/15
   slides:
@@ -208,4 +215,5 @@ lectures:
   assignment:
     descriptions:
     - text: 祝大家期末考试顺利！
+      note: true
 updates: []
