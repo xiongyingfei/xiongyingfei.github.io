@@ -24,21 +24,21 @@ layout: page
         {% if lecture.assignment.due %}{{ lecture.assignment.due }} 截止{% else %}不需要提交{% endif %}
       </span>
     </div>
-    {% assign problem_count = 0 %}
     {% assign problems_open = false %}
+    {% assign has_problem = false %}
       {% for desc in lecture.assignment.descriptions %}
       {% if desc.note %}
         {% if problems_open %}
-    </ol>
+    </ul>
           {% assign problems_open = false %}
         {% endif %}
-    <div class="assignment-note{% if problem_count == 0 %} assignment-note-leading{% endif %}">
+    <div class="assignment-note{% unless has_problem %} assignment-note-leading{% endunless %}">
       {% else %}
         {% unless problems_open %}
-    <ol class="assignment-problems"{% if problem_count > 0 %} start="{{ problem_count | plus: 1 }}"{% endif %}>
+    <ul class="assignment-problems">
           {% assign problems_open = true %}
         {% endunless %}
-        {% assign problem_count = problem_count | plus: 1 %}
+        {% assign has_problem = true %}
       <li>
       {% endif %}
         {% if desc.text %}
@@ -52,7 +52,7 @@ layout: page
       {% if desc.note %}</div>{% else %}</li>{% endif %}
       {% endfor %}
     {% if problems_open %}
-    </ol>
+    </ul>
     {% endif %}
   </li>
   {% endif %}

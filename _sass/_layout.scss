@@ -330,29 +330,30 @@ ul#assignment-archive > li.assignment-entry:last-child {
        white-space: nowrap;
 }
 
-/* One problem per item, numbered per homework. */
-ol.assignment-problems {
-       list-style-type: decimal;
+/* Each requirement reads as a separate block, even when there is only one. */
+ul.assignment-problems {
+       list-style-type: none;
        margin: 0;
-       padding-left: 1.9em;
+       padding: 0;
 }
 
-ol.assignment-problems > li {
+ul.assignment-problems > li {
+       border-left: 2px solid #d6d6d6;
+       padding-left: .9em;
        margin-bottom: 1.25em;
 }
 
-ol.assignment-problems > li:last-child {
+ul.assignment-problems > li:last-child {
        margin-bottom: 0;
 }
 
-ol.assignment-problems > li::marker {
-       color: #6f6f6f;
-       font-variant-numeric: tabular-nums;
+article ul.assignment-problems > li::before {
+       content: none;
 }
 
-/* Explanations keep their place without taking a problem number. */
+/* Explanations stay in sequence and align with the requirement text. */
 .assignment-note {
-       margin: .45em 0 1.25em 1.9em;
+       margin: .45em 0 1.25em 1em;
 }
 
 .assignment-note-leading {
@@ -368,16 +369,16 @@ ol.assignment-problems > li::marker {
        overflow-wrap: anywhere;
 }
 
-/* Keep a single problem reading as one block: tighten its inner spacing. */
-ol.assignment-problems > li p,
-ol.assignment-problems > li pre,
-ol.assignment-problems > li ul,
-ol.assignment-problems > li ol,
-ol.assignment-problems > li blockquote {
+/* Keep each requirement reading as one block: tighten its inner spacing. */
+ul.assignment-problems > li p,
+ul.assignment-problems > li pre,
+ul.assignment-problems > li ul,
+ul.assignment-problems > li ol,
+ul.assignment-problems > li blockquote {
        margin-bottom: .4em;
 }
 
-ol.assignment-problems > li > :last-child {
+ul.assignment-problems > li > :last-child {
        margin-bottom: 0;
 }
 
