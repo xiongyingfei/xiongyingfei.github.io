@@ -9,30 +9,22 @@ layout: page
 {% capture _course_year %}_{{ course_year }}{% endcapture %}
 {% assign lectures = site.data[course_name_raw][_course_year].lectures %}
 
-<ul id="archive">
+<ul id="assignment-archive">
   {% for lecture in lectures %}
   {% if lecture.assignment %}
-  <li class="archiveposturl" style="background: transparent">
-    <span style="color: gray;">{{ lecture.date }}</span>
-    <span style="padding-left: 1.5em;"></span>
-    {% if lecture.teacher %}
-      {{ lecture.teacher }}：
-    {% endif %}
-    <div style="display: inline-block; vertical-align: top;">
+  <li class="assignment-entry">
+    <div class="assignment-entry-header">
+      <span class="assignment-date">{{ lecture.date }}</span>
+      {% if lecture.teacher %}
+      <span class="assignment-teacher">{{ lecture.teacher }}：</span>
+      {% endif %}
       {% assign first_slides = lecture.slides[0] %}
-      <span style="font-weight: bold;">{{ first_slides.title }}</span>
-      {% if lecture.slides.size > 1 %}
-      <span style="margin-left: 0.5em;">等</span>
-      {% endif %}
+      <span class="assignment-title">{{ first_slides.title }}{% if lecture.slides.size > 1 %} 等{% endif %}</span>
+      <span class="assignment-due">
+        {% if lecture.assignment.due %}{{ lecture.assignment.due }} 截止{% else %}不需要提交{% endif %}
+      </span>
     </div>
-    <span style="margin-left: 1em;">
-      {% if lecture.assignment.due %}
-      [{{ lecture.assignment.due }} 截止]
-      {% else %}
-      [不需要提交]
-      {% endif %}
-    </span>
-    <ul id="assignment-list">
+    <ol class="assignment-problems">
       {% for desc in lecture.assignment.descriptions %}
       <li>
         {% if desc.text %}
@@ -45,7 +37,7 @@ layout: page
         {% endif %}
       </li>
       {% endfor %}
-    </ul>
+    </ol>
   </li>
   {% endif %}
   {% endfor %}

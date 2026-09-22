@@ -271,8 +271,104 @@ ul#archive li {
        background: #fff;
 }
 
-ul#assignment-list li {
-    border-bottom: none;
+/*------ assignments page ------ */
+
+ul#assignment-archive {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+}
+
+/* One published homework per lecture. */
+ul#assignment-archive > li.assignment-entry {
+       border-bottom: #e6e6e6 1px solid;
+       padding: 1.1em 0 1.2em;
+}
+
+ul#assignment-archive > li.assignment-entry:first-child {
+       padding-top: 0;
+}
+
+ul#assignment-archive > li.assignment-entry:last-child {
+       border-bottom: none;
+       padding-bottom: 0;
+}
+
+/* Date / slide title / due date line that heads a homework. */
+.assignment-entry-header {
+       display: flex;
+       flex-wrap: wrap;
+       align-items: baseline;
+       column-gap: .75em;
+       row-gap: .15em;
+       margin-bottom: .7em;
+}
+
+.assignment-entry-header .assignment-date {
+       color: $grey-color;
+       font-family: 'Titillium Web', sans-serif;
+       font-variant-numeric: tabular-nums;
+       letter-spacing: .02em;
+       white-space: nowrap;
+}
+
+.assignment-entry-header .assignment-teacher {
+       color: $grey-color;
+}
+
+.assignment-entry-header .assignment-title {
+       font-weight: 600;
+}
+
+.assignment-entry-header .assignment-due {
+       margin-left: auto;
+       padding: .05em .7em;
+       border-radius: 1em;
+       background: #f1f1f1;
+       color: #6f6f6f;
+       font-size: 85%;
+       white-space: nowrap;
+}
+
+/* One problem per item, numbered per homework. */
+ol.assignment-problems {
+       list-style-type: none;
+       counter-reset: assignment-problem;
+       margin: 0;
+       padding-left: 1.9em;
+}
+
+ol.assignment-problems > li {
+       position: relative;
+       counter-increment: assignment-problem;
+       margin-bottom: 1.25em;
+}
+
+ol.assignment-problems > li:last-child {
+       margin-bottom: 0;
+}
+
+ol.assignment-problems > li:before {
+       content: counter(assignment-problem) ".";
+       position: absolute;
+       left: -1.9em;
+       width: 1.4em;
+       text-align: right;
+       color: #9a9a9a;
+       font-variant-numeric: tabular-nums;
+}
+
+/* Keep a single problem reading as one block: tighten its inner spacing. */
+ol.assignment-problems > li p,
+ol.assignment-problems > li pre,
+ol.assignment-problems > li ul,
+ol.assignment-problems > li ol,
+ol.assignment-problems > li blockquote {
+       margin-bottom: .4em;
+}
+
+ol.assignment-problems > li > :last-child {
+       margin-bottom: 0;
 }
 
 ul#archive  h2 {
@@ -321,7 +417,8 @@ article ul > li:before {
   margin-left: -1.1em; 
 }
 
-article ul#archive > li:before {
+article ul#archive > li:before,
+article ul#assignment-archive > li:before {
   list-style-type: none;
   content: none;
 }
