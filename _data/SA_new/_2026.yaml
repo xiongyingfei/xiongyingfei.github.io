@@ -53,6 +53,20 @@ lectures:
         <p>同时分析：基于你设计的反向语义，对任意表达式是否能保证收敛。表达式中可包含变量、常量和以上四种操作符。</p>
     due: 2026/09/29 上课前
 
+- date: 2026/09/29
+  slides:
+  - title: "加宽变窄"
+    link: slides05_dataflow_analysis_III.pdf
+  assignment:
+    descriptions:
+    - text: |
+        <p>对于下面程序，如果我们在条件分支的地方加上节点根据条件压缩抽象值，采用今天课上讲的加宽算子进行区间分析，每条语句对应的 OUT 值是什么？如果加上变窄，对应的 OUT 值是什么？</p>
+        <pre><code>1. x=1;
+        2. while (x &lt; 100) {
+        3.   x++;}
+        4. skip;</code></pre>
+    due: 2026/10/13 上课前
+
 # 教学计划来自 schedule2026.xlsx（Sheet1!A2:C25）。
 # 计划与已发布讲义分开，只有实际提供的课件才加入 lectures。
 schedule:
