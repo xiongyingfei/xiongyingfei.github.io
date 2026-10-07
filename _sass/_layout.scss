@@ -294,7 +294,7 @@ ul#assignment-archive > li.assignment-entry:last-child {
        padding-bottom: 0;
 }
 
-/* Date / slide title / due date line that heads a homework. */
+/* Homework number / date / slide title / due date header. */
 .assignment-entry-header {
        display: flex;
        flex-wrap: wrap;
@@ -302,6 +302,11 @@ ul#assignment-archive > li.assignment-entry:last-child {
        column-gap: .75em;
        row-gap: .15em;
        margin-bottom: .7em;
+}
+
+.assignment-entry-header .assignment-number {
+       font-weight: 600;
+       white-space: nowrap;
 }
 
 .assignment-entry-header .assignment-date {

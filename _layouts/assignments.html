@@ -8,12 +8,25 @@ layout: page
 
 {% capture _course_year %}_{{ course_year }}{% endcapture %}
 {% assign lectures = site.data[course_name_raw][_course_year].lectures %}
+{% assign assignment_number = 0 %}
 
 <ul id="assignment-archive">
   {% for lecture in lectures %}
   {% if lecture.assignment %}
+  {% assign assignment_has_problems = false %}
+  {% for desc in lecture.assignment.descriptions %}
+    {% unless desc.note %}
+      {% assign assignment_has_problems = true %}
+    {% endunless %}
+  {% endfor %}
+  {% if assignment_has_problems %}
+    {% assign assignment_number = assignment_number | plus: 1 %}
+  {% endif %}
   <li class="assignment-entry">
     <div class="assignment-entry-header">
+      {% if assignment_has_problems %}
+      <span class="assignment-number">第{{ assignment_number }}次作业</span>
+      {% endif %}
       <span class="assignment-date">{{ lecture.date }}</span>
       {% if lecture.teacher %}
       <span class="assignment-teacher">{{ lecture.teacher }}：</span>
