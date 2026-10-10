@@ -153,20 +153,23 @@ def rewrite_downloads(out: Path, policy: Policy, archived: dict) -> dict:
     return {"pages": pages, "links": links}
 
 
-def verify(root: Path, out: Path, policy: Policy, archived: dict) -> None:
+def verify(root: Path, out: Path, policy: Policy, archived: dict, course_root: Path | None = None) -> None:
     problems = []
     for relative, item in archived.items():
         if (out / relative).exists():
             problems.append(f"Archived attachment leaked into output: {relative}")
         if not (out / item["notice"]).is_file():
             problems.append(f"Missing archive notice: {item['notice']}")
-    for source_root, output_prefix in [(root / "static", ""), (root / "papers", "papers"), (root / "presentations", "presentations")]:
+    sources = [(root / "static", ""), (root / "papers", "papers"), (root / "presentations", "presentations")]
+    if course_root:
+        sources.extend((course_root / name, name) for name in policy.roots)
+    for source_root, output_prefix in sources:
         for path in source_root.rglob("*"):
             if not path.is_file() or path.suffix.lower() not in {".pdf", ".ppt", ".pptx", ".doc", ".docx", ".zip", ".7z", ".gz"}:
                 continue
             relative = path.relative_to(source_root).as_posix()
             target = "/".join(part for part in [output_prefix, relative] if part)
-            if source_root == root / "static" and relative in archived:
+            if target in archived:
                 continue
             dest = out / target
             if not dest.is_file() or dest.stat().st_size != path.stat().st_size:
@@ -184,23 +187,24 @@ def verify(root: Path, out: Path, policy: Policy, archived: dict) -> None:
         raise ValueError("\n".join(problems[:30]))
 
 
-def finish(root: Path, out: Path, policy: Policy, archived: dict) -> dict:
+def finish(root: Path, out: Path, policy: Policy, archived: dict, *, reports: Path | None = None,
+           course_root: Path | None = None) -> dict:
     rewrites = rewrite_downloads(out, policy, archived)
     manifest = {"first_year": policy.first_year, "year": policy.year,
                 "files": {path: "/" + entry["notice"] for path, entry in archived.items()}}
     (out / "assets/course-archive.json").write_text(json.dumps(manifest, ensure_ascii=False), encoding="utf-8")
-    verify(root, out, policy, archived)
+    verify(root, out, policy, archived, course_root)
     size = sum(p.stat().st_size for p in out.rglob("*") if p.is_file())
     report = {"year": policy.year, "first_year": policy.first_year,
               "excluded_count": len(archived), "excluded_bytes": sum(x["bytes"] for x in archived.values()),
               "output_bytes": size, "warning_bytes": policy.warning_bytes, "budget_bytes": policy.budget_bytes,
               "rewrites": rewrites, "excluded_files": archived}
-    reports = root / "reports"
-    reports.mkdir(exist_ok=True)
+    reports = reports or root / "reports"
+    reports.mkdir(parents=True, exist_ok=True)
     (reports / "publishing.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Course downloads: {policy.first_year}-{policy.year}; excluded {len(archived)} old files "
           f"({report['excluded_bytes'] / 1e6:.1f} MB); rewrote {rewrites['links']} links")
-    print(f"Publishing size: {size / 1e6:.1f} MB; budget {policy.budget_bytes / 1e6:.0f} MB; report: reports/publishing.json")
+    print(f"Publishing size: {size / 1e6:.1f} MB; budget {policy.budget_bytes / 1e6:.0f} MB; report: {reports / 'publishing.json'}")
     if size > policy.budget_bytes:
         raise ValueError("Publishing size exceeds configured budget; deployment must stop")
     if size > policy.warning_bytes:

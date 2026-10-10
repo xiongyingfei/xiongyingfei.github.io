@@ -29,8 +29,17 @@ class Links(HTMLParser):
 
 
 def main() -> None:
+    # The published support script always receives --dist explicitly and does
+    # not depend on the local workspace module.
+    try:
+        from workspace import work_path
+    except ImportError:
+        try:
+            from scripts.workspace import work_path
+        except ImportError:
+            work_path = lambda root, name: root / name
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dist", type=Path, default=Path(__file__).resolve().parents[1] / "dist")
+    parser.add_argument("--dist", type=Path, default=work_path(Path(__file__).resolve().parents[1], "dist"))
     parser.add_argument("--preview", action="store_true", help="允许本地未缓存的已登记课程由预览服务打开线上原版；正式发布不要使用此选项")
     args = parser.parse_args()
     dist = args.dist.resolve()
