@@ -4,10 +4,67 @@ import argparse
 import hashlib
 import html
 from pathlib import Path
+import json
+import shutil
+from urllib.parse import urljoin, urlsplit, unquote
 try:
     from course_retention import load_policy, inventory, finish
+    from check_site import Links
 except ImportError:
     from scripts.course_retention import load_policy, inventory, finish
+    from scripts.check_site import Links
+
+
+def case_alias_plan(source_names: set[str], wanted: set[str], existing: set[str]) -> dict[str, str]:
+    """Plan only static-file aliases backed by an existing source attachment."""
+    roots = {"papers", "presentations", "slides", "theses", "res", "pics", "assets"}
+    extensions = {".pdf", ".ppt", ".pptx", ".doc", ".docx", ".zip", ".7z", ".gz", ".bib",
+                  ".png", ".jpg", ".jpeg", ".gif", ".svg", ".css", ".js", ".woff", ".woff2"}
+    by_case = {}
+    for name in source_names:
+        by_case.setdefault(name.casefold(), []).append(name)
+    aliases = {}
+    for name in sorted(wanted - existing):
+        path = Path(name)
+        if path.is_absolute() or ".." in path.parts or not path.parts or path.parts[0] not in roots or path.suffix.lower() not in extensions:
+            continue
+        candidates = by_case.get(name.casefold(), [])
+        if len(candidates) > 1:
+            raise ValueError(f"附件大小写匹配不唯一，无法生成兼容地址：{name}")
+        if candidates and candidates[0] in existing:
+            aliases[name] = candidates[0]
+    return aliases
+
+
+def restore_case_aliases(source: Path, site: Path) -> None:
+    record_path = source / ".site-support/ownership.json"
+    if not record_path.is_file():
+        return
+    managed = set(json.loads(record_path.read_text(encoding="utf-8"))["managed_files"])
+    wanted = set(managed)
+    for name in managed:
+        page = site / name
+        if page.suffix.lower() != ".html" or not page.is_file():
+            continue
+        document = Links()
+        document.feed(page.read_text(encoding="utf-8"))
+        for value in document.links:
+            url = urlsplit(value)
+            if not url.scheme and not url.netloc and url.path:
+                wanted.add(unquote(urljoin("/" + name, url.path)).lstrip("/"))
+    roots = {"papers", "presentations", "slides", "theses", "res", "pics", "assets"}
+    source_names = {p.relative_to(source).as_posix() for root in roots for p in (source / root).rglob("*")
+                    if p.is_file() and not p.is_symlink()}
+    existing = {p.relative_to(site).as_posix() for p in site.rglob("*") if p.is_file()}
+    aliases = case_alias_plan(source_names, wanted, existing)
+    for name, original in aliases.items():
+        src, dest = site / original, site / name
+        if hashlib.sha256(src.read_bytes()).digest() != hashlib.sha256((source / original).read_bytes()).digest():
+            raise ValueError(f"附件内容不一致，不能生成兼容地址：{original}")
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(src, dest)
+    if aliases:
+        print(f"Restored {len(aliases)} case-sensitive attachment aliases; source files unchanged")
 
 def notice(title: str, body: str) -> str:
     return ('<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">'
@@ -21,6 +78,7 @@ def finalize(source: Path,site: Path,support: Path,year: int | None=None) -> dic
     source,site,support=source.resolve(),site.resolve(),support.resolve()
     if site==source or not site.is_dir():
         raise ValueError("Expected a separate, existing Jekyll output directory")
+    restore_case_aliases(source, site)
     policy=load_policy(support,year)
     archived=inventory(site,policy)
     for relative in archived:

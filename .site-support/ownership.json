@@ -1664,7 +1664,7 @@
     "theses/ZhuQihao-phd.pdf",
     "theses/ZouDaming-phd.pdf"
   ],
-  "source_commit": "bcc4dc0adbe4bf5e1dc799a78a187b7d66202735",
+  "source_commit": "8b0bdbe8e66da92e9df89016245962db41c002d6",
   "source_verified_remote": true,
   "managed_workflow_sha256": "2a099be1ed4234a0ea9c0bd99c05e39c628fa20fd44a4e6bb908c1919edaf012",
   "note": "Ready for reviewing a publishing commit"
