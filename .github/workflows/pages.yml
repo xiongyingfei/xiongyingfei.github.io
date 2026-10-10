@@ -23,6 +23,10 @@ jobs:
         with:
           source: ./
           destination: ./_site
+      - name: Allow the runner to maintain the generated site
+        # The Jekyll Docker action writes as root. Change ownership only of
+        # its output; leave the checkout and TA-owned source files untouched.
+        run: sudo chown -R --no-dereference "$(id -u):$(id -g)" "$GITHUB_WORKSPACE/_site"
       - name: Apply course retention after Jekyll, and verify protected assets
         run: |
           python -m pip install PyYAML
