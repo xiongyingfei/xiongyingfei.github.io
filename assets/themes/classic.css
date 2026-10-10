@@ -1,0 +1,36 @@
+/* 书斋 · 衬线标题、酒红色、紧凑的传统学术排版 */
+:root {
+  --ink: #282326;
+  --muted: #665e62;
+  --accent: #8a293b;
+  --accent-dark: #6a1e2e;
+  --pale: #f6eeee;
+  --line: #e3d9da;
+  --paper: #fffefa;
+  --background: #fffefa;
+  --footer: #f4efeb;
+  --heading-font: Georgia, 'Noto Serif CJK SC', 'Songti SC', SimSun, serif;
+}
+.wrap { max-width: 1040px; }
+.site-header { border-top: 5px solid var(--accent); position: static; }
+.brand-mark { border-radius: 50%; }
+.hero { grid-template-columns: minmax(0,1fr) 245px; gap: 55px; padding: 48px 0; }
+.hero h1 { font-size: clamp(2.8rem,5vw,4rem); letter-spacing: -.04em; }
+.hero-role { font-size: 1.14rem; }
+.hero-intro { font-size: 1rem; }
+.hero-side { padding: 0; }
+.portrait { height: 290px; border-radius: 2px; box-shadow: none; }
+.identity-card { position: static; width: 100%; border: 0; border-top: 2px solid var(--accent); border-radius: 0; box-shadow: none; padding: 14px 0 0; background: none; }
+.home-grid { grid-template-columns: minmax(0,1fr) 260px; gap: 40px; }
+.aside-card { border: 0; border-top: 2px solid var(--accent); border-radius: 0; box-shadow: none; padding: 20px 0; }
+.section-heading h2, .listing-section>h2 { font-weight: 500; }
+.button, .quick-links a, .resource-links a, .paper-label a, .student-card { border-radius: 2px; }
+.student-card { background: none; }
+.paper-card { padding: 17px 0; grid-template-columns: 100px minmax(0,1fr); }
+@media (max-width:900px) { .home-grid { grid-template-columns: 1fr; } }
+@media (max-width:650px) {
+  .hero { display: block; padding: 28px 0 35px; }
+  .hero-side { max-width: 240px; margin: 28px auto 0; }
+  .portrait { height: 270px; }
+  .paper-card { grid-template-columns: 1fr; }
+}

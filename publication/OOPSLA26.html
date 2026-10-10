@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>LLM-Based Alarm Resolution Guided by Bayesian Program Analysis · Yingfei Xiong</title>
+  <meta name="description" content="Yingfei Xiong · Full Professor with Tenure · Peking University">
+  <link rel="stylesheet" href="/assets/style.css?v=0962fa265a88">
+  <link id="site-theme" rel="stylesheet" href="/assets/theme.css?v=0962fa265a88" data-revision="0962fa265a88">
+  <script src="/assets/theme-preview.js?v=0962fa265a88" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/index.html"><span class="brand-mark">YX</span><span>Yingfei Xiong</span></a>
+      <nav aria-label="Main navigation">
+        <a href="/index.html">Home</a>
+        <a href="/publications.html">Publications</a>
+        <a href="/presentations.html">Talks</a>
+        <a href="/students.html">Students</a>
+        <a href="/news.html">News</a>
+        <a href="/courses.html">Teaching</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/services.html">Service</a>
+        <a href="/awards.html">Honors</a>
+        <a class="language" href="/publication/OOPSLA26_cn.html" lang="zh-CN">中文</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+<div class="page-head paper-detail-head">
+  <a class="back-link" href="/publications.html">← Publications</a>
+  <span class="paper-metadata">Conference papers · 2026</span>
+  <h1>LLM-Based Alarm Resolution Guided by Bayesian Program Analysis</h1>
+  
+</div>
+<article class="paper-detail">
+  <div class="detail-main">
+    <p class="detail-authors">Yifan Zhang, <a href="/students.html#ShiYuanfeng">Yuanfeng Shi</a>, Haoran Lin, Yingfei Xiong, <a href="https://xinpl.github.io/">Xin Zhang</a><sup><a href="/publications.html#authorOrder">*</a></sup></p>
+    <p class="detail-citation">Proc. ACM Program. Lang., 10(OOPSLA2), Association for Computing Machinery · October 2026</p>
+    
+    <div class="resource-links detail-links">
+      <a href="https://doi.org/10.1145/3839536">Read paper</a>
+      <a href="#bibtex">View BibTeX</a>
+      <a href="https://doi.org/10.1145/3839536">DOI</a>
+      
+      
+      
+      
+    </div>
+  </div>
+  <section class="bib-panel" id="bibtex"><div class="section-heading"><div><h2>BibTeX</h2></div></div><pre><code>@article{OOPSLA26,
+author = {Zhang, Yifan and Shi, Yuanfeng and Lin, Haoran and Xiong, Yingfei and Zhang, Xin},
+title = {LLM-Based Alarm Resolution Guided by Bayesian Program Analysis},
+year = {2026},
+issue_date = {October 2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {10},
+number = {OOPSLA2},
+url = {https://doi.org/10.1145/3839536},
+doi = {10.1145/3839536},
+abstract = {Abstract-interpretation-based static analyzers often report large numbers of alarms due to over-approximation. Although large language models (LLMs) can help filter alarms, per-alarm prompting is often inaccurate and expensive. LLMs often misjudge such end alarms, and the repeated context across queries wastes many tokens. We shift LLM judgment from end alarms to intermediate facts (e.g., alias or flow edges), which are easier to validate. If a fact is judged false, all dependent facts and alarms can be pruned. We capture these dependencies in a derivation graph, enabling analyzer-agnostic pruning for any tool that exposes derivations. Under a token budget, we define the fact impact prioritization problem, which asks which facts to query first to maximize expected downstream pruning. We solve it with Bayesian program analysis by estimating each fact’s pruning impact from rule probabilities and fact posteriors. Building on these ideas, we present an LLM-based alarm resolution framework guided by Bayesian program analysis. It iteratively queries high-impact facts that LLMs can judge accurately, prunes downstream nodes when a fact is false, and feeds the judgments back to the Bayesian model as high-confidence evidence. We evaluate our approach on a Java datarace analysis and a C taint analysis, showing that it improves alarm-resolution quality while substantially reducing token consumption compared with both unfiltered static analysis and per-alarm LLM judging.},
+journal = {Proc. ACM Program. Lang.},
+month = oct,
+articleno = {404},
+numpages = {27},
+keywords = {Bayesian Networks, Large Language Models, Static Analysis},
+site_corr = {5},
+site_hide_home = {true},
+site_category = {conf}
+}</code></pre></section>
+</article>
+</main>
+  <footer class="site-footer"><div class="wrap footer-inner"><span>© Yingfei Xiong</span><span><a href="mailto:xiongyf@pku.edu.cn">xiongyf@pku.edu.cn</a> · <a href="https://dblp.uni-trier.de/pid/82/2673.html">DBLP</a> · <a href="http://scholar.google.com/citations?user=kiG3fBsAAAAJ">Google Scholar</a></span></div></footer>
+</body>
+</html>

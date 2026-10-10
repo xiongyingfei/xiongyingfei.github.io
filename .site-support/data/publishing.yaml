@@ -1,0 +1,10 @@
+# 每次构建按北京时间当前年份滚动；复现历史构建可用 python build.py --year 2026。
+course_downloads:
+  retain_years: 3
+  roots: [DPPL, SA, SA_new, SF]
+  excluded_extensions: [pdf, ppt, pptx]
+# 仅用于识别指向本站的绝对下载链接，外站链接不改写。
+site_hosts: [xiongyingfei.github.io]
+# 十进制容量。超过警戒线提示，超过预算停止构建，防止带问题进入部署。
+size_warning_bytes: 900000000
+size_budget_bytes: 1000000000

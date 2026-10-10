@@ -1,0 +1,144 @@
+SA:
+  name:
+    zh: 软件分析技术
+    en: Software Analysis
+  offerings:
+  - year: 2026
+    semester: fall
+    link: SA_new/2026/
+  - year: 2025
+    semester: fall
+    link: SA_new/2025/
+  - year: 2024
+    semester: fall
+    link: SA_new/2024/
+  - year: 2023
+    semester: fall
+    link: SA_new/2023/
+  - year: 2022
+    semester: fall
+    link: SA/2022/main.htm
+  - year: 2021
+    semester: fall
+    link: SA/2021/main.htm
+  - year: 2020
+    semester: fall
+    link: SA/2020/main.htm
+  - year: 2019
+    semester: fall
+    link: SA/2019/main.htm
+  - year: 2018
+    semester: fall
+    link: SA/2018/main.htm
+  - year: 2017
+    semester: fall
+    link: SA/2017/main.htm
+  - year: 2016
+    semester: fall
+    link: SA/2016/main.htm
+  - year: 2015
+    semester: fall
+    link: SA/2015/main.htm
+  - year: 2014
+    semester: fall
+    link: SA/2014/main.htm
+  extra:
+    en: <a href="https://liveclass.org.cn/cloudCourse/#/courseDetail/8mI06L2eRqk8GcsW">Course
+      Video of 2020</a>
+    zh: <a href="https://liveclass.org.cn/cloudCourse/#/courseDetail/8mI06L2eRqk8GcsW">2020年课程录像</a>
+  description:
+    zh: '对软件代码进行分析是各种软件工程工具的基本手段之一。典型软件开发工具比如编译器、代码编辑器、测试与调试工具等等都离不开对软件代码进行分析。在工业界，各大公司的基础平台部门对掌握软件分析技术的人才有大量需求；在学术界，软件分析技术是程序设计语言和软件工程领域开展研究的必备基础知识之一。但是，软件分析技术相关文献存在内容广，流派多，数学基础要求高等方面的特点，使得学习软件分析技术一直是一件很困难的事。本课程希望通过对这一类技术进行通俗易懂的讲解，帮助同学们构建较完整的软件分析技术知识体系，了解该领域的前沿知识，学术上为进一步开展程序设计语言和软件工程领域的学术研究打下基础，在实践上培养开发大型软件工程工具的开发能力。
+
+      '
+SF:
+  name:
+    zh: 软件科学基础（原：软件理论基础与实践）
+    en: Software Foundations
+  offerings:
+  - year: 2026
+    semester: spring
+    link: SF/2026/
+  - year: 2025
+    semester: spring
+    link: SF/2025/
+  - year: 2024
+    semester: spring
+    link: SF/2024/
+  - year: 2023
+    semester: spring
+    link: SF/2023/
+  - year: 2022
+    semester: spring
+    link: SF/2022/
+  - year: 2021
+    semester: spring
+    link: SF/2021/
+  description:
+    zh: '理论计算机科学通常被认为分为A和B两部分（参考ICALP的CFP），A主要是计算相关的理论，包括自动机、算法复杂度等；B主要是软件相关的理论，包括数理逻辑、形式语义、类型系统等。部分国内学者也通俗的将这两部分称为“美式计算机科学”和“欧式计算机科学”。本课程主要讲授软件部分的基础理论，即数理逻辑、形式语义、类型系统的知识。
+
+
+      这些理论知识不仅能丰富和加深我们对软件的理解，也是构造高可信软件的基础。为了确保程序是可信的，一种本质手段是将证明嵌入程序，让计算机自动检查该证明的正确性，确保程序满足需求规约。这样的“带证明程序代码”是目前很多大公司构造高可信关键代码的基础，比如微软、华为都用这种技术构造操作系统内核，而各国的航天航空、高铁等关键代码也常常采用带证明代码的方式构造。该技术也入选了《麻省理工技术评论》2011年选出的年度十大技术。本课程的实践部分将介绍构造这类代码的一个基础编程语言Coq，使得同学们能够掌握构造高可信软件的基本方法，并通过动手实践加深对软件理论的理解。
+
+
+      本课程将首先讲授Coq定理证明工具的使用，然后基于Coq介绍数理逻辑、形式语义、类型系统等相关理论知识，并在Coq中构建一个程序设计语言并证明该语言实现的各种性质。
+
+      '
+DPPL:
+  name:
+    zh: 编程语言的设计原理
+    en: Design Principles of Programming Languages
+  offerings:
+  - year: 2021
+    semester: spring
+    link: DPPL/2021/main.htm
+  - year: 2020
+    semester: spring
+    link: DPPL/2020/main.htm
+  - year: 2019
+    semester: spring
+    link: DPPL/2019/main.htm
+  - year: 2018
+    semester: spring
+    link: DPPL/2018/main.htm
+  - year: 2017
+    semester: spring
+    link: DPPL/2017/main.htm
+  - year: 2016
+    semester: spring
+    link: DPPL/2016/main.htm
+  - year: 2015
+    semester: spring
+    link: DPPL/2015/main.htm
+  - year: 2014
+    semester: spring
+    link: DPPL/2014/main.htm
+ICS:
+  name:
+    zh: 计算机系统导论小班讨论课
+    en: Introduction to Computer Systems, Discussion Seminar
+  offerings:
+  - year: 2019
+    semester: fall
+  - year: 2018
+    semester: fall
+  - year: 2017
+    semester: fall
+  - year: 2016
+    semester: fall
+  - year: 2015
+    semester: fall
+  - year: 2014
+    semester: fall
+  - year: 2013
+    semester: fall
+  - year: 2012
+    semester: fall
+ADA:
+  name:
+    zh: 算法分析与设计小班讨论课
+    en: Algorithm Design and Analysis, Discussion Seminar
+  offerings:
+  - year: 2014
+    semester: spring
+  - year: 2013
+    semester: spring

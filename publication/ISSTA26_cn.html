@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Self-Adaptive Code Representation: Grammar-Guided or Token-Based? · 熊英飞</title>
+  <meta name="description" content="熊英飞 · 长聘正教授 · 北京大学">
+  <link rel="stylesheet" href="/assets/style.css?v=0962fa265a88">
+  <link id="site-theme" rel="stylesheet" href="/assets/theme.css?v=0962fa265a88" data-revision="0962fa265a88">
+  <script src="/assets/theme-preview.js?v=0962fa265a88" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转到内容</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/index_cn.html"><span class="brand-mark">YX</span><span>熊英飞</span></a>
+      <nav aria-label="主导航">
+        <a href="/index_cn.html">主页</a>
+        <a href="/publications_cn.html">论文</a>
+        <a href="/presentations_cn.html">报告</a>
+        <a href="/students_cn.html">学生</a>
+        <a href="/news_cn.html">新闻</a>
+        <a href="/courses_cn.html">课程</a>
+        <a href="/projects_cn.html">项目</a>
+        <a href="/services_cn.html">服务</a>
+        <a href="/awards_cn.html">荣誉</a>
+        <a class="language" href="/publication/ISSTA26.html" lang="en">English</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+<div class="page-head paper-detail-head">
+  <a class="back-link" href="/publications_cn.html">← 论文列表</a>
+  <span class="paper-metadata">会议论文 · 2026</span>
+  <h1>Self-Adaptive Code Representation: Grammar-Guided or Token-Based?</h1>
+  
+</div>
+<article class="paper-detail">
+  <div class="detail-main">
+    <p class="detail-authors"><a href="/students_cn.html#LiangQingyuan">梁清源</a>, <a href="/students_cn.html#ZhangZhao">张钊</a>, 刘晨, <a href="/students_cn.html#SunZeyu">孙泽宇</a>, Zheng Lin, 肖越易, 张皓天, 熊英飞, <a href="https://cs.pku.edu.cn/info/1080/1229.htm">张路</a><sup><a href="/publications_cn.html#authorOrder">*</a></sup></p>
+    <p class="detail-citation">Proc. ACM Softw. Eng., 3(ISSTA), Association for Computing Machinery · 2026年10月</p>
+    
+    <div class="resource-links detail-links">
+      <a href="https://doi.org/10.1145/3832182">阅读全文</a>
+      <a href="#bibtex">查看 BibTeX</a>
+      <a href="https://doi.org/10.1145/3832182">DOI</a>
+      
+      
+      
+      
+    </div>
+  </div>
+  <section class="bib-panel" id="bibtex"><div class="section-heading"><div><h2>BibTeX</h2></div></div><pre><code>@article{ISSTA26,
+author = {Liang, Qingyuan and Zhang, Zhao and Liu, Chen and Sun, Zeyu and Lin, Zheng and Xiao, Yueyi and Zhang, Haotian and Xiong, Yingfei and Zhang, Lu},
+title = {Self-Adaptive Code Representation: Grammar-Guided or Token-Based?},
+year = {2026},
+issue_date = {October 2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {3},
+number = {ISSTA},
+url = {https://doi.org/10.1145/3832182},
+doi = {10.1145/3832182},
+abstract = {Recent advances in code intelligence are largely driven by large language models (LLMs), which represent code as token sequences and achieve strong results on many software engineering tasks. However, standard token-based approaches often struggle to capture the inherent structural regularities of programming languages. While grammar-guided approaches can alleviate this limitation by modeling syntax more explicitly, they may sacrifice flexibility. In this work, we propose the Self-Adaptive Code Representation (SACR) framework, which enables models to dynamically select between token-based and grammar-guided representations depending on the problem context. SACR operates in two stages: first, the model is jointly trained on both representations to learn their respective strengths; second, an adaptive mechanism quantifies the generation difficulty for each sample and selects the model’s preferred code representation for training. We implement SACR in three versions of SacrCoder with parameter sizes of 0.5B, 1.3B, and 3B, and evaluate their effectiveness across a range of code generation and code repair benchmarks, including two repository-level pragmatic benchmarks built from real open-source projects. Through empirical analysis, we first demonstrate that token-based and grammar-guided code representations exhibit complementary strengths. Building on this observation, SACR selectively exploits these complementary representations during training to improve overall performance. Experimental results show that SacrCoder consistently achieves state-of-the-art performance. For example, the 3B model obtains a Pass@1 of 84.1\% on HumanEval and 30.3\% on APPS, corresponding to relative improvements of 9.5\% and 32.3\% over grammar-only and dual-format baselines, respectively, and SacrCoder also outperforms all single-representation baselines on the real-world programming benchmarks at every scale. Further ablation studies confirm that the effectiveness of SACR in leveraging complementary code representations.},
+journal = {Proc. ACM Softw. Eng.},
+month = oct,
+articleno = {ISSTA091},
+numpages = {21},
+keywords = {Grammars, Large Language Models, ode Generation},
+site_hide_home = {true},
+site_corr = {9},
+site_category = {conf}
+}</code></pre></section>
+</article>
+</main>
+  <footer class="site-footer"><div class="wrap footer-inner"><span>© 熊英飞</span><span><a href="mailto:xiongyf@pku.edu.cn">xiongyf@pku.edu.cn</a> · <a href="https://dblp.uni-trier.de/pid/82/2673.html">DBLP</a> · <a href="http://scholar.google.com/citations?user=kiG3fBsAAAAJ">谷歌学术</a></span></div></footer>
+</body>
+</html>

@@ -1,0 +1,37 @@
+/* 留白 · 黑白与克制的蓝色、圆形肖像、宽松单栏 */
+:root {
+  --ink: #202124;
+  --muted: #666b73;
+  --accent: #235cc0;
+  --accent-dark: #194b9f;
+  --pale: #f3f5f8;
+  --line: #e4e6ea;
+  --paper: #fff;
+  --background: #fff;
+  --footer: #fff;
+}
+.wrap { max-width: 1020px; }
+.site-header { position: static; background: #fff; border-bottom: 0; }
+.brand-mark { background: none; color: var(--ink); border: 1px solid var(--ink); border-radius: 50%; }
+.hero { grid-template-columns: minmax(0,1fr) 210px; gap: 60px; padding: 70px 0; }
+.hero h1 { font-size: clamp(3rem,5vw,4.6rem); font-weight: 600; }
+.hero-role { font-size: 1.15rem; font-weight: 500; }
+.hero-intro { font-size: 1.05rem; }
+.hero-side { padding: 0; }
+.portrait { width: 210px; height: 210px; border-radius: 50%; box-shadow: none; }
+.identity-card { position: static; width: 100%; background: none; border: 0; border-radius: 0; box-shadow: none; padding: 22px 0 0; text-align: center; }
+.home-grid { grid-template-columns: 1fr; gap: 0; }
+.home-aside { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 32px; padding-top: 30px; border-top: 1px solid var(--line); }
+.aside-card { padding: 0; border: 0; border-radius: 0; box-shadow: none; }
+.paper-label a { background: none; padding-left: 0; }
+.student-card { border-width: 0 0 1px; border-radius: 0; padding: 20px 0; }
+.quick-links a { border-radius: 0; border-width: 0 0 1px; padding: 16px 0; }
+.button { border-radius: 3px; }
+.section-heading h2, .aside-card h2 { font-weight: 600; }
+@media (max-width:900px) { .home-aside { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width:650px) {
+  .hero { display: flex; flex-direction: column; align-items: stretch; gap: 28px; padding: 30px 0 36px; }
+  .hero-side { max-width: 240px; margin: 0 auto; }
+  .portrait { margin: auto; width: 180px; height: 180px; }
+  .home-aside { grid-template-columns: 1fr; gap: 28px; }
+}

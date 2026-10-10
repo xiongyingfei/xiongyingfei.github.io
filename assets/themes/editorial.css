@@ -1,0 +1,62 @@
+/* 纸刊：暖纸色、蓝墨、衬线标题与紧凑分栏。 */
+:root {
+ --ink:#202b3c; --muted:#626574; --accent:#294f86; --accent-dark:#193c6d;
+ --pale:#f0eee6; --line:#d5d2c8; --paper:#f8f5ed; --background:#f8f5ed; --footer:#eee9dd;
+ --heading-font:Georgia,'Noto Serif CJK SC','Songti SC',SimSun,serif;
+}
+html { font-size:18px; }
+body { line-height:1.5; }
+.site-header { background:var(--background); border-bottom:2px solid var(--ink); position:static; }
+.brand-mark { background:none; color:var(--accent); border:1px solid var(--accent); border-radius:0; }
+.site-header nav a { font-size:.94rem; }
+.profile-header { grid-template-columns:210px minmax(0,.9fr) minmax(0,1.1fr); gap:30px; padding:32px 0; align-items:start; }
+.profile-photo { width:210px; height:280px; grid-row:1; border:1px solid var(--line); }
+.profile-identity h1 { font-weight:500; font-size:2.6rem; margin:0 0 10px; }
+.profile-role { margin-bottom:12px; }
+.affiliations li { margin:4px 0; }
+.profile-details { grid-column:3; border-left:1px solid var(--line); padding-left:26px; }
+.profile-details .membership { margin:0 0 14px; color:var(--ink); }
+.profile-contact p { margin:7px 0; }
+.profile-details .pronunciation { color:var(--muted); }
+.section { padding:24px 0; border-top:2px solid var(--ink); }
+.section-heading { margin-bottom:15px; }
+.section-heading h2 { font-size:1.65rem; font-weight:500; letter-spacing:0; }
+.home-panel { padding:22px; border-top-color:var(--accent); }
+.timeline-row { padding:11px 0; gap:14px; }
+.timeline-row div,.paper-authors,.paper-venue,.paper-award,.membership,.student-card p,.talk-card p { font-size:1rem; }
+.paper-body h3,.talk-card h3 { font-size:1.08rem; line-height:1.4; }
+.paper-label a,.resource-links a,.timeline-row time,.service-row>span,.talk-card time,.more,.footer-inner { font-size:.94rem; }
+.paper-card { grid-template-columns:112px minmax(0,1fr); gap:14px; padding:16px 0; }
+.paper-label a { border-left:2px solid var(--accent); }
+.resource-links { margin-top:8px; }
+.resource-links a { padding:4px 10px; }
+.education-list>li { margin:11px 0; }
+.project-list li { margin:8px 0; }
+.service-row { padding:11px 0; }
+.page-head { padding:36px 0 22px; border-bottom:2px solid var(--ink); }
+.page-head h1 { font-size:2.5rem; letter-spacing:0; }
+.button,.resource-links a,.paper-label a,.quick-links a,.student-card { border-radius:0; }
+.student-card,.quick-links a { background:none; }
+@media(max-width:1100px) {
+ .profile-header { grid-template-columns:210px minmax(0,1fr); column-gap:32px; row-gap:0; }
+ .profile-photo { grid-row:1 / span 2; }
+ .profile-details { grid-column:2; border-left:0; padding-left:0; }
+ .profile-details .membership { margin:16px 0 12px; }
+}
+@media(max-width:650px) {
+ html { font-size:17px; }
+ .site-header nav a { font-size:.94rem; }
+ .profile-header { grid-template-columns:100px minmax(0,1fr); gap:16px; padding:24px 0; }
+ .profile-photo { grid-row:1; width:100px; height:140px; }
+ .profile-identity h1 { font-size:1.9rem; margin-bottom:8px; }
+ .profile-role { font-size:1rem; margin-bottom:8px; }
+ .affiliations li { margin:3px 0; }
+ .profile-details { grid-column:1 / -1; }
+ .profile-details .membership { margin-top:0; }
+ .profile-contact p { margin:5px 0; }
+ .paper-card { grid-template-columns:1fr; gap:7px; }
+ .section-heading h2 { font-size:1.5rem; }
+ .resource-links a { min-height:40px; padding:7px 12px; font-size:.94rem; }
+ .paper-label a { font-size:.94rem; }
+ .home-panel { padding:19px; }
+}
