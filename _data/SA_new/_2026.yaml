@@ -67,6 +67,37 @@ lectures:
         4. skip;</code></pre>
     due: 2026/10/13 上课前
 
+- date: 2026/10/13
+  slides:
+  - title: "抽象解释和其他模型"
+    link: slides06_dataflow_analysis_IV.pdf
+  assignment:
+    descriptions:
+    - text: |
+        <p>一个用 Datalog 编写的符号分析，在应用到下面程序上时，产生了一部分规则，请补全剩余的规则，并分析相比之前的符号分析，精度是否一样？如果不一样，请举一个例子。分析规则和结果中不出现槑和 ⊥。</p>
+        <pre><code>1. x-=1;
+        2. y+=1;
+        3. while(y &lt; z) {
+        4.   x *= -100;
+        5.   y += 1;}</code></pre>
+        <p>输入：x 为负，y 为零，z 为正。求输出的符号。</p>
+        <pre><code>out(x, entry, 负)
+        out(y, entry, 零)
+        out(z, entry, 正)
+        out(x, exit, ?)
+        out(y, exit, ?)
+        out(z, exit, ?)
+        edge(1, 2), edge(2, 3), edge(5, 3), edge(3, 4),
+        edge(4, 5), edge(entry, 1), edge(3, exit)
+        out(x, 1, 正) :- in(x, 1, 正)
+        out(x, 1, 零) :- in(x, 1, 正)
+        out(x, 1, 负) :- in(x, 1, 负)
+        out(x, 1, 负) :- in(x, 1, 零)
+        out(v, 3, 甲) :- in(v, 3, 甲)</code></pre>
+    - text: 注：只是将如上程序手动转换成 Datalog 规则，不用编写针对任意程序通用的分析。
+      note: true
+    due: 2026/10/20 上课前
+
 # 教学计划来自 schedule2026.xlsx（Sheet1!A2:C25）。
 # 计划与已发布讲义分开，只有实际提供的课件才加入 lectures。
 schedule:

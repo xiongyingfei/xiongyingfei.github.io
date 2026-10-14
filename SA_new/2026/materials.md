@@ -13,6 +13,8 @@ title: 材料
 
 [软分课程项目一（简要）介绍](slides/sa_project_1_intro.pdf)
 
+[Tai-e 介绍与入门](slides/Tai-e%20介绍与入门.pdf)
+
 ### Lab 截止日期
 
 | Lab | 任务 | 截止日期 |
