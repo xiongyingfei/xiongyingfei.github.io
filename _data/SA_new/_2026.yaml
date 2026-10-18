@@ -71,6 +71,11 @@ lectures:
   slides:
   - title: "抽象解释和其他模型"
     link: slides06_dataflow_analysis_IV.pdf
+
+- date: 2026/10/15
+  slides:
+  - title: "抽象解释和其他模型（续）"
+    link: slides06_dataflow_analysis_IV.pdf
   assignment:
     descriptions:
     - text: |
