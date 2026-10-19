@@ -662,7 +662,7 @@
     "_data/SA_new/_2023.yaml": "3f7009442e847d614998b94eee8c03b1c1d4945def5e59f29a5501627de24516",
     "_data/SA_new/_2024.yaml": "3430dd976aae4b252b16bf78cfa634ea563091c73043b64fe241144ab70113f9",
     "_data/SA_new/_2025.yaml": "24bc1c30e219f7a757c348790237f4ff39240412bc031b93e4abd23611b2350e",
-    "_data/SA_new/_2026.yaml": "96bf02c0e0a620c1473bda8d40ad19eb44adb0aff560c277787818edff5da546",
+    "_data/SA_new/_2026.yaml": "b543b74f54ce3272695790589ee49f81fa4b198412aa8563830b3dd03f83a9f0",
     "_data/SF/_2021.yaml": "5877d33bcc42bc79d6e3dfb44b0d08d99dc13fba8768da161b7e21dd481cbf90",
     "_data/SF/_2022.yaml": "09c7c3243d875b8105256ca4ad1d6ff82f21865dda53ed2ae4903c766ca34fc2",
     "_data/SF/_2023.yaml": "441ce3033c7104c4a7f6c540581a293f7d0560e8e6694e8543df6c9041655b86",
@@ -1675,7 +1675,7 @@
     "theses/ZhuQihao-phd.pdf",
     "theses/ZouDaming-phd.pdf"
   ],
-  "source_commit": "92dc6aa7dc8b05777a7dcfcafb49278d031cd21f",
+  "source_commit": "27f0b936bc8a7cf7dd0775bd45fe9b0e58e65495",
   "source_verified_remote": true,
   "managed_workflow_sha256": "2a099be1ed4234a0ea9c0bd99c05e39c628fa20fd44a4e6bb908c1919edaf012",
   "note": "Ready for reviewing a publishing commit"
