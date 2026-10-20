@@ -103,6 +103,11 @@ lectures:
       note: true
     due: 2026/10/20 上课前
 
+- date: 2026/10/20
+  slides:
+  - title: "过程间分析"
+    link: slides07_interprocedural_analysis_basics.pdf
+
 # 教学计划来自 schedule2026.xlsx（Sheet1!A2:C25）。
 # 计划与已发布讲义分开，只有实际提供的课件才加入 lectures。
 schedule:
