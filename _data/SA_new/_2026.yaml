@@ -107,6 +107,62 @@ lectures:
   slides:
   - title: "过程间分析"
     link: slides07_interprocedural_analysis_basics.pdf
+  assignment:
+    descriptions:
+    - text: |
+        <strong>过程间可达定值分析</strong>
+        <p>设计一个过程间的可达定值分析。给出半格定义和变换函数定义，特别是 <code>call</code> 语句和 <code>return</code> 语句的变换函数。</p>
+        <p>参数传递不认为是定值。例如，下面程序中，标号 2 位置的 <code>c</code> 是由标号 1 的语句定值的，而不是标号 3 的语句定值的。</p>
+        <pre><code>void main() {
+          int a = 100; //1
+          b(a) //3
+        }
+        void b(int c) {
+          print(c); //2
+        }</code></pre>
+        <p>假设过程调用时不能传表达式，只能传变量，即 <code>f(a+b)</code> 不合法，<code>f(a)</code> 合法。</p>
+        <p>根据上述定义的可达定值分析，采用基于克隆的方法分析下面的程序，<code>k</code> 至少应该设置成多少，分析结果才能和精确的上下文敏感分析等价？</p>
+        <pre><code>int g;
+        void main() {
+          int a = 10;
+          g = a + 1;
+          h(a); h(a);
+        }
+        void h(int a) {
+          x(a); g++; x(a);
+        }
+        void x(int a) {
+          output(a);
+        }</code></pre>
+    - text: |
+        <strong>符号分析与 CFL 可达性</strong>
+        <p>对下面的程序做符号分析，抽象域参考下方绘图基础，考虑条件压缩函数，画出 CFL-reachability 的图。要求根据输入值 <code>x</code> 的符号，在这个程序上能分析出返回值完全精确的符号结果。</p>
+        <p>一般性的符号分析无法转为 CFL 可达性，但本程序只涉及一元操作，所以可以用 CFL 可达性分析。</p>
+        <pre><code>int main() {
+          ...
+          assert(y &gt; 0 &amp;&amp; z &lt; 0);
+          f(y); f(z);
+        }
+        int f(int x) {
+          if (x &lt; 0) {
+            x = x + 1;
+            if (x == 0) x = 2025;
+            else x = f(x);
+          }
+          else if (x &gt; 0) {
+            x = x - 1;
+            if (x == 0) x = -2025;
+            else x = f(x);
+          }
+          else x = 0;
+          return x;
+        }</code></pre>
+        <p>假设 <code>int</code> 是无界整数，分析是否存在一个足够大的 <code>k</code>，使得基于克隆的方法在 <code>f</code> 的最后一行返回精确的结果。如果存在，请给出这样的 <code>k</code>；如果不存在，请给出简要证明。请针对“调用位置作为上下文”和“函数名称作为上下文”两种情况分别分析。</p>
+        <p><img src="images/assignment07-cfl-base.png" alt="符号分析的绘图基础：x、y、z 的符号节点及程序控制流" width="1440" height="1080" style="height: auto;" loading="lazy"></p>
+        <p>图中每组三个节点从左到右依次表示 &lt;0、=0、&gt;0 的情况；蓝、紫、绿分别表示 <code>x</code>、<code>y</code>、<code>z</code>。浅灰色边仅表示控制流，不表示 CFL-reachability 图中的任何边；为使图更清晰，图中省略了部分节点和边。</p>
+    - text: 原图中的常数 2024 和 -2024 分别按上面程序中的 2025 和 -2025 读取。
+      note: true
+    due: 2026/10/27 上课前
 
 # 教学计划来自 schedule2026.xlsx（Sheet1!A2:C25）。
 # 计划与已发布讲义分开，只有实际提供的课件才加入 lectures。
