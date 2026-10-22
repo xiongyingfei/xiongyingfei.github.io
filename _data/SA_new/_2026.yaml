@@ -136,12 +136,13 @@ lectures:
         }</code></pre>
     - text: |
         <strong>符号分析与 CFL 可达性</strong>
-        <p>对下面的程序做符号分析，抽象域参考下方绘图基础，考虑条件压缩函数，画出 CFL-reachability 的图。要求根据输入值 <code>x</code> 的符号，在这个程序上能分析出返回值完全精确的符号结果。</p>
+        <p>对下面的程序做符号分析，抽象域参考下方绘图基础，考虑条件压缩函数，画出 CFL-reachability 的图。要求根据 <code>f</code> 的输入值 <code>x</code> 的符号，分析出其返回值完全精确的符号结果，并区分 <code>main</code> 中两次调用的返回结果。</p>
         <p>一般性的符号分析无法转为 CFL 可达性，但本程序只涉及一元操作，所以可以用 CFL 可达性分析。</p>
         <pre><code>int main() {
           ...
           assert(y &gt; 0 &amp;&amp; z &lt; 0);
-          f(y); f(z);
+          y = f(y);
+          z = f(z);
         }
         int f(int x) {
           if (x &lt; 0) {
@@ -158,8 +159,9 @@ lectures:
           return x;
         }</code></pre>
         <p>假设 <code>int</code> 是无界整数，分析是否存在一个足够大的 <code>k</code>，使得基于克隆的方法在 <code>f</code> 的最后一行返回精确的结果。如果存在，请给出这样的 <code>k</code>；如果不存在，请给出简要证明。请针对“调用位置作为上下文”和“函数名称作为上下文”两种情况分别分析。</p>
-        <p><img src="images/assignment07-cfl-base.png" alt="符号分析的绘图基础：x、y、z 的符号节点及程序控制流" width="1440" height="1080" style="height: auto;" loading="lazy"></p>
-        <p>图中每组三个节点从左到右依次表示 &lt;0、=0、&gt;0 的情况；蓝、紫、绿分别表示 <code>x</code>、<code>y</code>、<code>z</code>。浅灰色边仅表示控制流，不表示 CFL-reachability 图中的任何边；为使图更清晰，图中省略了部分节点和边。</p>
+        <p><a href="images/assignment07-cfl-base.svg"><img src="images/assignment07-cfl-base.svg" alt="符号分析绘图基础：main 中 y = f(y)、z = f(z) 的调用前与返回后节点，以及 f 中的符号节点和控制流" width="1440" height="1280" style="height: auto;" loading="lazy"></a></p>
+        <p>图中每组三个节点从左到右依次表示 &lt;0、=0、&gt;0 的情况；蓝、紫、绿分别表示 <code>x</code>、<code>y</code>、<code>z</code>。每个框的上排、下排分别表示语句执行前、执行后；调用语句的下排表示返回并完成赋值后，<code>return x</code> 的下排表示返回值。请补全 CFL-reachability 图中的边，并为同一调用点的参数传递边与返回值传递边标注配对的左、右括号。</p>
+        <p>浅灰色箭头仅作控制流引导，不是需要补全的 CFL 边；其中调用框之间的箭头表示前一次调用返回后继续执行。为使图更清晰，省略了递归调用、返回等部分控制流箭头，所需的 CFL 边仍须补全。点击图片可查看原图。</p>
     due: 2026/10/27 上课前
 
 # 教学计划来自 schedule2026.xlsx（Sheet1!A2:C25）。

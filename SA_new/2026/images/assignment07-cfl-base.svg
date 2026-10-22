@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1280" viewBox="0 0 1440 1280" role="img" aria-labelledby="title desc">
+  <title id="title">作业 2：符号分析与 CFL 可达性绘图基础</title>
+  <desc id="desc">main 依次执行 assert(y &gt; 0 &amp;&amp; z &lt; 0)、y = f(y)、z = f(z)。各调用框分别保留调用前和返回后的符号节点。f 的函数体包含条件分支、两处递归调用及 return x。彩色节点留供补全 CFL 边，浅灰箭头仅作控制流引导。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9" fill="none" stroke="#b8bec8" stroke-width="1.4"/>
+    </marker>
+    <g id="signs">
+      <circle cx="-46" cy="0" r="10"/>
+      <circle cx="0" cy="0" r="10"/>
+      <circle cx="46" cy="0" r="10"/>
+    </g>
+    <style>
+      text { font-family: 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif; fill: #293546; }
+      .code { font-family: Consolas, 'DejaVu Sans Mono', monospace; font-size: 25px; text-anchor: middle; }
+      .hint { font-size: 20px; fill: #596679; }
+      .condition { font-size: 21px; fill: #596679; paint-order: stroke; stroke: white; stroke-width: 8px; stroke-linejoin: round; }
+      .box { fill: white; stroke: #b8bec8; stroke-width: 1.8; }
+      .flow { fill: none; stroke: #b8bec8; stroke-width: 2; marker-end: url(#arrow); }
+      .x { fill: #4d92ce; }
+      .y { fill: #7936a8; }
+      .z { fill: #009b58; }
+    </style>
+  </defs>
+  <rect width="1440" height="1280" fill="white"/>
+  <text x="56" y="64" font-size="38" font-weight="700">作业 2 · 绘图基础</text>
+  <text x="56" y="111" font-size="22">每组三个节点从左到右：&lt; 0、= 0、&gt; 0。</text>
+  <circle cx="680" cy="103" r="9" class="x"/><text x="698" y="111" font-size="22">x</text>
+  <circle cx="766" cy="103" r="9" class="y"/><text x="784" y="111" font-size="22">y</text>
+  <circle cx="852" cy="103" r="9" class="z"/><text x="870" y="111" font-size="22">z</text>
+  <text x="56" y="149" font-size="22">上排：执行前；下排：执行后。调用框的下排为返回并赋值后；return x 的下排为返回值。</text>
+  <text x="56" y="187" font-size="22">浅灰箭头仅作控制流引导，部分箭头省略。请自行补全 CFL 边及调用／返回的配对括号。</text>
+  <path d="M 56 209 H 1384" stroke="#e1e5eb"/>
+
+  <!-- Control-flow guides, not CFL edges. Interprocedural returns and recursive calls are omitted. -->
+  <g class="flow">
+    <path d="M 510 290 H 380 V 400"/>
+    <path d="M 590 450 H 850"/>
+    <path d="M 380 500 L 650 580"/>
+    <path d="M 1060 500 L 790 580"/>
+    <path d="M 720 680 L 450 760"/>
+    <path d="M 720 680 V 870"/>
+    <path d="M 720 680 L 990 760"/>
+    <path d="M 450 860 L 190 960"/>
+    <path d="M 450 860 V 960"/>
+    <path d="M 990 860 V 960"/>
+    <path d="M 990 860 L 1250 960"/>
+    <path d="M 190 1060 L 660 1150"/>
+    <path d="M 450 1060 L 690 1150"/>
+    <path d="M 720 970 V 1150"/>
+    <path d="M 990 1060 L 750 1150"/>
+    <path d="M 1250 1060 L 780 1150"/>
+  </g>
+  <text x="56" y="271" font-size="25" font-weight="700">main</text>
+  <g id="assert">
+    <rect x="510" y="240" width="420" height="100" rx="5" class="box"/>
+    <use href="#signs" x="625" y="260" class="y"/><use href="#signs" x="815" y="260" class="z"/>
+    <text x="720" y="298" class="code">assert(y &gt; 0 &amp;&amp; z &lt; 0)</text>
+    <use href="#signs" x="625" y="320" class="y"/><use href="#signs" x="815" y="320" class="z"/>
+  </g>
+  <g id="call-y">
+    <rect x="170" y="400" width="420" height="100" rx="5" class="box"/>
+    <text x="285" y="385" class="hint" text-anchor="middle">y</text><text x="475" y="385" class="hint" text-anchor="middle">z</text>
+    <text x="152" y="427" class="hint" text-anchor="end">调用前</text>
+    <text x="152" y="487" class="hint" text-anchor="end">返回后</text>
+    <use href="#signs" x="285" y="420" class="y"/><use href="#signs" x="475" y="420" class="z"/>
+    <text x="380" y="458" class="code">y = f(y)</text>
+    <use href="#signs" x="285" y="480" class="y"/><use href="#signs" x="475" y="480" class="z"/>
+  </g>
+  <g id="call-z">
+    <rect x="850" y="400" width="420" height="100" rx="5" class="box"/>
+    <text x="965" y="385" class="hint" text-anchor="middle">y</text><text x="1155" y="385" class="hint" text-anchor="middle">z</text>
+    <text x="1288" y="427" class="hint">调用前</text>
+    <text x="1288" y="487" class="hint">返回后</text>
+    <use href="#signs" x="965" y="420" class="y"/><use href="#signs" x="1155" y="420" class="z"/>
+    <text x="1060" y="458" class="code">z = f(z)</text>
+    <use href="#signs" x="965" y="480" class="y"/><use href="#signs" x="1155" y="480" class="z"/>
+  </g>
+
+  <text x="56" y="610" font-size="25" font-weight="700">f</text>
+  <g id="entry">
+    <rect x="600" y="580" width="240" height="100" rx="5" class="box"/>
+    <use href="#signs" x="720" y="600" class="x"/>
+    <text x="720" y="638" class="code">f(int x)</text>
+    <use href="#signs" x="720" y="660" class="x"/>
+  </g>
+  <text x="522" y="720" class="condition">x &lt; 0</text>
+  <text x="739" y="798" class="condition">x = 0</text>
+  <text x="860" y="720" class="condition">x &gt; 0</text>
+  <g id="increment">
+    <rect x="330" y="760" width="240" height="100" rx="5" class="box"/>
+    <use href="#signs" x="450" y="780" class="x"/>
+    <text x="450" y="818" class="code">x = x + 1</text>
+    <use href="#signs" x="450" y="840" class="x"/>
+  </g>
+  <g id="decrement">
+    <rect x="870" y="760" width="240" height="100" rx="5" class="box"/>
+    <use href="#signs" x="990" y="780" class="x"/>
+    <text x="990" y="818" class="code">x = x - 1</text>
+    <use href="#signs" x="990" y="840" class="x"/>
+  </g>
+  <g id="zero">
+    <rect x="600" y="870" width="240" height="100" rx="5" class="box"/>
+    <use href="#signs" x="720" y="890" class="x"/>
+    <text x="720" y="928" class="code">x = 0</text>
+    <use href="#signs" x="720" y="950" class="x"/>
+  </g>
+  <text x="260" y="916" class="condition">x ≠ 0</text>
+  <text x="467" y="916" class="condition">x = 0</text>
+  <text x="906" y="916" class="condition">x = 0</text>
+  <text x="1108" y="916" class="condition">x ≠ 0</text>
+  <g id="recursive-negative">
+    <rect x="70" y="960" width="240" height="100" rx="5" class="box"/>
+    <use href="#signs" x="190" y="980" class="x"/>
+    <text x="190" y="1018" class="code">x = f(x)</text>
+    <use href="#signs" x="190" y="1040" class="x"/>
+  </g>
+  <g id="positive-constant">
+    <rect x="330" y="960" width="240" height="100" rx="5" class="box"/>
+    <use href="#signs" x="450" y="980" class="x"/>
+    <text x="450" y="1018" class="code">x = 2026</text>
+    <use href="#signs" x="450" y="1040" class="x"/>
+  </g>
+  <g id="negative-constant">
+    <rect x="870" y="960" width="240" height="100" rx="5" class="box"/>
+    <use href="#signs" x="990" y="980" class="x"/>
+    <text x="990" y="1018" class="code">x = -2026</text>
+    <use href="#signs" x="990" y="1040" class="x"/>
+  </g>
+  <g id="recursive-positive">
+    <rect x="1130" y="960" width="240" height="100" rx="5" class="box"/>
+    <use href="#signs" x="1250" y="980" class="x"/>
+    <text x="1250" y="1018" class="code">x = f(x)</text>
+    <use href="#signs" x="1250" y="1040" class="x"/>
+  </g>
+  <g id="return">
+    <rect x="600" y="1150" width="240" height="100" rx="5" class="box"/>
+    <use href="#signs" x="720" y="1170" class="x"/>
+    <text x="720" y="1208" class="code">return x</text>
+    <use href="#signs" x="720" y="1230" class="x"/>
+    <text x="862" y="1237" class="hint">返回值（待连接至各调用点的返回后节点）</text>
+  </g>
+</svg>
