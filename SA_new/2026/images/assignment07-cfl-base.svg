@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1280" viewBox="0 0 1440 1280" role="img" aria-labelledby="title desc">
-  <title id="title">作业 2：符号分析与 CFL 可达性绘图基础</title>
+  <title id="title">符号分析与 CFL 可达性绘图基础</title>
   <desc id="desc">main 依次执行 assert(y &gt; 0 &amp;&amp; z &lt; 0)、y = f(y)、z = f(z)。各调用框分别保留调用前和返回后的符号节点。f 的函数体包含条件分支、两处递归调用及 return x。彩色节点留供补全 CFL 边，浅灰箭头仅作控制流引导。</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
@@ -23,7 +23,7 @@
     </style>
   </defs>
   <rect width="1440" height="1280" fill="white"/>
-  <text x="56" y="64" font-size="38" font-weight="700">作业 2 · 绘图基础</text>
+  <text x="56" y="64" font-size="38" font-weight="700">绘图基础</text>
   <text x="56" y="111" font-size="22">每组三个节点从左到右：&lt; 0、= 0、&gt; 0。</text>
   <circle cx="680" cy="103" r="9" class="x"/><text x="698" y="111" font-size="22">x</text>
   <circle cx="766" cy="103" r="9" class="y"/><text x="784" y="111" font-size="22">y</text>
