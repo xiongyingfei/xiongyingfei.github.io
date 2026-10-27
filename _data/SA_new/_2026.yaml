@@ -164,6 +164,15 @@ lectures:
         <p>浅灰色箭头仅作控制流引导，不是需要补全的 CFL 边；其中调用框之间的箭头表示前一次调用返回后继续执行。为使图更清晰，省略了递归调用、返回等部分控制流箭头，所需的 CFL 边仍须补全。点击图片可查看原图。</p>
     due: 2026/10/27 上课前
 
+- date: 2026/10/27
+  slides:
+  - title: "过程间分析加速技术"
+    link: slides08_interprocedural_analysis_optimization.pdf
+  assignment:
+    descriptions:
+    - text: 把原始数据流分析中的并集换成交集，Gen/Kill 标准型上的交汇运算和组合运算还能定义出来吗？
+    due: 2026/11/03 上课前
+
 # 教学计划来自 schedule2026.xlsx（Sheet1!A2:C25）。
 # 计划与已发布讲义分开，只有实际提供的课件才加入 lectures。
 schedule:
