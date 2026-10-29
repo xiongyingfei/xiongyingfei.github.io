@@ -173,6 +173,15 @@ lectures:
     - text: 把原始数据流分析中的并集换成交集，Gen/Kill 标准型上的交汇运算和组合运算还能定义出来吗？
     due: 2026/11/03 上课前
 
+- date: 2026/10/29
+  slides:
+  - title: "过程内指针分析"
+    link: slides09_pointer_analysis.pdf
+  assignment:
+    descriptions:
+    - text: 流敏感的Andersen指针分析满足分配性吗？
+    due: 2026/11/03 上课前
+
 # 教学计划来自 schedule2026.xlsx（Sheet1!A2:C25）。
 # 计划与已发布讲义分开，只有实际提供的课件才加入 lectures。
 schedule:
