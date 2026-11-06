@@ -182,6 +182,26 @@ lectures:
     - text: 流敏感的Andersen指针分析满足分配性吗？
     due: 2026/11/03 上课前
 
+- date: 2026/11/03
+  slides:
+  - title: "过程内指针分析（续）"
+    link: slides09_pointer_analysis.pdf
+  - title: "过程间指针分析"
+    link: slides10_control_flow_analysis.pdf
+  assignment:
+    descriptions:
+    - text: |
+        <p>给定下面的程序，进行流非敏感的指针分析，域展开一次，请画出可达性图。</p>
+        <pre><code>Struct Node {
+          int value;
+          Node* next;
+        };
+        a = malloc(); //1
+        b = malloc(); //2
+        a-&gt;next = b;
+        b-&gt;next = malloc(); //3</code></pre>
+    due: 2026/11/10 上课前
+
 # 教学计划来自 schedule2026.xlsx（Sheet1!A2:C25）。
 # 计划与已发布讲义分开，只有实际提供的课件才加入 lectures。
 schedule:
