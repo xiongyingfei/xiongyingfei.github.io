@@ -221,7 +221,7 @@ pre { max-width: 100%; overflow-x: auto; padding: 22px; background: var(--pale);
 
 /* Profile and complete homepage: shared across CSS themes. */
 .profile-header { display:grid; grid-template-columns:250px minmax(0,1fr); column-gap:46px; padding:42px 0; align-items:start; }
-.profile-photo { grid-column:1; grid-row:1 / span 2; width:250px; height:300px; object-fit:cover; object-position:center 25%; }
+.profile-photo { grid-column:1; grid-row:1 / span 2; display:block; width:250px; height:auto; }
 .profile-identity { grid-column:2; min-width:0; }
 .profile-identity h1 { font-size:2.5rem; line-height:1.2; margin:0 0 12px; letter-spacing:0; }
 .profile-role { margin:0 0 12px; font-size:1.15rem; }
@@ -255,7 +255,7 @@ pre { max-width: 100%; overflow-x: auto; padding: 22px; background: var(--pale);
 .bib-panel pre { white-space:pre-wrap; overflow-wrap:anywhere; }
 @media(max-width:650px) {
  .profile-header { grid-template-columns:100px minmax(0,1fr); gap:18px; padding:28px 0; }
- .profile-photo { grid-row:1; width:100px; height:140px; }
+ .profile-photo { grid-row:1; width:100px; }
  .profile-identity h1 { font-size:1.9rem; margin-bottom:8px; }
  .profile-role { font-size:1rem; margin-bottom:8px; }
  .profile-details { grid-column:1 / -1; }

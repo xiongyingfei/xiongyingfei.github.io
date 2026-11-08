@@ -10,7 +10,7 @@ body { line-height:1.5; }
 .brand-mark { background:none; color:var(--accent); border:1px solid var(--accent); border-radius:0; }
 .site-header nav a { font-size:.94rem; }
 .profile-header { grid-template-columns:210px minmax(0,.9fr) minmax(0,1.1fr); gap:30px; padding:32px 0; align-items:start; }
-.profile-photo { width:210px; height:280px; grid-row:1; border:1px solid var(--line); }
+.profile-photo { width:210px; grid-row:1; border:1px solid var(--line); }
 .profile-identity h1 { font-weight:500; font-size:2.6rem; margin:0 0 10px; }
 .profile-role { margin-bottom:12px; }
 .affiliations li { margin:4px 0; }
@@ -47,7 +47,7 @@ body { line-height:1.5; }
  html { font-size:17px; }
  .site-header nav a { font-size:.94rem; }
  .profile-header { grid-template-columns:100px minmax(0,1fr); gap:16px; padding:24px 0; }
- .profile-photo { grid-row:1; width:100px; height:140px; }
+ .profile-photo { grid-row:1; width:100px; }
  .profile-identity h1 { font-size:1.9rem; margin-bottom:8px; }
  .profile-role { font-size:1rem; margin-bottom:8px; }
  .affiliations li { margin:3px 0; }
