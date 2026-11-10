@@ -202,6 +202,17 @@ lectures:
         b-&gt;next = malloc(); //3</code></pre>
     due: 2026/11/10 上课前
 
+- date: 2026/11/10
+  slides:
+  - title: "静态单赋值和稀疏分析"
+    link: slides11_sparse_analysis.pdf
+  assignment:
+    descriptions:
+    - text: 采用你喜欢的支持 SSA 的任意程序分析框架（如 LLVM Clang、SOOT）。
+    - text: 构造一个无法完全转换成 SSA 的程序，用所选框架转换成部分 SSA。
+    - text: 提交原始代码和转换后的代码，并说明哪些地方没有做到赋值后内存位置不变。
+    due: 2026/11/17 上课前
+
 # 教学计划来自 schedule2026.xlsx（Sheet1!A2:C25）。
 # 计划与已发布讲义分开，只有实际提供的课件才加入 lectures。
 schedule:
