@@ -1,5 +1,5 @@
 {
-  "overlay_files": 957,
+  "overlay_files": 965,
   "protected_sha256": {
     "DPPL/main.htm": "14268c74a86dee63e04c7b78f82dd10f06b33a8e1616ea991c3c5d5300701eb1",
     "DPPL/2014/hu_ch11.pdf": "088279163c193433d19034dd0f44c6886ce5ca3015e87147c52584b3be20d157",
@@ -389,6 +389,8 @@
     "SA_new/2026/slides/slides08_interprocedural_analysis_optimization.pdf": "7fb853fc99e4660dc32038d92aadd9cfb8b6e44b993699b7539753b5b3af1456",
     "SA_new/2026/slides/slides09_pointer_analysis.pdf": "9183dcdbf71b35c4abe6bd0fa085e2aaa740b26eb6d1717ce163b7c7a2a09c69",
     "SA_new/2026/slides/slides10_control_flow_analysis.pdf": "7a0c955248b2d35386cb366c117e80a21d901b2bfe93e8b22127c11c0f50191b",
+    "SA_new/2026/slides/slides11_sparse_analysis.pdf": "900c6d9360bf985cd11e16692eacc00773e6c8930da721e879101bf37594b5e8",
+    "SA_new/2026/slides/slides12_SAT.pdf": "2518251d5eee664c27becd37d37f5261602059d6d1697898c783bd402e85eb2b",
     "SA_new/2026/slides/Tai-e 介绍与入门.pdf": "4d975fdda65506a06214acc07e39e71dd6db4c085cef30d1cdbfa519280f7794",
     "SA_new/2025/slides/course_project_1.pdf": "305381153e0fb8c0f7d05ab3abf794bf30c5c7f0891f5bb6efece77a7a6e34f0",
     "SA_new/2025/slides/lab1-handout.7z": "5794031bf95048129b89e394c10fa0baec369d1154f4b8b7d696cb6a364b4cdd",
@@ -668,7 +670,7 @@
     "_data/SA_new/_2023.yaml": "3f7009442e847d614998b94eee8c03b1c1d4945def5e59f29a5501627de24516",
     "_data/SA_new/_2024.yaml": "3430dd976aae4b252b16bf78cfa634ea563091c73043b64fe241144ab70113f9",
     "_data/SA_new/_2025.yaml": "24bc1c30e219f7a757c348790237f4ff39240412bc031b93e4abd23611b2350e",
-    "_data/SA_new/_2026.yaml": "38447a3bc0a5cc19c9252ced94cc951119011cc45274f521bae436936f2c8008",
+    "_data/SA_new/_2026.yaml": "7ace5a594471d6665de8ff1ba46be3c2af7a8fa07fe9702a0ec6827e897605f0",
     "_data/SF/_2021.yaml": "5877d33bcc42bc79d6e3dfb44b0d08d99dc13fba8768da161b7e21dd481cbf90",
     "_data/SF/_2022.yaml": "09c7c3243d875b8105256ca4ad1d6ff82f21865dda53ed2ae4903c766ca34fc2",
     "_data/SF/_2023.yaml": "441ce3033c7104c4a7f6c540581a293f7d0560e8e6694e8543df6c9041655b86",
@@ -1319,6 +1321,14 @@
     "presentations/2025SETSS.pdf",
     "presentations/2025StructuralAI.pdf",
     "presentations/2025UESTC.pdf",
+    "presentations/2026BXTokyo.pdf",
+    "presentations/2026CCFTcseYouth.pdf",
+    "presentations/2026CCFYouthFormal.pdf",
+    "presentations/2026ChinaSoftFormalLLM.pdf",
+    "presentations/2026ChinaSoftTopVenues.pdf",
+    "presentations/2026HuaweiFM.pdf",
+    "presentations/2026NOI.pdf",
+    "presentations/2026PKUPrimary.pptx",
     "presentations_cn.html",
     "projects.html",
     "projects_cn.html",
@@ -1683,7 +1693,7 @@
     "theses/ZhuQihao-phd.pdf",
     "theses/ZouDaming-phd.pdf"
   ],
-  "source_commit": "b6baff1827102cf87d4a471b41e4a5b45f3e1e76",
+  "source_commit": "1fcbe6b3a8cec9e8a92f51bfeca0b143c1780b1c",
   "source_verified_remote": true,
   "managed_workflow_sha256": "2a099be1ed4234a0ea9c0bd99c05e39c628fa20fd44a4e6bb908c1919edaf012",
   "note": "Ready for reviewing a publishing commit"
