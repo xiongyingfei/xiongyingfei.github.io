@@ -1,5 +1,5 @@
 {
-  "overlay_files": 965,
+  "overlay_files": 968,
   "protected_sha256": {
     "DPPL/main.htm": "14268c74a86dee63e04c7b78f82dd10f06b33a8e1616ea991c3c5d5300701eb1",
     "DPPL/2014/hu_ch11.pdf": "088279163c193433d19034dd0f44c6886ce5ca3015e87147c52584b3be20d157",
@@ -1222,7 +1222,8 @@
     "papers/TSE24.pdf",
     "papers/TSE25.bib",
     "papers/TSE25.pdf",
-    "papers/TSE26.bib",
+    "papers/TSE26a.bib",
+    "papers/TSE26b.bib",
     "papers/VaMoS12.bib",
     "papers/WAOSD04.bib",
     "papers/WAOSD04.pdf",
@@ -1634,8 +1635,10 @@
     "publication/TSE24_cn.html",
     "publication/TSE25.html",
     "publication/TSE25_cn.html",
-    "publication/TSE26.html",
-    "publication/TSE26_cn.html",
+    "publication/TSE26a.html",
+    "publication/TSE26a_cn.html",
+    "publication/TSE26b.html",
+    "publication/TSE26b_cn.html",
     "publication/VaMoS12.html",
     "publication/VaMoS12_cn.html",
     "publication/WAOSD04.html",
@@ -1693,7 +1696,7 @@
     "theses/ZhuQihao-phd.pdf",
     "theses/ZouDaming-phd.pdf"
   ],
-  "source_commit": "1fcbe6b3a8cec9e8a92f51bfeca0b143c1780b1c",
+  "source_commit": "4aa335a4a5321d6be4729d9efe6b943fbcfae309",
   "source_verified_remote": true,
   "managed_workflow_sha256": "2a099be1ed4234a0ea9c0bd99c05e39c628fa20fd44a4e6bb908c1919edaf012",
   "note": "Ready for reviewing a publishing commit"
