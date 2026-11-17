@@ -231,6 +231,22 @@ lectures:
         {-1, -5, -6}</code></pre>
     due: 2026/11/17 上课前
 
+- date: 2026/11/17
+  slides:
+  - title: "可满足性模理论"
+    link: slides13_SMT.pdf
+  assignment:
+    descriptions:
+    - text: |
+        <p>使用任意 SMT Solver（可选<a href="https://jfmc.github.io/z3-play/">在线 Z3</a>），发邮件给助教并回答下列问题。</p>
+        <ul>
+          <li>该 SMT Solver 的名称。</li>
+          <li>该 SMT Solver 支持哪些理论（Theory）。</li>
+          <li>构造该 SMT Solver 无法求解（返回 <code>unknown</code> 或超时）的约束，将运行结果截屏附在邮件中。</li>
+          <li>解释该 SMT Solver 为什么不能求解这个约束。</li>
+        </ul>
+    due: 2026/11/24 上课前
+
 # 教学计划来自 schedule2026.xlsx（Sheet1!A2:C25）。
 # 计划与已发布讲义分开，只有实际提供的课件才加入 lectures。
 schedule:
