@@ -1,5 +1,5 @@
 {
-  "overlay_files": 968,
+  "overlay_files": 971,
   "protected_sha256": {
     "DPPL/main.htm": "14268c74a86dee63e04c7b78f82dd10f06b33a8e1616ea991c3c5d5300701eb1",
     "DPPL/2014/hu_ch11.pdf": "088279163c193433d19034dd0f44c6886ce5ca3015e87147c52584b3be20d157",
@@ -372,7 +372,7 @@
     "SA_new/2025/index.md": "e263253c65b079bb4e7dc0166cef8cfde696dd1d0ae2cbc41ad75a2d61ab11ca",
     "SA_new/2025/lectures.md": "4d5218b6a980a3405cb744c9832f6ea27ae65c5d138e36a983b1bb5096152886",
     "SA_new/2025/materials.md": "b8146a744dc022e04f29695cb9e8137bbcd934b1a9da900e6ee21c6537f82e17",
-    "SA_new/2026/assignments.md": "81a0f2389c43dc953fae6facea9a07ec6ff02645d259f941c9e4b7d7a2d60806",
+    "SA_new/2026/assignments.md": "4554499585f9c62e02f17180685dcbdcb3c7890c635587f91e87aaf2b1c920a5",
     "SA_new/2026/index.md": "5aba5f721ca531397ea7403e347c3f90be324253fba3483cb73049e3147ffc58",
     "SA_new/2026/lectures.md": "2a579f951d2102903f87e781bcc4df18fc4287d566404cf69d4ba021cdd9d3bb",
     "SA_new/2026/materials.md": "de3b6293154107bc94c4d5c18d585e9b4fb52fefd460310ae0cc5df40b311729",
@@ -391,6 +391,7 @@
     "SA_new/2026/slides/slides10_control_flow_analysis.pdf": "7a0c955248b2d35386cb366c117e80a21d901b2bfe93e8b22127c11c0f50191b",
     "SA_new/2026/slides/slides11_sparse_analysis.pdf": "900c6d9360bf985cd11e16692eacc00773e6c8930da721e879101bf37594b5e8",
     "SA_new/2026/slides/slides12_SAT.pdf": "2518251d5eee664c27becd37d37f5261602059d6d1697898c783bd402e85eb2b",
+    "SA_new/2026/slides/slides13_SMT.pdf": "209d24676555b7830653835d9647f2bb8aa1186167ead07d3dc3a9788ef5cb17",
     "SA_new/2026/slides/Tai-e 介绍与入门.pdf": "4d975fdda65506a06214acc07e39e71dd6db4c085cef30d1cdbfa519280f7794",
     "SA_new/2025/slides/course_project_1.pdf": "305381153e0fb8c0f7d05ab3abf794bf30c5c7f0891f5bb6efece77a7a6e34f0",
     "SA_new/2025/slides/lab1-handout.7z": "5794031bf95048129b89e394c10fa0baec369d1154f4b8b7d696cb6a364b4cdd",
@@ -670,7 +671,7 @@
     "_data/SA_new/_2023.yaml": "3f7009442e847d614998b94eee8c03b1c1d4945def5e59f29a5501627de24516",
     "_data/SA_new/_2024.yaml": "3430dd976aae4b252b16bf78cfa634ea563091c73043b64fe241144ab70113f9",
     "_data/SA_new/_2025.yaml": "24bc1c30e219f7a757c348790237f4ff39240412bc031b93e4abd23611b2350e",
-    "_data/SA_new/_2026.yaml": "7ace5a594471d6665de8ff1ba46be3c2af7a8fa07fe9702a0ec6827e897605f0",
+    "_data/SA_new/_2026.yaml": "4acf8010aad5a88cd059c49ead195eafa87fd3cca888a1b323121af3eb43994b",
     "_data/SF/_2021.yaml": "5877d33bcc42bc79d6e3dfb44b0d08d99dc13fba8768da161b7e21dd481cbf90",
     "_data/SF/_2022.yaml": "09c7c3243d875b8105256ca4ad1d6ff82f21865dda53ed2ae4903c766ca34fc2",
     "_data/SF/_2023.yaml": "441ce3033c7104c4a7f6c540581a293f7d0560e8e6694e8543df6c9041655b86",
@@ -1150,6 +1151,7 @@
     "papers/ModelsRuntime09.pdf",
     "papers/NASAC14.bib",
     "papers/NASAC14.pdf",
+    "papers/Nature26.bib",
     "papers/OOPSLA20.bib",
     "papers/OOPSLA20.pdf",
     "papers/OOPSLA21.bib",
@@ -1555,6 +1557,8 @@
     "publication/Models@Runtime09_cn.html",
     "publication/NASAC14.html",
     "publication/NASAC14_cn.html",
+    "publication/Nature26.html",
+    "publication/Nature26_cn.html",
     "publication/OOPSLA20.html",
     "publication/OOPSLA20_cn.html",
     "publication/OOPSLA21.html",
@@ -1696,7 +1700,7 @@
     "theses/ZhuQihao-phd.pdf",
     "theses/ZouDaming-phd.pdf"
   ],
-  "source_commit": "4aa335a4a5321d6be4729d9efe6b943fbcfae309",
+  "source_commit": "ee7b403d56399a1358f99c61fe7032837898f0ee",
   "source_verified_remote": true,
   "managed_workflow_sha256": "2a099be1ed4234a0ea9c0bd99c05e39c628fa20fd44a4e6bb908c1919edaf012",
   "note": "Ready for reviewing a publishing commit"
