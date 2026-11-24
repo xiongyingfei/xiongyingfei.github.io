@@ -247,6 +247,17 @@ lectures:
         </ul>
     due: 2026/11/24 上课前
 
+- date: 2026/11/24
+  slides:
+  - title: "符号执行"
+    link: slides14_symbolic_execution.pdf
+  assignment:
+    descriptions:
+    - text: 符号执行是否具备部分收敛性？给定任意程序和任意前后条件，期望判断后条件是否总是成立，是否总是存在一个值 <var>k</var>，使得循环展开任意 <var>l</var> ≥ <var>k</var> 次后的分析结果都和理想结果相同。
+    - text: 简单起见，只考虑 IMP 程序，不考虑数组、指针、函数调用等。
+      note: true
+    due: 2026/12/01 上课前
+
 # 教学计划来自 schedule2026.xlsx（Sheet1!A2:C25）。
 # 计划与已发布讲义分开，只有实际提供的课件才加入 lectures。
 schedule:
