@@ -23,10 +23,9 @@ title: 材料
 | [A2](https://github.com/Flying2019/sa-lab-handout/blob/main/docs/a2.md) | 过程间符号分析 | 2026/11/01 | 10 |
 | [A3](https://github.com/Flying2019/sa-lab-handout/blob/main/docs/a3.md) | 过程内指针分析 | **(upd) 2026/11/15** | 10 |
 | [A4](https://github.com/Flying2019/sa-lab-handout/blob/main/docs/a4.md) | 上下文敏感指针分析 | 2026/11/15 | 10 |
-| A5 | 符号分析与指针分析的组合 | 2026/11/22 | 20 |
-| B1 | 单过程符号执行 | 2026/11/29 | 20 |
-| B2 | 函数调用与递归 | 2026/12/06 | 20 |
-| B3（选做） | 数组符号执行 | 2026/12/20 | 5 |
+| [A5](https://github.com/Flying2019/sa-lab-handout/blob/main/docs/a5.md) | 符号分析与指针分析的组合 | 2026/11/22 | 20 (+5) |
+| [B1](https://github.com/Flying2019/sa-lab-handout/blob/main/docs/b1.md) | 符号执行 | **(upd) 2026/12/06** | 40 |
+| B2（选做） | 数组符号执行 | 2026/12/20 | 5 |
 
 ### 自选项目（20 分）
 
